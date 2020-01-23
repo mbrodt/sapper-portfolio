@@ -8,5 +8,5 @@
 
 <h1>My name is cool</h1>
 <h1>My name is cool</h1>
-
+<p>&lt;<span class="blinking-line">|</span><span class="">/</span>&gt;</p>
 <ProjectList />
