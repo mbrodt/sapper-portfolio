@@ -1,56 +1,84 @@
 <script>
-	import { spring } from 'svelte/motion';
-	import {onMount }from 'svelte'
-	import VanillaTilt from 'vanilla-tilt'
-	let src = 'danfoss.png'	
-	onMount(() => {
-	console.log(VanillaTilt)
-	VanillaTilt.init(document.querySelectorAll(".project"), {
-		perspective: 1500,
-	max: 10
-	});
-	})
-	// your script goes here
-	let projects = [{
-		title: "Danfoss IXA",
-		tags: ['React', 'Gatsby', 'Tailwind', 'WordPress'],
-		link: "https://danfoss-ixa.com",
-	},
-	{
-		title: "Light in the Dark",
-		tags: ['React', 'Gatsby', 'Tailwind', 'React-Spring'],
-		link: "https://refugeeworld.org",
-	},
-		{
-		title: "Diako19",
-		tags: ['React', 'Gatsby', 'Tailwind', 'Contentful'],
-		link: "https://diako19.dk",
-	}]
+  import { spring } from "svelte/motion";
+  import { onMount } from "svelte";
+  import VanillaTilt from "vanilla-tilt";
+  onMount(() => {
+    console.log(VanillaTilt);
+    VanillaTilt.init(document.querySelectorAll(".project"), {
+      perspective: 1500,
+      max: 10
+    });
+  });
+  // your script goes here
+  let projects = [
+    {
+      title: "Light in the Dark",
+      src: "dfh.png",
+      tags: ["React", "Gatsby", "Tailwind", "React-Spring"],
+      link: "https://refugeeworld.org",
+      description:
+        "A campaign enabling users to light a candle to help refugees around the world. Focused on smooth animations and creating a compelling user experience."
+    },
 
-
+    {
+      title: "IT-Fixer",
+      src: "itfixer.png",
+      tags: ["React", "Gatsby", "Tailwind"],
+      link: "https://it-fixer.dk",
+      description:
+        "Website to market my IT support business, listing my services and providing users a way to get in touch."
+    },
+    {
+      title: "Andersen-Andersen Webshop",
+      src: "andersen.png",
+      tags: ["Shopify", "Liquid", "JavaScript", "Tailwind"],
+      link: "https://dev-andersen-andersen.myshopify.com",
+      description:
+        "A webshop with focus on storytelling and the high quality products created by Andersen-Andersen, a Danish work-wear clothing manufacturer. "
+    },
+    {
+      title: "Danfoss IXA",
+      src: "danfoss.png",
+      tags: ["React", "Gatsby", "Tailwind", "WordPress"],
+      link: "https://danfoss-ixa.com",
+      description:
+        "The new landing page to showcase Danfoss IXA's products and markets. Focused on a clean design, highlighting the company's new identity."
+    },
+    {
+      title: "Tandlægehuset i Havdrup",
+      src: "tandlaegehuset.png",
+      tags: ["React", "Gatsby", "Tailwind", "Contentful"],
+      link: "https://tandlaegehuset-havdrup.dk",
+      description:
+        "Website for a dental practice, allowing the users to quickly get an idea of the opening times and the people working there."
+    },
+    {
+      title: "1change",
+      src: "1change.png",
+      tags: ["React", "Gatsby", "Contentful"],
+      link: "https://1change.io",
+      description:
+        "The 1Change Resilience Webapp serves as a way for customers to improve their health through different journeys and activities."
+    }
+  ];
 </script>
 
 <ul class="my-projects grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-{#each projects as project}
-	<li class="w-full ">
-		<h3>{project.title}</h3>
-		<img class="project " src="{src}" alt="">
-		<!-- {#each project.tags as tag}
-			<li>{tag}</li>
-		{/each} -->
-		<a href={project.link}>{project.link}</a>
-	</li>
-{/each}
-</ul>
-<!-- markup (zero or more items) goes here -->
-<!-- 
-	let w = 256
-	let h = 256
-	let percX = myX / w
-	let percY = myY / h
-	let tiltX = ((20 / 2) - ((percX) * 20)).toFixed(2);
- 	let tiltY = (((percY) * 20) - (20 / 2)).toFixed(2);
-	let angle = Math.atan2(e.clientX - (rect.left+w/2),- (e.clientY - (rect.top+h/2)) )*(180/Math.PI); -->
+  {#each projects as project}
+    <li class="w-full">
+      <a href={project.link}>
+        <img class="project" src={project.src} alt="" />
+      </a>
+      <h3 class="tracking-wider uppercase text-gray-900 mt-4">
+        {project.title}
+      </h3>
 
-		<!-- on:mouseout="{() => coords.set({x: 0, y:0, s: 1})}"
-			  style="will-change: transform; transform: perspective(1500px) rotateX({$coords.x}deg) rotateY({$coords.y}deg);" -->
+      <div class="-mx-1 mt-1">
+        {#each project.tags as tag}
+          <span class="bg-gray-500 text-sm px-2 py-1 mx-1">{tag}</span>
+        {/each}
+      </div>
+      <p class="mt-4 text-gray-600">{project.description}</p>
+    </li>
+  {/each}
+</ul>
