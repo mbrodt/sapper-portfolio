@@ -1,12 +1,11 @@
 <script>
-	import Nav from '../components/Nav.svelte';
+  // import Nav from "../components/Nav.svelte";
 
-	export let segment;
+  // export let segment;
 </script>
 
+<!-- <Nav {segment} /> -->
 
-<Nav {segment}/>
-
-<main class="max-w-6xl w-full mx-auto p-4">
-	<slot></slot>
+<main class="max-w-7xl w-full mx-auto px-4 pt-32 lg:py-48">
+  <slot />
 </main>

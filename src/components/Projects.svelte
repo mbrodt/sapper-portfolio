@@ -1,9 +1,10 @@
 <script>
+  import SectionHeading from "./ui/SectionHeading.svelte";
+
   import { spring } from "svelte/motion";
   import { onMount } from "svelte";
   import VanillaTilt from "vanilla-tilt";
   onMount(() => {
-    console.log(VanillaTilt);
     VanillaTilt.init(document.querySelectorAll(".project"), {
       perspective: 1500,
       max: 10
@@ -12,14 +13,13 @@
   // your script goes here
   let projects = [
     {
-      title: "Light in the Dark",
+      title: "Illuminate the world",
       src: "dfh.png",
       tags: ["React", "Gatsby", "Tailwind", "React-Spring"],
       link: "https://refugeeworld.org",
       description:
         "A campaign enabling users to light a candle to help refugees around the world. Focused on smooth animations and creating a compelling user experience."
     },
-
     {
       title: "IT-Fixer",
       src: "itfixer.png",
@@ -34,7 +34,7 @@
       tags: ["Shopify", "Liquid", "JavaScript", "Tailwind"],
       link: "https://dev-andersen-andersen.myshopify.com",
       description:
-        "A webshop with focus on storytelling and the high quality products created by Andersen-Andersen, a Danish work-wear clothing manufacturer. "
+        "A webshop with focus on storytelling and the high quality products created by Andersen-Andersen, a Danish work-wear clothing manufacturer."
     },
     {
       title: "Danfoss IXA",
@@ -50,7 +50,7 @@
       tags: ["React", "Gatsby", "Tailwind", "Contentful"],
       link: "https://tandlaegehuset-havdrup.dk",
       description:
-        "Website for a dental practice, allowing the users to quickly get an idea of the opening times and the people working there."
+        "Website for a dental practice, allowing the users to quickly get an idea of the opening times and the working staff."
     },
     {
       title: "1change",
@@ -58,16 +58,17 @@
       tags: ["React", "Gatsby", "Contentful"],
       link: "https://1change.io",
       description:
-        "The 1Change Resilience Webapp serves as a way for customers to improve their health through different journeys and activities."
+        "The 1change Resilience webapp serves as a way for customers to improve their health through different journeys and activities."
     }
   ];
 </script>
 
-<ul class="my-projects grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+<SectionHeading>Recent work</SectionHeading>
+<ul class="my-projects grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
   {#each projects as project}
     <li class="w-full">
-      <a href={project.link}>
-        <img class="project" src={project.src} alt="" />
+      <a href={project.link} target="_blank">
+        <img class="project" src={project.src} alt="Project showcase" />
       </a>
       <h3 class="tracking-wider uppercase text-gray-900 mt-4">
         {project.title}
@@ -78,7 +79,7 @@
           <span class="bg-gray-500 text-sm px-2 py-1 mx-1">{tag}</span>
         {/each}
       </div>
-      <p class="mt-4 text-gray-600">{project.description}</p>
+      <p class="mt-4 text-gray-700">{project.description}</p>
     </li>
   {/each}
 </ul>
