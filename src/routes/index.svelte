@@ -13,8 +13,10 @@
 <h1>My name is cool</h1>
 <h1>My name is cool</h1>
 <p>&lt;<span class="blinking-line">|</span><span class="">/</span>&gt;</p> -->
-<Intro />
-<Projects />
-<Skills />
-<Writing />
-<Contact />
+<div class="max-w-7xl w-full mx-auto px-4 pt-32 lg:py-48">
+  <Intro />
+  <Projects />
+  <Skills />
+  <Writing />
+  <Contact />
+</div>
