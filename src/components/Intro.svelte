@@ -7,14 +7,11 @@
 
 </style>
 
-<div class="pb-12 md:max-w-3xl md:mx-auto lg:max-w-full">
+<div class="pb-12 lg:max-w-full">
   <SocialIcons />
-  <p class="text-sm font-semibold text-gray-600 uppercase tracking-wider mt-2">
-    Front end
-  </p>
   <h1
-    class="mt-2 text-4xl leading-tight xl:text-6xl font-semibold font-display
-    text-gray-800">
+    class="mt-2 text-4xl sm:text-5xl leading-tight xl:text-6xl font-semibold
+    font-display text-gray-800">
     Hi, I'm Mads
   </h1>
   <p class="mt-3 text-lg max-w-xl lg:max-w-3xl text-gray-700 xl:text-2xl">

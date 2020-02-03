@@ -1,5 +1,6 @@
 <script>
   import SectionHeading from "./ui/SectionHeading.svelte";
+  import Section from "./ui/Section.svelte";
 
   import { spring } from "svelte/motion";
   import { onMount } from "svelte";
@@ -14,7 +15,7 @@
   let projects = [
     {
       title: "Illuminate the world",
-      src: "dfh.png",
+      src: "dfh.svg",
       tags: ["React", "Gatsby", "Tailwind", "React-Spring"],
       link: "https://refugeeworld.org",
       description:
@@ -22,7 +23,7 @@
     },
     {
       title: "IT-Fixer",
-      src: "itfixer.png",
+      src: "itfixer.svg",
       tags: ["React", "Gatsby", "Tailwind"],
       link: "https://it-fixer.dk",
       description:
@@ -30,7 +31,7 @@
     },
     {
       title: "Andersen-Andersen Webshop",
-      src: "andersen.png",
+      src: "andersen.svg",
       tags: ["Shopify", "Liquid", "JavaScript", "Tailwind"],
       link: "https://dev-andersen-andersen.myshopify.com",
       description:
@@ -38,7 +39,7 @@
     },
     {
       title: "Danfoss IXA",
-      src: "danfoss.png",
+      src: "danfoss.svg",
       tags: ["React", "Gatsby", "Tailwind", "WordPress"],
       link: "https://danfoss-ixa.com",
       description:
@@ -63,23 +64,30 @@
   ];
 </script>
 
-<SectionHeading>Recent work</SectionHeading>
-<ul class="my-projects grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-  {#each projects as project}
-    <li class="w-full">
-      <a href={project.link} target="_blank">
-        <img class="project" src={project.src} alt="Project showcase" />
-      </a>
-      <h3 class="tracking-wider uppercase text-gray-900 mt-4">
-        {project.title}
-      </h3>
+<Section>
+  <SectionHeading>Recent work</SectionHeading>
+  <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 sm:gap-8">
+    {#each projects as project}
+      <li class="w-full">
+        <a href={project.link} target="_blank">
+          <img
+            class="project w-full"
+            src={'projects/' + project.src}
+            alt="Project showcase" />
+        </a>
+        <h3 class="tracking-wider uppercase text-gray-900 mt-4">
+          {project.title}
+        </h3>
 
-      <div class="-mx-1 mt-1">
-        {#each project.tags as tag}
-          <span class="bg-gray-500 text-sm px-2 py-1 mx-1">{tag}</span>
-        {/each}
-      </div>
-      <p class="mt-4 text-gray-700">{project.description}</p>
-    </li>
-  {/each}
-</ul>
+        <div class="-mx-1 mt-1">
+          {#each project.tags as tag}
+            <span class="bg-red-400 text-sm px-2 py-1 mx-1 text-white">
+              {tag}
+            </span>
+          {/each}
+        </div>
+        <p class="mt-4 text-gray-700">{project.description}</p>
+      </li>
+    {/each}
+  </ul>
+</Section>

@@ -1,7 +1,7 @@
-<div class="flex items-center">
+<div class="flex items-center text-red-400 ">
   <svg
-    class="w-6 h-6 lg:w-10 lg:h-10 fill-current text-gray-600 transform
-    transition-transform duration-100 ease-out hover:scale-125"
+    class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
+    duration-100 ease-out hover:scale-125"
     viewBox="0 0 24 24">
     <path
       d="M8.975 20c7.17 0 11.09-6.155 11.09-11.492
@@ -16,8 +16,8 @@
   </svg>
 
   <svg
-    class="w-6 h-6 lg:w-10 lg:h-10 fill-current text-gray-600 transform
-    transition-transform duration-100 ease-out hover:scale-125"
+    class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
+    duration-100 ease-out hover:scale-125"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg">
     <path
@@ -36,8 +36,8 @@
   </svg>
 
   <svg
-    class="w-6 h-6 lg:w-10 lg:h-10 fill-current text-gray-600 transform
-    transition-transform duration-100 ease-out hover:scale-125"
+    class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
+    duration-100 ease-out hover:scale-125"
     viewBox="0 0 24 24">
     <path
       d="M19.372 3H4.628C3.73 3 3 3.729 3 4.628v14.744C3 20.27 3.729 21 4.628

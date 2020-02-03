@@ -1,5 +1,6 @@
 <script>
   import SectionHeading from "./ui/SectionHeading.svelte";
+  import Section from "./ui/Section.svelte";
 
   let focused = 0;
 
@@ -29,6 +30,14 @@
       src: "gatsby.png"
     },
     {
+      name: "Shopify",
+      src: "shopify.svg"
+    },
+    {
+      name: "Svelte",
+      src: "svelte.svg"
+    },
+    {
       name: "TailwindCSS",
       src: "tailwind.svg"
     },
@@ -39,14 +48,6 @@
     {
       name: "Git",
       src: "git.svg"
-    },
-    {
-      name: "Webpack",
-      src: "webpack.svg"
-    },
-    {
-      name: "Terminal",
-      src: "devicon.svg"
     }
   ];
 
@@ -58,7 +59,7 @@
   setInterval(() => {
     if (focused === skills.length - 1) focused = -1;
     focused += 1;
-  }, 3000);
+  }, 2500);
 </script>
 
 <style>
@@ -73,25 +74,28 @@
   }
 </style>
 
-<SectionHeading>Skills</SectionHeading>
-<div class="full-width bg-gray-900">
-  <div
-    class="grid grid-cols-2 gap-4 items-center py-12"
-    style="justify-items: center">
-    {#each skills as skill, idx}
-      <div class="w-16 h-16 my-4">
-        <!-- <div class="relative bg-gray-700">{skill.name}</div> -->
-        <!-- <div class="arrow-down absolute top-0 left-0 right-0 mx-auto" /> -->
+<Section>
+  <SectionHeading>Skills</SectionHeading>
+  <div class="full-width bg-gray-900">
+    <div
+      class="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-8 lg:grid-cols-5
+      items-center py-12 lg:max-w-7xl lg:mx-auto"
+      style="justify-items: center">
+      {#each skills as skill, idx}
+        <div class="w-16 h-16 lg:w-20 lg:h-20 my-4">
+          <!-- <div class="relative bg-gray-700">{skill.name}</div> -->
+          <!-- <div class="arrow-down absolute top-0 left-0 right-0 mx-auto" /> -->
 
-        <img
-          style="transition-timing-function: ease"
-          class="opacity-25 transform transition-all duration-500
-          hover:opacity-100 hover:scale-150"
-          class:scale-150={idx === focused}
-          class:opacity-100={idx === focused}
-          src={'skills/' + skill.src}
-          alt={skill.name} />
-      </div>
-    {/each}
+          <img
+            style="transition-timing-function: ease"
+            class="opacity-25 transform transition-all duration-500
+            hover:opacity-100 hover:scale-150"
+            class:scale-150={idx === focused}
+            class:opacity-100={idx === focused}
+            src={'skills/' + skill.src}
+            alt={skill.name} />
+        </div>
+      {/each}
+    </div>
   </div>
-</div>
+</Section>
