@@ -56,7 +56,7 @@
     {
       title: "1change",
       src: "1change.png",
-      tags: ["React", "Gatsby", "Contentful"],
+      tags: ["React", "Gatsby", "SCSS", "Contentful"],
       link: "https://1change.io",
       description:
         "The 1change Resilience webapp serves as a way for customers to improve their health through different journeys and activities."
@@ -79,9 +79,11 @@
           {project.title}
         </h3>
 
-        <div class="-mx-1 mt-1">
+        <div class="-mx-1">
           {#each project.tags as tag}
-            <span class="bg-red-400 text-sm px-2 py-1 mx-1 text-white">
+            <span
+              class="bg-red-400 text-xs font-bold uppercase inline-block
+              leading-4 px-2 py-1 mx-1 text-white mt-2">
               {tag}
             </span>
           {/each}
