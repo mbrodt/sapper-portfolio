@@ -15,10 +15,12 @@
       Feel free to reach out if you have any questions, think we could work
       together, or just want to connect ✌️
     </p>
-    <a class="mt-4 sm:mt-8 block" href="mailto:madsbrodt3@gmail.com">
+    <a
+      class="mt-4 sm:mt-8 block underline text-red-400 text-xl"
+      href="mailto:madsbrodt3@gmail.com">
       madsbrodt3@gmail.com
     </a>
-    <p class="mb-4 sm:mb-8">
+    <p class="mt-4 sm:mt-8 mb-2">
       Freelance status:
       <span
         class="text-sm bg-green-300 text-green-900 py-1 px-3 font-bold
