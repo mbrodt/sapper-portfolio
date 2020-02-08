@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-  <title>Cool title!</title>
+  <title>Mads brodt</title>
 </svelte:head>
 <!-- 
 <h1>My name is cool</h1>

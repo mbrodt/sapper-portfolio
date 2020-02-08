@@ -83,7 +83,7 @@
           {#each project.tags as tag}
             <span
               class="bg-red-400 text-xs font-bold uppercase inline-block
-              leading-4 px-2 py-1 mx-1 text-white mt-2">
+              leading-4 px-2 py-1 mx-1 text-white mt-2 rounded">
               {tag}
             </span>
           {/each}

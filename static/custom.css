@@ -50,7 +50,7 @@
 .arrow-down {
 	width: 0;
 	height: 0;
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-top: 8px solid white;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #fc8181;
 }
