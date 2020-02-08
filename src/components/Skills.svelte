@@ -38,7 +38,7 @@
       src: "svelte.svg"
     },
     {
-      name: "TailwindCSS",
+      name: "Tailwind",
       src: "tailwind.svg"
     },
     //  {
@@ -82,15 +82,24 @@
       items-center py-12 lg:max-w-7xl lg:mx-auto"
       style="justify-items: center">
       {#each skills as skill, idx}
-        <div class="w-16 h-16 lg:w-20 lg:h-20 my-4">
-          <!-- <div class="relative bg-gray-700">{skill.name}</div> -->
-          <!-- <div class="arrow-down absolute top-0 left-0 right-0 mx-auto" /> -->
+        <div class="w-20 h-20 my-4 relative">
+
+          <div
+            class="absolute left-0 right-0 text-center bg-red-400 rounded
+            transition-all duration-700 opacity-0 px-2"
+            class:opacity-100={idx === focused}
+            style="top: -50px; transition-timing-function: ease">
+            <p class="text-white text-sm">{skill.name}</p>
+            <div
+              class="arrow-down absolute left-0 right-0 mx-auto"
+              style="margin-top: -1px" />
+          </div>
 
           <img
             style="transition-timing-function: ease"
             class="opacity-25 transform transition-all duration-500
-            hover:opacity-100 hover:scale-150"
-            class:scale-150={idx === focused}
+            hover:opacity-100 hover:scale-125"
+            class:scale-125={idx === focused}
             class:opacity-100={idx === focused}
             src={'skills/' + skill.src}
             alt={skill.name} />
