@@ -21,13 +21,31 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<div
-  style="height: 70vh; background: linear-gradient(120deg, rgb(212, 252, 121)
-  0%, rgb(150, 230, 161) 100%)">
+<div class="px-4 sm:px-12 pt-32 lg:py-48">
+  <div class="mb-16">
+    <a href="/">
+      <svg
+        class="text-gray-500 fill-current"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" />
+      </svg>
+    </a>
+    <h1 class="text-3xl text-red-400 font-bold mt-2">{post.title}</h1>
+    <div class="flex">
 
-  <h1>{post.title}</h1>
-</div>
+      <p class="text-gray-600">
+        <span>{post.printDate}</span>
+        <span>&bull</span>
+        <span>{post.printReadingTime}</span>
+      </p>
+    </div>
+  </div>
 
-<div class="content">
-  {@html post.html}
+  <div class="rich-text w-full overflow-hidden">
+    {@html post.html}
+  </div>
 </div>

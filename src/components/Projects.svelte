@@ -88,7 +88,7 @@
             </span>
           {/each}
         </div>
-        <p class="mt-4 text-gray-700">{project.description}</p>
+        <p class="mt-4">{project.description}</p>
       </li>
     {/each}
   </ul>
