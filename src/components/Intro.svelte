@@ -11,7 +11,7 @@
   <SocialIcons />
   <h1
     class="mt-2 text-4xl sm:text-5xl leading-tight xl:text-6xl font-semibold
-    font-display text-gray-800">
+    text-gray-800">
     Hi, I'm Mads
   </h1>
   <p class="mt-3 text-lg max-w-xl lg:max-w-3xl xl:text-2xl">
