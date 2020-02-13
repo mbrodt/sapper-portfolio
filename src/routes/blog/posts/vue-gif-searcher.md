@@ -117,7 +117,7 @@ Now, we want to use Vue to store whatever the user types in the search input fie
 
 And your `<script>` tag look like this:
 
-```javascript
+```html
 <script>
 export default {
   data() {
@@ -131,7 +131,7 @@ export default {
 
 Cool! We’re now storing whatever the user types in the input field in our application data. We want to use this data to fetch gifs from the giphy API. This will happen in a method that gets fired when the user clicks on our “Search” button. So let’s set this up first before we move on. Make your `<script>` tag look like this:
 
-```javascript
+```html
 <script>
 export default {
   data() {
