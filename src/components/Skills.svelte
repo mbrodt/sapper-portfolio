@@ -23,7 +23,7 @@
     },
     {
       name: "React",
-      src: "react.png"
+      src: "react.svg"
     },
     {
       name: "Gatsby",

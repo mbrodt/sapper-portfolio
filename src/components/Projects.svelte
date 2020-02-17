@@ -39,7 +39,7 @@
     },
     {
       title: "Danfoss IXA",
-      src: "danfoss.svg",
+      src: "danfoss.png",
       tags: ["React", "Gatsby", "Tailwind", "WordPress"],
       link: "https://danfoss-ixa.com",
       description:
