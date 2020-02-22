@@ -69,7 +69,7 @@
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 sm:gap-8">
     {#each projects as project}
       <li class="w-full">
-        <a href={project.link} target="_blank">
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
           <img
             class="project w-full"
             src={'projects/' + project.src}
