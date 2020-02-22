@@ -5,6 +5,10 @@ const plugin = require('tailwindcss/plugin')
 module.exports = {
 	theme: {
 		extend: {
+			spacing: {
+				72: "18rem",
+				80: "20rem"
+			},
 			maxWidth: {
 				'7xl': '80rem',
 				'8xl': '88rem'
@@ -168,7 +172,9 @@ module.exports = {
 			}
 		}
 	},
-	variants: {},
+	variants: {
+		opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+	},
 	plugins: [plugin(({ addComponents, theme }) => {
 		addComponents({
 			'.rich-text': theme('typography')

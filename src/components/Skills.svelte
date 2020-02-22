@@ -82,11 +82,11 @@
       items-center py-12 lg:max-w-7xl lg:mx-auto"
       style="justify-items: center">
       {#each skills as skill, idx}
-        <div class="w-20 h-20 my-4 relative">
+        <div class="w-20 h-20 my-4 relative group">
 
           <div
             class="absolute left-0 right-0 text-center bg-red-400 rounded
-            transition-all duration-700 opacity-0 px-2"
+            transition-all duration-700 opacity-0 px-2 group-hover:opacity-100"
             class:opacity-100={idx === focused}
             style="top: -50px; transition-timing-function: ease">
             <p class="text-white text-sm">{skill.name}</p>
