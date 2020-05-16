@@ -10,8 +10,8 @@
       perspective: 1500,
       max: 10
     });
-  });
-  // your script goes here
+	});
+	
   let projects = [
     {
       title: "Illuminate the world",
@@ -22,12 +22,12 @@
         "A campaign enabling users to light a candle to help refugees around the world. Focused on smooth animations and creating a compelling user experience."
     },
     {
-      title: "IT-Fixer",
-      src: "itfixer.svg",
-      tags: ["React", "Gatsby", "Tailwind"],
-      link: "https://it-fixer.dk",
+      title: "Technical portfolios",
+      src: "techportfolios.svg",
+      tags: ["React", "Next", "Tailwind", "Hasura"],
+      link: "https://portfolios.tech",
       description:
-        "Website to market my IT support business, listing my services and providing users a way to get in touch."
+        "A website where people can share their favorite technical portfolios. Allows filtering by different categories like development, branding and UX."
     },
     {
       title: "Andersen-Andersen Webshop",
