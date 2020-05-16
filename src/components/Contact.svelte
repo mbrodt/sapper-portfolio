@@ -16,9 +16,23 @@
       together, or just want to connect ✌️
     </p>
     <a
-      class="mt-4 sm:mt-8 block underline text-red-400 text-xl"
+      class="mt-4 sm:mt-8 block text-red-400 hover:text-red-700
+      transition-colors duration-200 ease-out group text-xl"
       href="mailto:madsbrodt3@gmail.com">
       madsbrodt3@gmail.com
+      <svg
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        class="transform transition-transform duration-200 ease-out
+        group-hover:translate-x-4 group-hover:scale-125 -mt-1 inline w-5 h-5
+        sm:w-5 sm:h-5">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
     </a>
     <p class="mt-4 sm:mt-8 mb-2">
       Freelance status:
