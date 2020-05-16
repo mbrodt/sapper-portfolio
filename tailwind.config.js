@@ -174,6 +174,8 @@ module.exports = {
 	},
 	variants: {
 		opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+		translate: ['responsive', 'hover', 'group-hover'],
+		scale: ['responsive', 'hover', 'group-hover']
 	},
 	plugins: [plugin(({ addComponents, theme }) => {
 		addComponents({
