@@ -12976,133 +12976,133 @@ video {
   --transform-scale-y: 1.5;
 }
 
-.focus\:scale-0:focus {
+.group:hover .group-hover\:scale-0 {
   --transform-scale-x: 0;
   --transform-scale-y: 0;
 }
 
-.focus\:scale-50:focus {
+.group:hover .group-hover\:scale-50 {
   --transform-scale-x: .5;
   --transform-scale-y: .5;
 }
 
-.focus\:scale-75:focus {
+.group:hover .group-hover\:scale-75 {
   --transform-scale-x: .75;
   --transform-scale-y: .75;
 }
 
-.focus\:scale-90:focus {
+.group:hover .group-hover\:scale-90 {
   --transform-scale-x: .9;
   --transform-scale-y: .9;
 }
 
-.focus\:scale-95:focus {
+.group:hover .group-hover\:scale-95 {
   --transform-scale-x: .95;
   --transform-scale-y: .95;
 }
 
-.focus\:scale-100:focus {
+.group:hover .group-hover\:scale-100 {
   --transform-scale-x: 1;
   --transform-scale-y: 1;
 }
 
-.focus\:scale-105:focus {
+.group:hover .group-hover\:scale-105 {
   --transform-scale-x: 1.05;
   --transform-scale-y: 1.05;
 }
 
-.focus\:scale-110:focus {
+.group:hover .group-hover\:scale-110 {
   --transform-scale-x: 1.1;
   --transform-scale-y: 1.1;
 }
 
-.focus\:scale-125:focus {
+.group:hover .group-hover\:scale-125 {
   --transform-scale-x: 1.25;
   --transform-scale-y: 1.25;
 }
 
-.focus\:scale-150:focus {
+.group:hover .group-hover\:scale-150 {
   --transform-scale-x: 1.5;
   --transform-scale-y: 1.5;
 }
 
-.focus\:scale-x-0:focus {
+.group:hover .group-hover\:scale-x-0 {
   --transform-scale-x: 0;
 }
 
-.focus\:scale-x-50:focus {
+.group:hover .group-hover\:scale-x-50 {
   --transform-scale-x: .5;
 }
 
-.focus\:scale-x-75:focus {
+.group:hover .group-hover\:scale-x-75 {
   --transform-scale-x: .75;
 }
 
-.focus\:scale-x-90:focus {
+.group:hover .group-hover\:scale-x-90 {
   --transform-scale-x: .9;
 }
 
-.focus\:scale-x-95:focus {
+.group:hover .group-hover\:scale-x-95 {
   --transform-scale-x: .95;
 }
 
-.focus\:scale-x-100:focus {
+.group:hover .group-hover\:scale-x-100 {
   --transform-scale-x: 1;
 }
 
-.focus\:scale-x-105:focus {
+.group:hover .group-hover\:scale-x-105 {
   --transform-scale-x: 1.05;
 }
 
-.focus\:scale-x-110:focus {
+.group:hover .group-hover\:scale-x-110 {
   --transform-scale-x: 1.1;
 }
 
-.focus\:scale-x-125:focus {
+.group:hover .group-hover\:scale-x-125 {
   --transform-scale-x: 1.25;
 }
 
-.focus\:scale-x-150:focus {
+.group:hover .group-hover\:scale-x-150 {
   --transform-scale-x: 1.5;
 }
 
-.focus\:scale-y-0:focus {
+.group:hover .group-hover\:scale-y-0 {
   --transform-scale-y: 0;
 }
 
-.focus\:scale-y-50:focus {
+.group:hover .group-hover\:scale-y-50 {
   --transform-scale-y: .5;
 }
 
-.focus\:scale-y-75:focus {
+.group:hover .group-hover\:scale-y-75 {
   --transform-scale-y: .75;
 }
 
-.focus\:scale-y-90:focus {
+.group:hover .group-hover\:scale-y-90 {
   --transform-scale-y: .9;
 }
 
-.focus\:scale-y-95:focus {
+.group:hover .group-hover\:scale-y-95 {
   --transform-scale-y: .95;
 }
 
-.focus\:scale-y-100:focus {
+.group:hover .group-hover\:scale-y-100 {
   --transform-scale-y: 1;
 }
 
-.focus\:scale-y-105:focus {
+.group:hover .group-hover\:scale-y-105 {
   --transform-scale-y: 1.05;
 }
 
-.focus\:scale-y-110:focus {
+.group:hover .group-hover\:scale-y-110 {
   --transform-scale-y: 1.1;
 }
 
-.focus\:scale-y-125:focus {
+.group:hover .group-hover\:scale-y-125 {
   --transform-scale-y: 1.25;
 }
 
-.focus\:scale-y-150:focus {
+.group:hover .group-hover\:scale-y-150 {
   --transform-scale-y: 1.5;
 }
 
@@ -13910,363 +13910,363 @@ video {
   --transform-translate-y: 100%;
 }
 
-.focus\:translate-x-0:focus {
+.group:hover .group-hover\:translate-x-0 {
   --transform-translate-x: 0;
 }
 
-.focus\:translate-x-1:focus {
+.group:hover .group-hover\:translate-x-1 {
   --transform-translate-x: 0.25rem;
 }
 
-.focus\:translate-x-2:focus {
+.group:hover .group-hover\:translate-x-2 {
   --transform-translate-x: 0.5rem;
 }
 
-.focus\:translate-x-3:focus {
+.group:hover .group-hover\:translate-x-3 {
   --transform-translate-x: 0.75rem;
 }
 
-.focus\:translate-x-4:focus {
+.group:hover .group-hover\:translate-x-4 {
   --transform-translate-x: 1rem;
 }
 
-.focus\:translate-x-5:focus {
+.group:hover .group-hover\:translate-x-5 {
   --transform-translate-x: 1.25rem;
 }
 
-.focus\:translate-x-6:focus {
+.group:hover .group-hover\:translate-x-6 {
   --transform-translate-x: 1.5rem;
 }
 
-.focus\:translate-x-8:focus {
+.group:hover .group-hover\:translate-x-8 {
   --transform-translate-x: 2rem;
 }
 
-.focus\:translate-x-10:focus {
+.group:hover .group-hover\:translate-x-10 {
   --transform-translate-x: 2.5rem;
 }
 
-.focus\:translate-x-12:focus {
+.group:hover .group-hover\:translate-x-12 {
   --transform-translate-x: 3rem;
 }
 
-.focus\:translate-x-16:focus {
+.group:hover .group-hover\:translate-x-16 {
   --transform-translate-x: 4rem;
 }
 
-.focus\:translate-x-20:focus {
+.group:hover .group-hover\:translate-x-20 {
   --transform-translate-x: 5rem;
 }
 
-.focus\:translate-x-24:focus {
+.group:hover .group-hover\:translate-x-24 {
   --transform-translate-x: 6rem;
 }
 
-.focus\:translate-x-32:focus {
+.group:hover .group-hover\:translate-x-32 {
   --transform-translate-x: 8rem;
 }
 
-.focus\:translate-x-40:focus {
+.group:hover .group-hover\:translate-x-40 {
   --transform-translate-x: 10rem;
 }
 
-.focus\:translate-x-48:focus {
+.group:hover .group-hover\:translate-x-48 {
   --transform-translate-x: 12rem;
 }
 
-.focus\:translate-x-56:focus {
+.group:hover .group-hover\:translate-x-56 {
   --transform-translate-x: 14rem;
 }
 
-.focus\:translate-x-64:focus {
+.group:hover .group-hover\:translate-x-64 {
   --transform-translate-x: 16rem;
 }
 
-.focus\:translate-x-72:focus {
+.group:hover .group-hover\:translate-x-72 {
   --transform-translate-x: 18rem;
 }
 
-.focus\:translate-x-80:focus {
+.group:hover .group-hover\:translate-x-80 {
   --transform-translate-x: 20rem;
 }
 
-.focus\:translate-x-px:focus {
+.group:hover .group-hover\:translate-x-px {
   --transform-translate-x: 1px;
 }
 
-.focus\:-translate-x-1:focus {
+.group:hover .group-hover\:-translate-x-1 {
   --transform-translate-x: -0.25rem;
 }
 
-.focus\:-translate-x-2:focus {
+.group:hover .group-hover\:-translate-x-2 {
   --transform-translate-x: -0.5rem;
 }
 
-.focus\:-translate-x-3:focus {
+.group:hover .group-hover\:-translate-x-3 {
   --transform-translate-x: -0.75rem;
 }
 
-.focus\:-translate-x-4:focus {
+.group:hover .group-hover\:-translate-x-4 {
   --transform-translate-x: -1rem;
 }
 
-.focus\:-translate-x-5:focus {
+.group:hover .group-hover\:-translate-x-5 {
   --transform-translate-x: -1.25rem;
 }
 
-.focus\:-translate-x-6:focus {
+.group:hover .group-hover\:-translate-x-6 {
   --transform-translate-x: -1.5rem;
 }
 
-.focus\:-translate-x-8:focus {
+.group:hover .group-hover\:-translate-x-8 {
   --transform-translate-x: -2rem;
 }
 
-.focus\:-translate-x-10:focus {
+.group:hover .group-hover\:-translate-x-10 {
   --transform-translate-x: -2.5rem;
 }
 
-.focus\:-translate-x-12:focus {
+.group:hover .group-hover\:-translate-x-12 {
   --transform-translate-x: -3rem;
 }
 
-.focus\:-translate-x-16:focus {
+.group:hover .group-hover\:-translate-x-16 {
   --transform-translate-x: -4rem;
 }
 
-.focus\:-translate-x-20:focus {
+.group:hover .group-hover\:-translate-x-20 {
   --transform-translate-x: -5rem;
 }
 
-.focus\:-translate-x-24:focus {
+.group:hover .group-hover\:-translate-x-24 {
   --transform-translate-x: -6rem;
 }
 
-.focus\:-translate-x-32:focus {
+.group:hover .group-hover\:-translate-x-32 {
   --transform-translate-x: -8rem;
 }
 
-.focus\:-translate-x-40:focus {
+.group:hover .group-hover\:-translate-x-40 {
   --transform-translate-x: -10rem;
 }
 
-.focus\:-translate-x-48:focus {
+.group:hover .group-hover\:-translate-x-48 {
   --transform-translate-x: -12rem;
 }
 
-.focus\:-translate-x-56:focus {
+.group:hover .group-hover\:-translate-x-56 {
   --transform-translate-x: -14rem;
 }
 
-.focus\:-translate-x-64:focus {
+.group:hover .group-hover\:-translate-x-64 {
   --transform-translate-x: -16rem;
 }
 
-.focus\:-translate-x-72:focus {
+.group:hover .group-hover\:-translate-x-72 {
   --transform-translate-x: -18rem;
 }
 
-.focus\:-translate-x-80:focus {
+.group:hover .group-hover\:-translate-x-80 {
   --transform-translate-x: -20rem;
 }
 
-.focus\:-translate-x-px:focus {
+.group:hover .group-hover\:-translate-x-px {
   --transform-translate-x: -1px;
 }
 
-.focus\:-translate-x-full:focus {
+.group:hover .group-hover\:-translate-x-full {
   --transform-translate-x: -100%;
 }
 
-.focus\:-translate-x-1\/2:focus {
+.group:hover .group-hover\:-translate-x-1\/2 {
   --transform-translate-x: -50%;
 }
 
-.focus\:translate-x-1\/2:focus {
+.group:hover .group-hover\:translate-x-1\/2 {
   --transform-translate-x: 50%;
 }
 
-.focus\:translate-x-full:focus {
+.group:hover .group-hover\:translate-x-full {
   --transform-translate-x: 100%;
 }
 
-.focus\:translate-y-0:focus {
+.group:hover .group-hover\:translate-y-0 {
   --transform-translate-y: 0;
 }
 
-.focus\:translate-y-1:focus {
+.group:hover .group-hover\:translate-y-1 {
   --transform-translate-y: 0.25rem;
 }
 
-.focus\:translate-y-2:focus {
+.group:hover .group-hover\:translate-y-2 {
   --transform-translate-y: 0.5rem;
 }
 
-.focus\:translate-y-3:focus {
+.group:hover .group-hover\:translate-y-3 {
   --transform-translate-y: 0.75rem;
 }
 
-.focus\:translate-y-4:focus {
+.group:hover .group-hover\:translate-y-4 {
   --transform-translate-y: 1rem;
 }
 
-.focus\:translate-y-5:focus {
+.group:hover .group-hover\:translate-y-5 {
   --transform-translate-y: 1.25rem;
 }
 
-.focus\:translate-y-6:focus {
+.group:hover .group-hover\:translate-y-6 {
   --transform-translate-y: 1.5rem;
 }
 
-.focus\:translate-y-8:focus {
+.group:hover .group-hover\:translate-y-8 {
   --transform-translate-y: 2rem;
 }
 
-.focus\:translate-y-10:focus {
+.group:hover .group-hover\:translate-y-10 {
   --transform-translate-y: 2.5rem;
 }
 
-.focus\:translate-y-12:focus {
+.group:hover .group-hover\:translate-y-12 {
   --transform-translate-y: 3rem;
 }
 
-.focus\:translate-y-16:focus {
+.group:hover .group-hover\:translate-y-16 {
   --transform-translate-y: 4rem;
 }
 
-.focus\:translate-y-20:focus {
+.group:hover .group-hover\:translate-y-20 {
   --transform-translate-y: 5rem;
 }
 
-.focus\:translate-y-24:focus {
+.group:hover .group-hover\:translate-y-24 {
   --transform-translate-y: 6rem;
 }
 
-.focus\:translate-y-32:focus {
+.group:hover .group-hover\:translate-y-32 {
   --transform-translate-y: 8rem;
 }
 
-.focus\:translate-y-40:focus {
+.group:hover .group-hover\:translate-y-40 {
   --transform-translate-y: 10rem;
 }
 
-.focus\:translate-y-48:focus {
+.group:hover .group-hover\:translate-y-48 {
   --transform-translate-y: 12rem;
 }
 
-.focus\:translate-y-56:focus {
+.group:hover .group-hover\:translate-y-56 {
   --transform-translate-y: 14rem;
 }
 
-.focus\:translate-y-64:focus {
+.group:hover .group-hover\:translate-y-64 {
   --transform-translate-y: 16rem;
 }
 
-.focus\:translate-y-72:focus {
+.group:hover .group-hover\:translate-y-72 {
   --transform-translate-y: 18rem;
 }
 
-.focus\:translate-y-80:focus {
+.group:hover .group-hover\:translate-y-80 {
   --transform-translate-y: 20rem;
 }
 
-.focus\:translate-y-px:focus {
+.group:hover .group-hover\:translate-y-px {
   --transform-translate-y: 1px;
 }
 
-.focus\:-translate-y-1:focus {
+.group:hover .group-hover\:-translate-y-1 {
   --transform-translate-y: -0.25rem;
 }
 
-.focus\:-translate-y-2:focus {
+.group:hover .group-hover\:-translate-y-2 {
   --transform-translate-y: -0.5rem;
 }
 
-.focus\:-translate-y-3:focus {
+.group:hover .group-hover\:-translate-y-3 {
   --transform-translate-y: -0.75rem;
 }
 
-.focus\:-translate-y-4:focus {
+.group:hover .group-hover\:-translate-y-4 {
   --transform-translate-y: -1rem;
 }
 
-.focus\:-translate-y-5:focus {
+.group:hover .group-hover\:-translate-y-5 {
   --transform-translate-y: -1.25rem;
 }
 
-.focus\:-translate-y-6:focus {
+.group:hover .group-hover\:-translate-y-6 {
   --transform-translate-y: -1.5rem;
 }
 
-.focus\:-translate-y-8:focus {
+.group:hover .group-hover\:-translate-y-8 {
   --transform-translate-y: -2rem;
 }
 
-.focus\:-translate-y-10:focus {
+.group:hover .group-hover\:-translate-y-10 {
   --transform-translate-y: -2.5rem;
 }
 
-.focus\:-translate-y-12:focus {
+.group:hover .group-hover\:-translate-y-12 {
   --transform-translate-y: -3rem;
 }
 
-.focus\:-translate-y-16:focus {
+.group:hover .group-hover\:-translate-y-16 {
   --transform-translate-y: -4rem;
 }
 
-.focus\:-translate-y-20:focus {
+.group:hover .group-hover\:-translate-y-20 {
   --transform-translate-y: -5rem;
 }
 
-.focus\:-translate-y-24:focus {
+.group:hover .group-hover\:-translate-y-24 {
   --transform-translate-y: -6rem;
 }
 
-.focus\:-translate-y-32:focus {
+.group:hover .group-hover\:-translate-y-32 {
   --transform-translate-y: -8rem;
 }
 
-.focus\:-translate-y-40:focus {
+.group:hover .group-hover\:-translate-y-40 {
   --transform-translate-y: -10rem;
 }
 
-.focus\:-translate-y-48:focus {
+.group:hover .group-hover\:-translate-y-48 {
   --transform-translate-y: -12rem;
 }
 
-.focus\:-translate-y-56:focus {
+.group:hover .group-hover\:-translate-y-56 {
   --transform-translate-y: -14rem;
 }
 
-.focus\:-translate-y-64:focus {
+.group:hover .group-hover\:-translate-y-64 {
   --transform-translate-y: -16rem;
 }
 
-.focus\:-translate-y-72:focus {
+.group:hover .group-hover\:-translate-y-72 {
   --transform-translate-y: -18rem;
 }
 
-.focus\:-translate-y-80:focus {
+.group:hover .group-hover\:-translate-y-80 {
   --transform-translate-y: -20rem;
 }
 
-.focus\:-translate-y-px:focus {
+.group:hover .group-hover\:-translate-y-px {
   --transform-translate-y: -1px;
 }
 
-.focus\:-translate-y-full:focus {
+.group:hover .group-hover\:-translate-y-full {
   --transform-translate-y: -100%;
 }
 
-.focus\:-translate-y-1\/2:focus {
+.group:hover .group-hover\:-translate-y-1\/2 {
   --transform-translate-y: -50%;
 }
 
-.focus\:translate-y-1\/2:focus {
+.group:hover .group-hover\:translate-y-1\/2 {
   --transform-translate-y: 50%;
 }
 
-.focus\:translate-y-full:focus {
+.group:hover .group-hover\:translate-y-full {
   --transform-translate-y: 100%;
 }
 
@@ -27587,133 +27587,133 @@ video {
     --transform-scale-y: 1.5;
   }
 
-  .sm\:focus\:scale-0:focus {
+  .group:hover .sm\:group-hover\:scale-0 {
     --transform-scale-x: 0;
     --transform-scale-y: 0;
   }
 
-  .sm\:focus\:scale-50:focus {
+  .group:hover .sm\:group-hover\:scale-50 {
     --transform-scale-x: .5;
     --transform-scale-y: .5;
   }
 
-  .sm\:focus\:scale-75:focus {
+  .group:hover .sm\:group-hover\:scale-75 {
     --transform-scale-x: .75;
     --transform-scale-y: .75;
   }
 
-  .sm\:focus\:scale-90:focus {
+  .group:hover .sm\:group-hover\:scale-90 {
     --transform-scale-x: .9;
     --transform-scale-y: .9;
   }
 
-  .sm\:focus\:scale-95:focus {
+  .group:hover .sm\:group-hover\:scale-95 {
     --transform-scale-x: .95;
     --transform-scale-y: .95;
   }
 
-  .sm\:focus\:scale-100:focus {
+  .group:hover .sm\:group-hover\:scale-100 {
     --transform-scale-x: 1;
     --transform-scale-y: 1;
   }
 
-  .sm\:focus\:scale-105:focus {
+  .group:hover .sm\:group-hover\:scale-105 {
     --transform-scale-x: 1.05;
     --transform-scale-y: 1.05;
   }
 
-  .sm\:focus\:scale-110:focus {
+  .group:hover .sm\:group-hover\:scale-110 {
     --transform-scale-x: 1.1;
     --transform-scale-y: 1.1;
   }
 
-  .sm\:focus\:scale-125:focus {
+  .group:hover .sm\:group-hover\:scale-125 {
     --transform-scale-x: 1.25;
     --transform-scale-y: 1.25;
   }
 
-  .sm\:focus\:scale-150:focus {
+  .group:hover .sm\:group-hover\:scale-150 {
     --transform-scale-x: 1.5;
     --transform-scale-y: 1.5;
   }
 
-  .sm\:focus\:scale-x-0:focus {
+  .group:hover .sm\:group-hover\:scale-x-0 {
     --transform-scale-x: 0;
   }
 
-  .sm\:focus\:scale-x-50:focus {
+  .group:hover .sm\:group-hover\:scale-x-50 {
     --transform-scale-x: .5;
   }
 
-  .sm\:focus\:scale-x-75:focus {
+  .group:hover .sm\:group-hover\:scale-x-75 {
     --transform-scale-x: .75;
   }
 
-  .sm\:focus\:scale-x-90:focus {
+  .group:hover .sm\:group-hover\:scale-x-90 {
     --transform-scale-x: .9;
   }
 
-  .sm\:focus\:scale-x-95:focus {
+  .group:hover .sm\:group-hover\:scale-x-95 {
     --transform-scale-x: .95;
   }
 
-  .sm\:focus\:scale-x-100:focus {
+  .group:hover .sm\:group-hover\:scale-x-100 {
     --transform-scale-x: 1;
   }
 
-  .sm\:focus\:scale-x-105:focus {
+  .group:hover .sm\:group-hover\:scale-x-105 {
     --transform-scale-x: 1.05;
   }
 
-  .sm\:focus\:scale-x-110:focus {
+  .group:hover .sm\:group-hover\:scale-x-110 {
     --transform-scale-x: 1.1;
   }
 
-  .sm\:focus\:scale-x-125:focus {
+  .group:hover .sm\:group-hover\:scale-x-125 {
     --transform-scale-x: 1.25;
   }
 
-  .sm\:focus\:scale-x-150:focus {
+  .group:hover .sm\:group-hover\:scale-x-150 {
     --transform-scale-x: 1.5;
   }
 
-  .sm\:focus\:scale-y-0:focus {
+  .group:hover .sm\:group-hover\:scale-y-0 {
     --transform-scale-y: 0;
   }
 
-  .sm\:focus\:scale-y-50:focus {
+  .group:hover .sm\:group-hover\:scale-y-50 {
     --transform-scale-y: .5;
   }
 
-  .sm\:focus\:scale-y-75:focus {
+  .group:hover .sm\:group-hover\:scale-y-75 {
     --transform-scale-y: .75;
   }
 
-  .sm\:focus\:scale-y-90:focus {
+  .group:hover .sm\:group-hover\:scale-y-90 {
     --transform-scale-y: .9;
   }
 
-  .sm\:focus\:scale-y-95:focus {
+  .group:hover .sm\:group-hover\:scale-y-95 {
     --transform-scale-y: .95;
   }
 
-  .sm\:focus\:scale-y-100:focus {
+  .group:hover .sm\:group-hover\:scale-y-100 {
     --transform-scale-y: 1;
   }
 
-  .sm\:focus\:scale-y-105:focus {
+  .group:hover .sm\:group-hover\:scale-y-105 {
     --transform-scale-y: 1.05;
   }
 
-  .sm\:focus\:scale-y-110:focus {
+  .group:hover .sm\:group-hover\:scale-y-110 {
     --transform-scale-y: 1.1;
   }
 
-  .sm\:focus\:scale-y-125:focus {
+  .group:hover .sm\:group-hover\:scale-y-125 {
     --transform-scale-y: 1.25;
   }
 
-  .sm\:focus\:scale-y-150:focus {
+  .group:hover .sm\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -28521,363 +28521,363 @@ video {
     --transform-translate-y: 100%;
   }
 
-  .sm\:focus\:translate-x-0:focus {
+  .group:hover .sm\:group-hover\:translate-x-0 {
     --transform-translate-x: 0;
   }
 
-  .sm\:focus\:translate-x-1:focus {
+  .group:hover .sm\:group-hover\:translate-x-1 {
     --transform-translate-x: 0.25rem;
   }
 
-  .sm\:focus\:translate-x-2:focus {
+  .group:hover .sm\:group-hover\:translate-x-2 {
     --transform-translate-x: 0.5rem;
   }
 
-  .sm\:focus\:translate-x-3:focus {
+  .group:hover .sm\:group-hover\:translate-x-3 {
     --transform-translate-x: 0.75rem;
   }
 
-  .sm\:focus\:translate-x-4:focus {
+  .group:hover .sm\:group-hover\:translate-x-4 {
     --transform-translate-x: 1rem;
   }
 
-  .sm\:focus\:translate-x-5:focus {
+  .group:hover .sm\:group-hover\:translate-x-5 {
     --transform-translate-x: 1.25rem;
   }
 
-  .sm\:focus\:translate-x-6:focus {
+  .group:hover .sm\:group-hover\:translate-x-6 {
     --transform-translate-x: 1.5rem;
   }
 
-  .sm\:focus\:translate-x-8:focus {
+  .group:hover .sm\:group-hover\:translate-x-8 {
     --transform-translate-x: 2rem;
   }
 
-  .sm\:focus\:translate-x-10:focus {
+  .group:hover .sm\:group-hover\:translate-x-10 {
     --transform-translate-x: 2.5rem;
   }
 
-  .sm\:focus\:translate-x-12:focus {
+  .group:hover .sm\:group-hover\:translate-x-12 {
     --transform-translate-x: 3rem;
   }
 
-  .sm\:focus\:translate-x-16:focus {
+  .group:hover .sm\:group-hover\:translate-x-16 {
     --transform-translate-x: 4rem;
   }
 
-  .sm\:focus\:translate-x-20:focus {
+  .group:hover .sm\:group-hover\:translate-x-20 {
     --transform-translate-x: 5rem;
   }
 
-  .sm\:focus\:translate-x-24:focus {
+  .group:hover .sm\:group-hover\:translate-x-24 {
     --transform-translate-x: 6rem;
   }
 
-  .sm\:focus\:translate-x-32:focus {
+  .group:hover .sm\:group-hover\:translate-x-32 {
     --transform-translate-x: 8rem;
   }
 
-  .sm\:focus\:translate-x-40:focus {
+  .group:hover .sm\:group-hover\:translate-x-40 {
     --transform-translate-x: 10rem;
   }
 
-  .sm\:focus\:translate-x-48:focus {
+  .group:hover .sm\:group-hover\:translate-x-48 {
     --transform-translate-x: 12rem;
   }
 
-  .sm\:focus\:translate-x-56:focus {
+  .group:hover .sm\:group-hover\:translate-x-56 {
     --transform-translate-x: 14rem;
   }
 
-  .sm\:focus\:translate-x-64:focus {
+  .group:hover .sm\:group-hover\:translate-x-64 {
     --transform-translate-x: 16rem;
   }
 
-  .sm\:focus\:translate-x-72:focus {
+  .group:hover .sm\:group-hover\:translate-x-72 {
     --transform-translate-x: 18rem;
   }
 
-  .sm\:focus\:translate-x-80:focus {
+  .group:hover .sm\:group-hover\:translate-x-80 {
     --transform-translate-x: 20rem;
   }
 
-  .sm\:focus\:translate-x-px:focus {
+  .group:hover .sm\:group-hover\:translate-x-px {
     --transform-translate-x: 1px;
   }
 
-  .sm\:focus\:-translate-x-1:focus {
+  .group:hover .sm\:group-hover\:-translate-x-1 {
     --transform-translate-x: -0.25rem;
   }
 
-  .sm\:focus\:-translate-x-2:focus {
+  .group:hover .sm\:group-hover\:-translate-x-2 {
     --transform-translate-x: -0.5rem;
   }
 
-  .sm\:focus\:-translate-x-3:focus {
+  .group:hover .sm\:group-hover\:-translate-x-3 {
     --transform-translate-x: -0.75rem;
   }
 
-  .sm\:focus\:-translate-x-4:focus {
+  .group:hover .sm\:group-hover\:-translate-x-4 {
     --transform-translate-x: -1rem;
   }
 
-  .sm\:focus\:-translate-x-5:focus {
+  .group:hover .sm\:group-hover\:-translate-x-5 {
     --transform-translate-x: -1.25rem;
   }
 
-  .sm\:focus\:-translate-x-6:focus {
+  .group:hover .sm\:group-hover\:-translate-x-6 {
     --transform-translate-x: -1.5rem;
   }
 
-  .sm\:focus\:-translate-x-8:focus {
+  .group:hover .sm\:group-hover\:-translate-x-8 {
     --transform-translate-x: -2rem;
   }
 
-  .sm\:focus\:-translate-x-10:focus {
+  .group:hover .sm\:group-hover\:-translate-x-10 {
     --transform-translate-x: -2.5rem;
   }
 
-  .sm\:focus\:-translate-x-12:focus {
+  .group:hover .sm\:group-hover\:-translate-x-12 {
     --transform-translate-x: -3rem;
   }
 
-  .sm\:focus\:-translate-x-16:focus {
+  .group:hover .sm\:group-hover\:-translate-x-16 {
     --transform-translate-x: -4rem;
   }
 
-  .sm\:focus\:-translate-x-20:focus {
+  .group:hover .sm\:group-hover\:-translate-x-20 {
     --transform-translate-x: -5rem;
   }
 
-  .sm\:focus\:-translate-x-24:focus {
+  .group:hover .sm\:group-hover\:-translate-x-24 {
     --transform-translate-x: -6rem;
   }
 
-  .sm\:focus\:-translate-x-32:focus {
+  .group:hover .sm\:group-hover\:-translate-x-32 {
     --transform-translate-x: -8rem;
   }
 
-  .sm\:focus\:-translate-x-40:focus {
+  .group:hover .sm\:group-hover\:-translate-x-40 {
     --transform-translate-x: -10rem;
   }
 
-  .sm\:focus\:-translate-x-48:focus {
+  .group:hover .sm\:group-hover\:-translate-x-48 {
     --transform-translate-x: -12rem;
   }
 
-  .sm\:focus\:-translate-x-56:focus {
+  .group:hover .sm\:group-hover\:-translate-x-56 {
     --transform-translate-x: -14rem;
   }
 
-  .sm\:focus\:-translate-x-64:focus {
+  .group:hover .sm\:group-hover\:-translate-x-64 {
     --transform-translate-x: -16rem;
   }
 
-  .sm\:focus\:-translate-x-72:focus {
+  .group:hover .sm\:group-hover\:-translate-x-72 {
     --transform-translate-x: -18rem;
   }
 
-  .sm\:focus\:-translate-x-80:focus {
+  .group:hover .sm\:group-hover\:-translate-x-80 {
     --transform-translate-x: -20rem;
   }
 
-  .sm\:focus\:-translate-x-px:focus {
+  .group:hover .sm\:group-hover\:-translate-x-px {
     --transform-translate-x: -1px;
   }
 
-  .sm\:focus\:-translate-x-full:focus {
+  .group:hover .sm\:group-hover\:-translate-x-full {
     --transform-translate-x: -100%;
   }
 
-  .sm\:focus\:-translate-x-1\/2:focus {
+  .group:hover .sm\:group-hover\:-translate-x-1\/2 {
     --transform-translate-x: -50%;
   }
 
-  .sm\:focus\:translate-x-1\/2:focus {
+  .group:hover .sm\:group-hover\:translate-x-1\/2 {
     --transform-translate-x: 50%;
   }
 
-  .sm\:focus\:translate-x-full:focus {
+  .group:hover .sm\:group-hover\:translate-x-full {
     --transform-translate-x: 100%;
   }
 
-  .sm\:focus\:translate-y-0:focus {
+  .group:hover .sm\:group-hover\:translate-y-0 {
     --transform-translate-y: 0;
   }
 
-  .sm\:focus\:translate-y-1:focus {
+  .group:hover .sm\:group-hover\:translate-y-1 {
     --transform-translate-y: 0.25rem;
   }
 
-  .sm\:focus\:translate-y-2:focus {
+  .group:hover .sm\:group-hover\:translate-y-2 {
     --transform-translate-y: 0.5rem;
   }
 
-  .sm\:focus\:translate-y-3:focus {
+  .group:hover .sm\:group-hover\:translate-y-3 {
     --transform-translate-y: 0.75rem;
   }
 
-  .sm\:focus\:translate-y-4:focus {
+  .group:hover .sm\:group-hover\:translate-y-4 {
     --transform-translate-y: 1rem;
   }
 
-  .sm\:focus\:translate-y-5:focus {
+  .group:hover .sm\:group-hover\:translate-y-5 {
     --transform-translate-y: 1.25rem;
   }
 
-  .sm\:focus\:translate-y-6:focus {
+  .group:hover .sm\:group-hover\:translate-y-6 {
     --transform-translate-y: 1.5rem;
   }
 
-  .sm\:focus\:translate-y-8:focus {
+  .group:hover .sm\:group-hover\:translate-y-8 {
     --transform-translate-y: 2rem;
   }
 
-  .sm\:focus\:translate-y-10:focus {
+  .group:hover .sm\:group-hover\:translate-y-10 {
     --transform-translate-y: 2.5rem;
   }
 
-  .sm\:focus\:translate-y-12:focus {
+  .group:hover .sm\:group-hover\:translate-y-12 {
     --transform-translate-y: 3rem;
   }
 
-  .sm\:focus\:translate-y-16:focus {
+  .group:hover .sm\:group-hover\:translate-y-16 {
     --transform-translate-y: 4rem;
   }
 
-  .sm\:focus\:translate-y-20:focus {
+  .group:hover .sm\:group-hover\:translate-y-20 {
     --transform-translate-y: 5rem;
   }
 
-  .sm\:focus\:translate-y-24:focus {
+  .group:hover .sm\:group-hover\:translate-y-24 {
     --transform-translate-y: 6rem;
   }
 
-  .sm\:focus\:translate-y-32:focus {
+  .group:hover .sm\:group-hover\:translate-y-32 {
     --transform-translate-y: 8rem;
   }
 
-  .sm\:focus\:translate-y-40:focus {
+  .group:hover .sm\:group-hover\:translate-y-40 {
     --transform-translate-y: 10rem;
   }
 
-  .sm\:focus\:translate-y-48:focus {
+  .group:hover .sm\:group-hover\:translate-y-48 {
     --transform-translate-y: 12rem;
   }
 
-  .sm\:focus\:translate-y-56:focus {
+  .group:hover .sm\:group-hover\:translate-y-56 {
     --transform-translate-y: 14rem;
   }
 
-  .sm\:focus\:translate-y-64:focus {
+  .group:hover .sm\:group-hover\:translate-y-64 {
     --transform-translate-y: 16rem;
   }
 
-  .sm\:focus\:translate-y-72:focus {
+  .group:hover .sm\:group-hover\:translate-y-72 {
     --transform-translate-y: 18rem;
   }
 
-  .sm\:focus\:translate-y-80:focus {
+  .group:hover .sm\:group-hover\:translate-y-80 {
     --transform-translate-y: 20rem;
   }
 
-  .sm\:focus\:translate-y-px:focus {
+  .group:hover .sm\:group-hover\:translate-y-px {
     --transform-translate-y: 1px;
   }
 
-  .sm\:focus\:-translate-y-1:focus {
+  .group:hover .sm\:group-hover\:-translate-y-1 {
     --transform-translate-y: -0.25rem;
   }
 
-  .sm\:focus\:-translate-y-2:focus {
+  .group:hover .sm\:group-hover\:-translate-y-2 {
     --transform-translate-y: -0.5rem;
   }
 
-  .sm\:focus\:-translate-y-3:focus {
+  .group:hover .sm\:group-hover\:-translate-y-3 {
     --transform-translate-y: -0.75rem;
   }
 
-  .sm\:focus\:-translate-y-4:focus {
+  .group:hover .sm\:group-hover\:-translate-y-4 {
     --transform-translate-y: -1rem;
   }
 
-  .sm\:focus\:-translate-y-5:focus {
+  .group:hover .sm\:group-hover\:-translate-y-5 {
     --transform-translate-y: -1.25rem;
   }
 
-  .sm\:focus\:-translate-y-6:focus {
+  .group:hover .sm\:group-hover\:-translate-y-6 {
     --transform-translate-y: -1.5rem;
   }
 
-  .sm\:focus\:-translate-y-8:focus {
+  .group:hover .sm\:group-hover\:-translate-y-8 {
     --transform-translate-y: -2rem;
   }
 
-  .sm\:focus\:-translate-y-10:focus {
+  .group:hover .sm\:group-hover\:-translate-y-10 {
     --transform-translate-y: -2.5rem;
   }
 
-  .sm\:focus\:-translate-y-12:focus {
+  .group:hover .sm\:group-hover\:-translate-y-12 {
     --transform-translate-y: -3rem;
   }
 
-  .sm\:focus\:-translate-y-16:focus {
+  .group:hover .sm\:group-hover\:-translate-y-16 {
     --transform-translate-y: -4rem;
   }
 
-  .sm\:focus\:-translate-y-20:focus {
+  .group:hover .sm\:group-hover\:-translate-y-20 {
     --transform-translate-y: -5rem;
   }
 
-  .sm\:focus\:-translate-y-24:focus {
+  .group:hover .sm\:group-hover\:-translate-y-24 {
     --transform-translate-y: -6rem;
   }
 
-  .sm\:focus\:-translate-y-32:focus {
+  .group:hover .sm\:group-hover\:-translate-y-32 {
     --transform-translate-y: -8rem;
   }
 
-  .sm\:focus\:-translate-y-40:focus {
+  .group:hover .sm\:group-hover\:-translate-y-40 {
     --transform-translate-y: -10rem;
   }
 
-  .sm\:focus\:-translate-y-48:focus {
+  .group:hover .sm\:group-hover\:-translate-y-48 {
     --transform-translate-y: -12rem;
   }
 
-  .sm\:focus\:-translate-y-56:focus {
+  .group:hover .sm\:group-hover\:-translate-y-56 {
     --transform-translate-y: -14rem;
   }
 
-  .sm\:focus\:-translate-y-64:focus {
+  .group:hover .sm\:group-hover\:-translate-y-64 {
     --transform-translate-y: -16rem;
   }
 
-  .sm\:focus\:-translate-y-72:focus {
+  .group:hover .sm\:group-hover\:-translate-y-72 {
     --transform-translate-y: -18rem;
   }
 
-  .sm\:focus\:-translate-y-80:focus {
+  .group:hover .sm\:group-hover\:-translate-y-80 {
     --transform-translate-y: -20rem;
   }
 
-  .sm\:focus\:-translate-y-px:focus {
+  .group:hover .sm\:group-hover\:-translate-y-px {
     --transform-translate-y: -1px;
   }
 
-  .sm\:focus\:-translate-y-full:focus {
+  .group:hover .sm\:group-hover\:-translate-y-full {
     --transform-translate-y: -100%;
   }
 
-  .sm\:focus\:-translate-y-1\/2:focus {
+  .group:hover .sm\:group-hover\:-translate-y-1\/2 {
     --transform-translate-y: -50%;
   }
 
-  .sm\:focus\:translate-y-1\/2:focus {
+  .group:hover .sm\:group-hover\:translate-y-1\/2 {
     --transform-translate-y: 50%;
   }
 
-  .sm\:focus\:translate-y-full:focus {
+  .group:hover .sm\:group-hover\:translate-y-full {
     --transform-translate-y: 100%;
   }
 
@@ -42185,133 +42185,133 @@ video {
     --transform-scale-y: 1.5;
   }
 
-  .md\:focus\:scale-0:focus {
+  .group:hover .md\:group-hover\:scale-0 {
     --transform-scale-x: 0;
     --transform-scale-y: 0;
   }
 
-  .md\:focus\:scale-50:focus {
+  .group:hover .md\:group-hover\:scale-50 {
     --transform-scale-x: .5;
     --transform-scale-y: .5;
   }
 
-  .md\:focus\:scale-75:focus {
+  .group:hover .md\:group-hover\:scale-75 {
     --transform-scale-x: .75;
     --transform-scale-y: .75;
   }
 
-  .md\:focus\:scale-90:focus {
+  .group:hover .md\:group-hover\:scale-90 {
     --transform-scale-x: .9;
     --transform-scale-y: .9;
   }
 
-  .md\:focus\:scale-95:focus {
+  .group:hover .md\:group-hover\:scale-95 {
     --transform-scale-x: .95;
     --transform-scale-y: .95;
   }
 
-  .md\:focus\:scale-100:focus {
+  .group:hover .md\:group-hover\:scale-100 {
     --transform-scale-x: 1;
     --transform-scale-y: 1;
   }
 
-  .md\:focus\:scale-105:focus {
+  .group:hover .md\:group-hover\:scale-105 {
     --transform-scale-x: 1.05;
     --transform-scale-y: 1.05;
   }
 
-  .md\:focus\:scale-110:focus {
+  .group:hover .md\:group-hover\:scale-110 {
     --transform-scale-x: 1.1;
     --transform-scale-y: 1.1;
   }
 
-  .md\:focus\:scale-125:focus {
+  .group:hover .md\:group-hover\:scale-125 {
     --transform-scale-x: 1.25;
     --transform-scale-y: 1.25;
   }
 
-  .md\:focus\:scale-150:focus {
+  .group:hover .md\:group-hover\:scale-150 {
     --transform-scale-x: 1.5;
     --transform-scale-y: 1.5;
   }
 
-  .md\:focus\:scale-x-0:focus {
+  .group:hover .md\:group-hover\:scale-x-0 {
     --transform-scale-x: 0;
   }
 
-  .md\:focus\:scale-x-50:focus {
+  .group:hover .md\:group-hover\:scale-x-50 {
     --transform-scale-x: .5;
   }
 
-  .md\:focus\:scale-x-75:focus {
+  .group:hover .md\:group-hover\:scale-x-75 {
     --transform-scale-x: .75;
   }
 
-  .md\:focus\:scale-x-90:focus {
+  .group:hover .md\:group-hover\:scale-x-90 {
     --transform-scale-x: .9;
   }
 
-  .md\:focus\:scale-x-95:focus {
+  .group:hover .md\:group-hover\:scale-x-95 {
     --transform-scale-x: .95;
   }
 
-  .md\:focus\:scale-x-100:focus {
+  .group:hover .md\:group-hover\:scale-x-100 {
     --transform-scale-x: 1;
   }
 
-  .md\:focus\:scale-x-105:focus {
+  .group:hover .md\:group-hover\:scale-x-105 {
     --transform-scale-x: 1.05;
   }
 
-  .md\:focus\:scale-x-110:focus {
+  .group:hover .md\:group-hover\:scale-x-110 {
     --transform-scale-x: 1.1;
   }
 
-  .md\:focus\:scale-x-125:focus {
+  .group:hover .md\:group-hover\:scale-x-125 {
     --transform-scale-x: 1.25;
   }
 
-  .md\:focus\:scale-x-150:focus {
+  .group:hover .md\:group-hover\:scale-x-150 {
     --transform-scale-x: 1.5;
   }
 
-  .md\:focus\:scale-y-0:focus {
+  .group:hover .md\:group-hover\:scale-y-0 {
     --transform-scale-y: 0;
   }
 
-  .md\:focus\:scale-y-50:focus {
+  .group:hover .md\:group-hover\:scale-y-50 {
     --transform-scale-y: .5;
   }
 
-  .md\:focus\:scale-y-75:focus {
+  .group:hover .md\:group-hover\:scale-y-75 {
     --transform-scale-y: .75;
   }
 
-  .md\:focus\:scale-y-90:focus {
+  .group:hover .md\:group-hover\:scale-y-90 {
     --transform-scale-y: .9;
   }
 
-  .md\:focus\:scale-y-95:focus {
+  .group:hover .md\:group-hover\:scale-y-95 {
     --transform-scale-y: .95;
   }
 
-  .md\:focus\:scale-y-100:focus {
+  .group:hover .md\:group-hover\:scale-y-100 {
     --transform-scale-y: 1;
   }
 
-  .md\:focus\:scale-y-105:focus {
+  .group:hover .md\:group-hover\:scale-y-105 {
     --transform-scale-y: 1.05;
   }
 
-  .md\:focus\:scale-y-110:focus {
+  .group:hover .md\:group-hover\:scale-y-110 {
     --transform-scale-y: 1.1;
   }
 
-  .md\:focus\:scale-y-125:focus {
+  .group:hover .md\:group-hover\:scale-y-125 {
     --transform-scale-y: 1.25;
   }
 
-  .md\:focus\:scale-y-150:focus {
+  .group:hover .md\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -43119,363 +43119,363 @@ video {
     --transform-translate-y: 100%;
   }
 
-  .md\:focus\:translate-x-0:focus {
+  .group:hover .md\:group-hover\:translate-x-0 {
     --transform-translate-x: 0;
   }
 
-  .md\:focus\:translate-x-1:focus {
+  .group:hover .md\:group-hover\:translate-x-1 {
     --transform-translate-x: 0.25rem;
   }
 
-  .md\:focus\:translate-x-2:focus {
+  .group:hover .md\:group-hover\:translate-x-2 {
     --transform-translate-x: 0.5rem;
   }
 
-  .md\:focus\:translate-x-3:focus {
+  .group:hover .md\:group-hover\:translate-x-3 {
     --transform-translate-x: 0.75rem;
   }
 
-  .md\:focus\:translate-x-4:focus {
+  .group:hover .md\:group-hover\:translate-x-4 {
     --transform-translate-x: 1rem;
   }
 
-  .md\:focus\:translate-x-5:focus {
+  .group:hover .md\:group-hover\:translate-x-5 {
     --transform-translate-x: 1.25rem;
   }
 
-  .md\:focus\:translate-x-6:focus {
+  .group:hover .md\:group-hover\:translate-x-6 {
     --transform-translate-x: 1.5rem;
   }
 
-  .md\:focus\:translate-x-8:focus {
+  .group:hover .md\:group-hover\:translate-x-8 {
     --transform-translate-x: 2rem;
   }
 
-  .md\:focus\:translate-x-10:focus {
+  .group:hover .md\:group-hover\:translate-x-10 {
     --transform-translate-x: 2.5rem;
   }
 
-  .md\:focus\:translate-x-12:focus {
+  .group:hover .md\:group-hover\:translate-x-12 {
     --transform-translate-x: 3rem;
   }
 
-  .md\:focus\:translate-x-16:focus {
+  .group:hover .md\:group-hover\:translate-x-16 {
     --transform-translate-x: 4rem;
   }
 
-  .md\:focus\:translate-x-20:focus {
+  .group:hover .md\:group-hover\:translate-x-20 {
     --transform-translate-x: 5rem;
   }
 
-  .md\:focus\:translate-x-24:focus {
+  .group:hover .md\:group-hover\:translate-x-24 {
     --transform-translate-x: 6rem;
   }
 
-  .md\:focus\:translate-x-32:focus {
+  .group:hover .md\:group-hover\:translate-x-32 {
     --transform-translate-x: 8rem;
   }
 
-  .md\:focus\:translate-x-40:focus {
+  .group:hover .md\:group-hover\:translate-x-40 {
     --transform-translate-x: 10rem;
   }
 
-  .md\:focus\:translate-x-48:focus {
+  .group:hover .md\:group-hover\:translate-x-48 {
     --transform-translate-x: 12rem;
   }
 
-  .md\:focus\:translate-x-56:focus {
+  .group:hover .md\:group-hover\:translate-x-56 {
     --transform-translate-x: 14rem;
   }
 
-  .md\:focus\:translate-x-64:focus {
+  .group:hover .md\:group-hover\:translate-x-64 {
     --transform-translate-x: 16rem;
   }
 
-  .md\:focus\:translate-x-72:focus {
+  .group:hover .md\:group-hover\:translate-x-72 {
     --transform-translate-x: 18rem;
   }
 
-  .md\:focus\:translate-x-80:focus {
+  .group:hover .md\:group-hover\:translate-x-80 {
     --transform-translate-x: 20rem;
   }
 
-  .md\:focus\:translate-x-px:focus {
+  .group:hover .md\:group-hover\:translate-x-px {
     --transform-translate-x: 1px;
   }
 
-  .md\:focus\:-translate-x-1:focus {
+  .group:hover .md\:group-hover\:-translate-x-1 {
     --transform-translate-x: -0.25rem;
   }
 
-  .md\:focus\:-translate-x-2:focus {
+  .group:hover .md\:group-hover\:-translate-x-2 {
     --transform-translate-x: -0.5rem;
   }
 
-  .md\:focus\:-translate-x-3:focus {
+  .group:hover .md\:group-hover\:-translate-x-3 {
     --transform-translate-x: -0.75rem;
   }
 
-  .md\:focus\:-translate-x-4:focus {
+  .group:hover .md\:group-hover\:-translate-x-4 {
     --transform-translate-x: -1rem;
   }
 
-  .md\:focus\:-translate-x-5:focus {
+  .group:hover .md\:group-hover\:-translate-x-5 {
     --transform-translate-x: -1.25rem;
   }
 
-  .md\:focus\:-translate-x-6:focus {
+  .group:hover .md\:group-hover\:-translate-x-6 {
     --transform-translate-x: -1.5rem;
   }
 
-  .md\:focus\:-translate-x-8:focus {
+  .group:hover .md\:group-hover\:-translate-x-8 {
     --transform-translate-x: -2rem;
   }
 
-  .md\:focus\:-translate-x-10:focus {
+  .group:hover .md\:group-hover\:-translate-x-10 {
     --transform-translate-x: -2.5rem;
   }
 
-  .md\:focus\:-translate-x-12:focus {
+  .group:hover .md\:group-hover\:-translate-x-12 {
     --transform-translate-x: -3rem;
   }
 
-  .md\:focus\:-translate-x-16:focus {
+  .group:hover .md\:group-hover\:-translate-x-16 {
     --transform-translate-x: -4rem;
   }
 
-  .md\:focus\:-translate-x-20:focus {
+  .group:hover .md\:group-hover\:-translate-x-20 {
     --transform-translate-x: -5rem;
   }
 
-  .md\:focus\:-translate-x-24:focus {
+  .group:hover .md\:group-hover\:-translate-x-24 {
     --transform-translate-x: -6rem;
   }
 
-  .md\:focus\:-translate-x-32:focus {
+  .group:hover .md\:group-hover\:-translate-x-32 {
     --transform-translate-x: -8rem;
   }
 
-  .md\:focus\:-translate-x-40:focus {
+  .group:hover .md\:group-hover\:-translate-x-40 {
     --transform-translate-x: -10rem;
   }
 
-  .md\:focus\:-translate-x-48:focus {
+  .group:hover .md\:group-hover\:-translate-x-48 {
     --transform-translate-x: -12rem;
   }
 
-  .md\:focus\:-translate-x-56:focus {
+  .group:hover .md\:group-hover\:-translate-x-56 {
     --transform-translate-x: -14rem;
   }
 
-  .md\:focus\:-translate-x-64:focus {
+  .group:hover .md\:group-hover\:-translate-x-64 {
     --transform-translate-x: -16rem;
   }
 
-  .md\:focus\:-translate-x-72:focus {
+  .group:hover .md\:group-hover\:-translate-x-72 {
     --transform-translate-x: -18rem;
   }
 
-  .md\:focus\:-translate-x-80:focus {
+  .group:hover .md\:group-hover\:-translate-x-80 {
     --transform-translate-x: -20rem;
   }
 
-  .md\:focus\:-translate-x-px:focus {
+  .group:hover .md\:group-hover\:-translate-x-px {
     --transform-translate-x: -1px;
   }
 
-  .md\:focus\:-translate-x-full:focus {
+  .group:hover .md\:group-hover\:-translate-x-full {
     --transform-translate-x: -100%;
   }
 
-  .md\:focus\:-translate-x-1\/2:focus {
+  .group:hover .md\:group-hover\:-translate-x-1\/2 {
     --transform-translate-x: -50%;
   }
 
-  .md\:focus\:translate-x-1\/2:focus {
+  .group:hover .md\:group-hover\:translate-x-1\/2 {
     --transform-translate-x: 50%;
   }
 
-  .md\:focus\:translate-x-full:focus {
+  .group:hover .md\:group-hover\:translate-x-full {
     --transform-translate-x: 100%;
   }
 
-  .md\:focus\:translate-y-0:focus {
+  .group:hover .md\:group-hover\:translate-y-0 {
     --transform-translate-y: 0;
   }
 
-  .md\:focus\:translate-y-1:focus {
+  .group:hover .md\:group-hover\:translate-y-1 {
     --transform-translate-y: 0.25rem;
   }
 
-  .md\:focus\:translate-y-2:focus {
+  .group:hover .md\:group-hover\:translate-y-2 {
     --transform-translate-y: 0.5rem;
   }
 
-  .md\:focus\:translate-y-3:focus {
+  .group:hover .md\:group-hover\:translate-y-3 {
     --transform-translate-y: 0.75rem;
   }
 
-  .md\:focus\:translate-y-4:focus {
+  .group:hover .md\:group-hover\:translate-y-4 {
     --transform-translate-y: 1rem;
   }
 
-  .md\:focus\:translate-y-5:focus {
+  .group:hover .md\:group-hover\:translate-y-5 {
     --transform-translate-y: 1.25rem;
   }
 
-  .md\:focus\:translate-y-6:focus {
+  .group:hover .md\:group-hover\:translate-y-6 {
     --transform-translate-y: 1.5rem;
   }
 
-  .md\:focus\:translate-y-8:focus {
+  .group:hover .md\:group-hover\:translate-y-8 {
     --transform-translate-y: 2rem;
   }
 
-  .md\:focus\:translate-y-10:focus {
+  .group:hover .md\:group-hover\:translate-y-10 {
     --transform-translate-y: 2.5rem;
   }
 
-  .md\:focus\:translate-y-12:focus {
+  .group:hover .md\:group-hover\:translate-y-12 {
     --transform-translate-y: 3rem;
   }
 
-  .md\:focus\:translate-y-16:focus {
+  .group:hover .md\:group-hover\:translate-y-16 {
     --transform-translate-y: 4rem;
   }
 
-  .md\:focus\:translate-y-20:focus {
+  .group:hover .md\:group-hover\:translate-y-20 {
     --transform-translate-y: 5rem;
   }
 
-  .md\:focus\:translate-y-24:focus {
+  .group:hover .md\:group-hover\:translate-y-24 {
     --transform-translate-y: 6rem;
   }
 
-  .md\:focus\:translate-y-32:focus {
+  .group:hover .md\:group-hover\:translate-y-32 {
     --transform-translate-y: 8rem;
   }
 
-  .md\:focus\:translate-y-40:focus {
+  .group:hover .md\:group-hover\:translate-y-40 {
     --transform-translate-y: 10rem;
   }
 
-  .md\:focus\:translate-y-48:focus {
+  .group:hover .md\:group-hover\:translate-y-48 {
     --transform-translate-y: 12rem;
   }
 
-  .md\:focus\:translate-y-56:focus {
+  .group:hover .md\:group-hover\:translate-y-56 {
     --transform-translate-y: 14rem;
   }
 
-  .md\:focus\:translate-y-64:focus {
+  .group:hover .md\:group-hover\:translate-y-64 {
     --transform-translate-y: 16rem;
   }
 
-  .md\:focus\:translate-y-72:focus {
+  .group:hover .md\:group-hover\:translate-y-72 {
     --transform-translate-y: 18rem;
   }
 
-  .md\:focus\:translate-y-80:focus {
+  .group:hover .md\:group-hover\:translate-y-80 {
     --transform-translate-y: 20rem;
   }
 
-  .md\:focus\:translate-y-px:focus {
+  .group:hover .md\:group-hover\:translate-y-px {
     --transform-translate-y: 1px;
   }
 
-  .md\:focus\:-translate-y-1:focus {
+  .group:hover .md\:group-hover\:-translate-y-1 {
     --transform-translate-y: -0.25rem;
   }
 
-  .md\:focus\:-translate-y-2:focus {
+  .group:hover .md\:group-hover\:-translate-y-2 {
     --transform-translate-y: -0.5rem;
   }
 
-  .md\:focus\:-translate-y-3:focus {
+  .group:hover .md\:group-hover\:-translate-y-3 {
     --transform-translate-y: -0.75rem;
   }
 
-  .md\:focus\:-translate-y-4:focus {
+  .group:hover .md\:group-hover\:-translate-y-4 {
     --transform-translate-y: -1rem;
   }
 
-  .md\:focus\:-translate-y-5:focus {
+  .group:hover .md\:group-hover\:-translate-y-5 {
     --transform-translate-y: -1.25rem;
   }
 
-  .md\:focus\:-translate-y-6:focus {
+  .group:hover .md\:group-hover\:-translate-y-6 {
     --transform-translate-y: -1.5rem;
   }
 
-  .md\:focus\:-translate-y-8:focus {
+  .group:hover .md\:group-hover\:-translate-y-8 {
     --transform-translate-y: -2rem;
   }
 
-  .md\:focus\:-translate-y-10:focus {
+  .group:hover .md\:group-hover\:-translate-y-10 {
     --transform-translate-y: -2.5rem;
   }
 
-  .md\:focus\:-translate-y-12:focus {
+  .group:hover .md\:group-hover\:-translate-y-12 {
     --transform-translate-y: -3rem;
   }
 
-  .md\:focus\:-translate-y-16:focus {
+  .group:hover .md\:group-hover\:-translate-y-16 {
     --transform-translate-y: -4rem;
   }
 
-  .md\:focus\:-translate-y-20:focus {
+  .group:hover .md\:group-hover\:-translate-y-20 {
     --transform-translate-y: -5rem;
   }
 
-  .md\:focus\:-translate-y-24:focus {
+  .group:hover .md\:group-hover\:-translate-y-24 {
     --transform-translate-y: -6rem;
   }
 
-  .md\:focus\:-translate-y-32:focus {
+  .group:hover .md\:group-hover\:-translate-y-32 {
     --transform-translate-y: -8rem;
   }
 
-  .md\:focus\:-translate-y-40:focus {
+  .group:hover .md\:group-hover\:-translate-y-40 {
     --transform-translate-y: -10rem;
   }
 
-  .md\:focus\:-translate-y-48:focus {
+  .group:hover .md\:group-hover\:-translate-y-48 {
     --transform-translate-y: -12rem;
   }
 
-  .md\:focus\:-translate-y-56:focus {
+  .group:hover .md\:group-hover\:-translate-y-56 {
     --transform-translate-y: -14rem;
   }
 
-  .md\:focus\:-translate-y-64:focus {
+  .group:hover .md\:group-hover\:-translate-y-64 {
     --transform-translate-y: -16rem;
   }
 
-  .md\:focus\:-translate-y-72:focus {
+  .group:hover .md\:group-hover\:-translate-y-72 {
     --transform-translate-y: -18rem;
   }
 
-  .md\:focus\:-translate-y-80:focus {
+  .group:hover .md\:group-hover\:-translate-y-80 {
     --transform-translate-y: -20rem;
   }
 
-  .md\:focus\:-translate-y-px:focus {
+  .group:hover .md\:group-hover\:-translate-y-px {
     --transform-translate-y: -1px;
   }
 
-  .md\:focus\:-translate-y-full:focus {
+  .group:hover .md\:group-hover\:-translate-y-full {
     --transform-translate-y: -100%;
   }
 
-  .md\:focus\:-translate-y-1\/2:focus {
+  .group:hover .md\:group-hover\:-translate-y-1\/2 {
     --transform-translate-y: -50%;
   }
 
-  .md\:focus\:translate-y-1\/2:focus {
+  .group:hover .md\:group-hover\:translate-y-1\/2 {
     --transform-translate-y: 50%;
   }
 
-  .md\:focus\:translate-y-full:focus {
+  .group:hover .md\:group-hover\:translate-y-full {
     --transform-translate-y: 100%;
   }
 
@@ -56783,133 +56783,133 @@ video {
     --transform-scale-y: 1.5;
   }
 
-  .lg\:focus\:scale-0:focus {
+  .group:hover .lg\:group-hover\:scale-0 {
     --transform-scale-x: 0;
     --transform-scale-y: 0;
   }
 
-  .lg\:focus\:scale-50:focus {
+  .group:hover .lg\:group-hover\:scale-50 {
     --transform-scale-x: .5;
     --transform-scale-y: .5;
   }
 
-  .lg\:focus\:scale-75:focus {
+  .group:hover .lg\:group-hover\:scale-75 {
     --transform-scale-x: .75;
     --transform-scale-y: .75;
   }
 
-  .lg\:focus\:scale-90:focus {
+  .group:hover .lg\:group-hover\:scale-90 {
     --transform-scale-x: .9;
     --transform-scale-y: .9;
   }
 
-  .lg\:focus\:scale-95:focus {
+  .group:hover .lg\:group-hover\:scale-95 {
     --transform-scale-x: .95;
     --transform-scale-y: .95;
   }
 
-  .lg\:focus\:scale-100:focus {
+  .group:hover .lg\:group-hover\:scale-100 {
     --transform-scale-x: 1;
     --transform-scale-y: 1;
   }
 
-  .lg\:focus\:scale-105:focus {
+  .group:hover .lg\:group-hover\:scale-105 {
     --transform-scale-x: 1.05;
     --transform-scale-y: 1.05;
   }
 
-  .lg\:focus\:scale-110:focus {
+  .group:hover .lg\:group-hover\:scale-110 {
     --transform-scale-x: 1.1;
     --transform-scale-y: 1.1;
   }
 
-  .lg\:focus\:scale-125:focus {
+  .group:hover .lg\:group-hover\:scale-125 {
     --transform-scale-x: 1.25;
     --transform-scale-y: 1.25;
   }
 
-  .lg\:focus\:scale-150:focus {
+  .group:hover .lg\:group-hover\:scale-150 {
     --transform-scale-x: 1.5;
     --transform-scale-y: 1.5;
   }
 
-  .lg\:focus\:scale-x-0:focus {
+  .group:hover .lg\:group-hover\:scale-x-0 {
     --transform-scale-x: 0;
   }
 
-  .lg\:focus\:scale-x-50:focus {
+  .group:hover .lg\:group-hover\:scale-x-50 {
     --transform-scale-x: .5;
   }
 
-  .lg\:focus\:scale-x-75:focus {
+  .group:hover .lg\:group-hover\:scale-x-75 {
     --transform-scale-x: .75;
   }
 
-  .lg\:focus\:scale-x-90:focus {
+  .group:hover .lg\:group-hover\:scale-x-90 {
     --transform-scale-x: .9;
   }
 
-  .lg\:focus\:scale-x-95:focus {
+  .group:hover .lg\:group-hover\:scale-x-95 {
     --transform-scale-x: .95;
   }
 
-  .lg\:focus\:scale-x-100:focus {
+  .group:hover .lg\:group-hover\:scale-x-100 {
     --transform-scale-x: 1;
   }
 
-  .lg\:focus\:scale-x-105:focus {
+  .group:hover .lg\:group-hover\:scale-x-105 {
     --transform-scale-x: 1.05;
   }
 
-  .lg\:focus\:scale-x-110:focus {
+  .group:hover .lg\:group-hover\:scale-x-110 {
     --transform-scale-x: 1.1;
   }
 
-  .lg\:focus\:scale-x-125:focus {
+  .group:hover .lg\:group-hover\:scale-x-125 {
     --transform-scale-x: 1.25;
   }
 
-  .lg\:focus\:scale-x-150:focus {
+  .group:hover .lg\:group-hover\:scale-x-150 {
     --transform-scale-x: 1.5;
   }
 
-  .lg\:focus\:scale-y-0:focus {
+  .group:hover .lg\:group-hover\:scale-y-0 {
     --transform-scale-y: 0;
   }
 
-  .lg\:focus\:scale-y-50:focus {
+  .group:hover .lg\:group-hover\:scale-y-50 {
     --transform-scale-y: .5;
   }
 
-  .lg\:focus\:scale-y-75:focus {
+  .group:hover .lg\:group-hover\:scale-y-75 {
     --transform-scale-y: .75;
   }
 
-  .lg\:focus\:scale-y-90:focus {
+  .group:hover .lg\:group-hover\:scale-y-90 {
     --transform-scale-y: .9;
   }
 
-  .lg\:focus\:scale-y-95:focus {
+  .group:hover .lg\:group-hover\:scale-y-95 {
     --transform-scale-y: .95;
   }
 
-  .lg\:focus\:scale-y-100:focus {
+  .group:hover .lg\:group-hover\:scale-y-100 {
     --transform-scale-y: 1;
   }
 
-  .lg\:focus\:scale-y-105:focus {
+  .group:hover .lg\:group-hover\:scale-y-105 {
     --transform-scale-y: 1.05;
   }
 
-  .lg\:focus\:scale-y-110:focus {
+  .group:hover .lg\:group-hover\:scale-y-110 {
     --transform-scale-y: 1.1;
   }
 
-  .lg\:focus\:scale-y-125:focus {
+  .group:hover .lg\:group-hover\:scale-y-125 {
     --transform-scale-y: 1.25;
   }
 
-  .lg\:focus\:scale-y-150:focus {
+  .group:hover .lg\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -57717,363 +57717,363 @@ video {
     --transform-translate-y: 100%;
   }
 
-  .lg\:focus\:translate-x-0:focus {
+  .group:hover .lg\:group-hover\:translate-x-0 {
     --transform-translate-x: 0;
   }
 
-  .lg\:focus\:translate-x-1:focus {
+  .group:hover .lg\:group-hover\:translate-x-1 {
     --transform-translate-x: 0.25rem;
   }
 
-  .lg\:focus\:translate-x-2:focus {
+  .group:hover .lg\:group-hover\:translate-x-2 {
     --transform-translate-x: 0.5rem;
   }
 
-  .lg\:focus\:translate-x-3:focus {
+  .group:hover .lg\:group-hover\:translate-x-3 {
     --transform-translate-x: 0.75rem;
   }
 
-  .lg\:focus\:translate-x-4:focus {
+  .group:hover .lg\:group-hover\:translate-x-4 {
     --transform-translate-x: 1rem;
   }
 
-  .lg\:focus\:translate-x-5:focus {
+  .group:hover .lg\:group-hover\:translate-x-5 {
     --transform-translate-x: 1.25rem;
   }
 
-  .lg\:focus\:translate-x-6:focus {
+  .group:hover .lg\:group-hover\:translate-x-6 {
     --transform-translate-x: 1.5rem;
   }
 
-  .lg\:focus\:translate-x-8:focus {
+  .group:hover .lg\:group-hover\:translate-x-8 {
     --transform-translate-x: 2rem;
   }
 
-  .lg\:focus\:translate-x-10:focus {
+  .group:hover .lg\:group-hover\:translate-x-10 {
     --transform-translate-x: 2.5rem;
   }
 
-  .lg\:focus\:translate-x-12:focus {
+  .group:hover .lg\:group-hover\:translate-x-12 {
     --transform-translate-x: 3rem;
   }
 
-  .lg\:focus\:translate-x-16:focus {
+  .group:hover .lg\:group-hover\:translate-x-16 {
     --transform-translate-x: 4rem;
   }
 
-  .lg\:focus\:translate-x-20:focus {
+  .group:hover .lg\:group-hover\:translate-x-20 {
     --transform-translate-x: 5rem;
   }
 
-  .lg\:focus\:translate-x-24:focus {
+  .group:hover .lg\:group-hover\:translate-x-24 {
     --transform-translate-x: 6rem;
   }
 
-  .lg\:focus\:translate-x-32:focus {
+  .group:hover .lg\:group-hover\:translate-x-32 {
     --transform-translate-x: 8rem;
   }
 
-  .lg\:focus\:translate-x-40:focus {
+  .group:hover .lg\:group-hover\:translate-x-40 {
     --transform-translate-x: 10rem;
   }
 
-  .lg\:focus\:translate-x-48:focus {
+  .group:hover .lg\:group-hover\:translate-x-48 {
     --transform-translate-x: 12rem;
   }
 
-  .lg\:focus\:translate-x-56:focus {
+  .group:hover .lg\:group-hover\:translate-x-56 {
     --transform-translate-x: 14rem;
   }
 
-  .lg\:focus\:translate-x-64:focus {
+  .group:hover .lg\:group-hover\:translate-x-64 {
     --transform-translate-x: 16rem;
   }
 
-  .lg\:focus\:translate-x-72:focus {
+  .group:hover .lg\:group-hover\:translate-x-72 {
     --transform-translate-x: 18rem;
   }
 
-  .lg\:focus\:translate-x-80:focus {
+  .group:hover .lg\:group-hover\:translate-x-80 {
     --transform-translate-x: 20rem;
   }
 
-  .lg\:focus\:translate-x-px:focus {
+  .group:hover .lg\:group-hover\:translate-x-px {
     --transform-translate-x: 1px;
   }
 
-  .lg\:focus\:-translate-x-1:focus {
+  .group:hover .lg\:group-hover\:-translate-x-1 {
     --transform-translate-x: -0.25rem;
   }
 
-  .lg\:focus\:-translate-x-2:focus {
+  .group:hover .lg\:group-hover\:-translate-x-2 {
     --transform-translate-x: -0.5rem;
   }
 
-  .lg\:focus\:-translate-x-3:focus {
+  .group:hover .lg\:group-hover\:-translate-x-3 {
     --transform-translate-x: -0.75rem;
   }
 
-  .lg\:focus\:-translate-x-4:focus {
+  .group:hover .lg\:group-hover\:-translate-x-4 {
     --transform-translate-x: -1rem;
   }
 
-  .lg\:focus\:-translate-x-5:focus {
+  .group:hover .lg\:group-hover\:-translate-x-5 {
     --transform-translate-x: -1.25rem;
   }
 
-  .lg\:focus\:-translate-x-6:focus {
+  .group:hover .lg\:group-hover\:-translate-x-6 {
     --transform-translate-x: -1.5rem;
   }
 
-  .lg\:focus\:-translate-x-8:focus {
+  .group:hover .lg\:group-hover\:-translate-x-8 {
     --transform-translate-x: -2rem;
   }
 
-  .lg\:focus\:-translate-x-10:focus {
+  .group:hover .lg\:group-hover\:-translate-x-10 {
     --transform-translate-x: -2.5rem;
   }
 
-  .lg\:focus\:-translate-x-12:focus {
+  .group:hover .lg\:group-hover\:-translate-x-12 {
     --transform-translate-x: -3rem;
   }
 
-  .lg\:focus\:-translate-x-16:focus {
+  .group:hover .lg\:group-hover\:-translate-x-16 {
     --transform-translate-x: -4rem;
   }
 
-  .lg\:focus\:-translate-x-20:focus {
+  .group:hover .lg\:group-hover\:-translate-x-20 {
     --transform-translate-x: -5rem;
   }
 
-  .lg\:focus\:-translate-x-24:focus {
+  .group:hover .lg\:group-hover\:-translate-x-24 {
     --transform-translate-x: -6rem;
   }
 
-  .lg\:focus\:-translate-x-32:focus {
+  .group:hover .lg\:group-hover\:-translate-x-32 {
     --transform-translate-x: -8rem;
   }
 
-  .lg\:focus\:-translate-x-40:focus {
+  .group:hover .lg\:group-hover\:-translate-x-40 {
     --transform-translate-x: -10rem;
   }
 
-  .lg\:focus\:-translate-x-48:focus {
+  .group:hover .lg\:group-hover\:-translate-x-48 {
     --transform-translate-x: -12rem;
   }
 
-  .lg\:focus\:-translate-x-56:focus {
+  .group:hover .lg\:group-hover\:-translate-x-56 {
     --transform-translate-x: -14rem;
   }
 
-  .lg\:focus\:-translate-x-64:focus {
+  .group:hover .lg\:group-hover\:-translate-x-64 {
     --transform-translate-x: -16rem;
   }
 
-  .lg\:focus\:-translate-x-72:focus {
+  .group:hover .lg\:group-hover\:-translate-x-72 {
     --transform-translate-x: -18rem;
   }
 
-  .lg\:focus\:-translate-x-80:focus {
+  .group:hover .lg\:group-hover\:-translate-x-80 {
     --transform-translate-x: -20rem;
   }
 
-  .lg\:focus\:-translate-x-px:focus {
+  .group:hover .lg\:group-hover\:-translate-x-px {
     --transform-translate-x: -1px;
   }
 
-  .lg\:focus\:-translate-x-full:focus {
+  .group:hover .lg\:group-hover\:-translate-x-full {
     --transform-translate-x: -100%;
   }
 
-  .lg\:focus\:-translate-x-1\/2:focus {
+  .group:hover .lg\:group-hover\:-translate-x-1\/2 {
     --transform-translate-x: -50%;
   }
 
-  .lg\:focus\:translate-x-1\/2:focus {
+  .group:hover .lg\:group-hover\:translate-x-1\/2 {
     --transform-translate-x: 50%;
   }
 
-  .lg\:focus\:translate-x-full:focus {
+  .group:hover .lg\:group-hover\:translate-x-full {
     --transform-translate-x: 100%;
   }
 
-  .lg\:focus\:translate-y-0:focus {
+  .group:hover .lg\:group-hover\:translate-y-0 {
     --transform-translate-y: 0;
   }
 
-  .lg\:focus\:translate-y-1:focus {
+  .group:hover .lg\:group-hover\:translate-y-1 {
     --transform-translate-y: 0.25rem;
   }
 
-  .lg\:focus\:translate-y-2:focus {
+  .group:hover .lg\:group-hover\:translate-y-2 {
     --transform-translate-y: 0.5rem;
   }
 
-  .lg\:focus\:translate-y-3:focus {
+  .group:hover .lg\:group-hover\:translate-y-3 {
     --transform-translate-y: 0.75rem;
   }
 
-  .lg\:focus\:translate-y-4:focus {
+  .group:hover .lg\:group-hover\:translate-y-4 {
     --transform-translate-y: 1rem;
   }
 
-  .lg\:focus\:translate-y-5:focus {
+  .group:hover .lg\:group-hover\:translate-y-5 {
     --transform-translate-y: 1.25rem;
   }
 
-  .lg\:focus\:translate-y-6:focus {
+  .group:hover .lg\:group-hover\:translate-y-6 {
     --transform-translate-y: 1.5rem;
   }
 
-  .lg\:focus\:translate-y-8:focus {
+  .group:hover .lg\:group-hover\:translate-y-8 {
     --transform-translate-y: 2rem;
   }
 
-  .lg\:focus\:translate-y-10:focus {
+  .group:hover .lg\:group-hover\:translate-y-10 {
     --transform-translate-y: 2.5rem;
   }
 
-  .lg\:focus\:translate-y-12:focus {
+  .group:hover .lg\:group-hover\:translate-y-12 {
     --transform-translate-y: 3rem;
   }
 
-  .lg\:focus\:translate-y-16:focus {
+  .group:hover .lg\:group-hover\:translate-y-16 {
     --transform-translate-y: 4rem;
   }
 
-  .lg\:focus\:translate-y-20:focus {
+  .group:hover .lg\:group-hover\:translate-y-20 {
     --transform-translate-y: 5rem;
   }
 
-  .lg\:focus\:translate-y-24:focus {
+  .group:hover .lg\:group-hover\:translate-y-24 {
     --transform-translate-y: 6rem;
   }
 
-  .lg\:focus\:translate-y-32:focus {
+  .group:hover .lg\:group-hover\:translate-y-32 {
     --transform-translate-y: 8rem;
   }
 
-  .lg\:focus\:translate-y-40:focus {
+  .group:hover .lg\:group-hover\:translate-y-40 {
     --transform-translate-y: 10rem;
   }
 
-  .lg\:focus\:translate-y-48:focus {
+  .group:hover .lg\:group-hover\:translate-y-48 {
     --transform-translate-y: 12rem;
   }
 
-  .lg\:focus\:translate-y-56:focus {
+  .group:hover .lg\:group-hover\:translate-y-56 {
     --transform-translate-y: 14rem;
   }
 
-  .lg\:focus\:translate-y-64:focus {
+  .group:hover .lg\:group-hover\:translate-y-64 {
     --transform-translate-y: 16rem;
   }
 
-  .lg\:focus\:translate-y-72:focus {
+  .group:hover .lg\:group-hover\:translate-y-72 {
     --transform-translate-y: 18rem;
   }
 
-  .lg\:focus\:translate-y-80:focus {
+  .group:hover .lg\:group-hover\:translate-y-80 {
     --transform-translate-y: 20rem;
   }
 
-  .lg\:focus\:translate-y-px:focus {
+  .group:hover .lg\:group-hover\:translate-y-px {
     --transform-translate-y: 1px;
   }
 
-  .lg\:focus\:-translate-y-1:focus {
+  .group:hover .lg\:group-hover\:-translate-y-1 {
     --transform-translate-y: -0.25rem;
   }
 
-  .lg\:focus\:-translate-y-2:focus {
+  .group:hover .lg\:group-hover\:-translate-y-2 {
     --transform-translate-y: -0.5rem;
   }
 
-  .lg\:focus\:-translate-y-3:focus {
+  .group:hover .lg\:group-hover\:-translate-y-3 {
     --transform-translate-y: -0.75rem;
   }
 
-  .lg\:focus\:-translate-y-4:focus {
+  .group:hover .lg\:group-hover\:-translate-y-4 {
     --transform-translate-y: -1rem;
   }
 
-  .lg\:focus\:-translate-y-5:focus {
+  .group:hover .lg\:group-hover\:-translate-y-5 {
     --transform-translate-y: -1.25rem;
   }
 
-  .lg\:focus\:-translate-y-6:focus {
+  .group:hover .lg\:group-hover\:-translate-y-6 {
     --transform-translate-y: -1.5rem;
   }
 
-  .lg\:focus\:-translate-y-8:focus {
+  .group:hover .lg\:group-hover\:-translate-y-8 {
     --transform-translate-y: -2rem;
   }
 
-  .lg\:focus\:-translate-y-10:focus {
+  .group:hover .lg\:group-hover\:-translate-y-10 {
     --transform-translate-y: -2.5rem;
   }
 
-  .lg\:focus\:-translate-y-12:focus {
+  .group:hover .lg\:group-hover\:-translate-y-12 {
     --transform-translate-y: -3rem;
   }
 
-  .lg\:focus\:-translate-y-16:focus {
+  .group:hover .lg\:group-hover\:-translate-y-16 {
     --transform-translate-y: -4rem;
   }
 
-  .lg\:focus\:-translate-y-20:focus {
+  .group:hover .lg\:group-hover\:-translate-y-20 {
     --transform-translate-y: -5rem;
   }
 
-  .lg\:focus\:-translate-y-24:focus {
+  .group:hover .lg\:group-hover\:-translate-y-24 {
     --transform-translate-y: -6rem;
   }
 
-  .lg\:focus\:-translate-y-32:focus {
+  .group:hover .lg\:group-hover\:-translate-y-32 {
     --transform-translate-y: -8rem;
   }
 
-  .lg\:focus\:-translate-y-40:focus {
+  .group:hover .lg\:group-hover\:-translate-y-40 {
     --transform-translate-y: -10rem;
   }
 
-  .lg\:focus\:-translate-y-48:focus {
+  .group:hover .lg\:group-hover\:-translate-y-48 {
     --transform-translate-y: -12rem;
   }
 
-  .lg\:focus\:-translate-y-56:focus {
+  .group:hover .lg\:group-hover\:-translate-y-56 {
     --transform-translate-y: -14rem;
   }
 
-  .lg\:focus\:-translate-y-64:focus {
+  .group:hover .lg\:group-hover\:-translate-y-64 {
     --transform-translate-y: -16rem;
   }
 
-  .lg\:focus\:-translate-y-72:focus {
+  .group:hover .lg\:group-hover\:-translate-y-72 {
     --transform-translate-y: -18rem;
   }
 
-  .lg\:focus\:-translate-y-80:focus {
+  .group:hover .lg\:group-hover\:-translate-y-80 {
     --transform-translate-y: -20rem;
   }
 
-  .lg\:focus\:-translate-y-px:focus {
+  .group:hover .lg\:group-hover\:-translate-y-px {
     --transform-translate-y: -1px;
   }
 
-  .lg\:focus\:-translate-y-full:focus {
+  .group:hover .lg\:group-hover\:-translate-y-full {
     --transform-translate-y: -100%;
   }
 
-  .lg\:focus\:-translate-y-1\/2:focus {
+  .group:hover .lg\:group-hover\:-translate-y-1\/2 {
     --transform-translate-y: -50%;
   }
 
-  .lg\:focus\:translate-y-1\/2:focus {
+  .group:hover .lg\:group-hover\:translate-y-1\/2 {
     --transform-translate-y: 50%;
   }
 
-  .lg\:focus\:translate-y-full:focus {
+  .group:hover .lg\:group-hover\:translate-y-full {
     --transform-translate-y: 100%;
   }
 
@@ -71381,133 +71381,133 @@ video {
     --transform-scale-y: 1.5;
   }
 
-  .xl\:focus\:scale-0:focus {
+  .group:hover .xl\:group-hover\:scale-0 {
     --transform-scale-x: 0;
     --transform-scale-y: 0;
   }
 
-  .xl\:focus\:scale-50:focus {
+  .group:hover .xl\:group-hover\:scale-50 {
     --transform-scale-x: .5;
     --transform-scale-y: .5;
   }
 
-  .xl\:focus\:scale-75:focus {
+  .group:hover .xl\:group-hover\:scale-75 {
     --transform-scale-x: .75;
     --transform-scale-y: .75;
   }
 
-  .xl\:focus\:scale-90:focus {
+  .group:hover .xl\:group-hover\:scale-90 {
     --transform-scale-x: .9;
     --transform-scale-y: .9;
   }
 
-  .xl\:focus\:scale-95:focus {
+  .group:hover .xl\:group-hover\:scale-95 {
     --transform-scale-x: .95;
     --transform-scale-y: .95;
   }
 
-  .xl\:focus\:scale-100:focus {
+  .group:hover .xl\:group-hover\:scale-100 {
     --transform-scale-x: 1;
     --transform-scale-y: 1;
   }
 
-  .xl\:focus\:scale-105:focus {
+  .group:hover .xl\:group-hover\:scale-105 {
     --transform-scale-x: 1.05;
     --transform-scale-y: 1.05;
   }
 
-  .xl\:focus\:scale-110:focus {
+  .group:hover .xl\:group-hover\:scale-110 {
     --transform-scale-x: 1.1;
     --transform-scale-y: 1.1;
   }
 
-  .xl\:focus\:scale-125:focus {
+  .group:hover .xl\:group-hover\:scale-125 {
     --transform-scale-x: 1.25;
     --transform-scale-y: 1.25;
   }
 
-  .xl\:focus\:scale-150:focus {
+  .group:hover .xl\:group-hover\:scale-150 {
     --transform-scale-x: 1.5;
     --transform-scale-y: 1.5;
   }
 
-  .xl\:focus\:scale-x-0:focus {
+  .group:hover .xl\:group-hover\:scale-x-0 {
     --transform-scale-x: 0;
   }
 
-  .xl\:focus\:scale-x-50:focus {
+  .group:hover .xl\:group-hover\:scale-x-50 {
     --transform-scale-x: .5;
   }
 
-  .xl\:focus\:scale-x-75:focus {
+  .group:hover .xl\:group-hover\:scale-x-75 {
     --transform-scale-x: .75;
   }
 
-  .xl\:focus\:scale-x-90:focus {
+  .group:hover .xl\:group-hover\:scale-x-90 {
     --transform-scale-x: .9;
   }
 
-  .xl\:focus\:scale-x-95:focus {
+  .group:hover .xl\:group-hover\:scale-x-95 {
     --transform-scale-x: .95;
   }
 
-  .xl\:focus\:scale-x-100:focus {
+  .group:hover .xl\:group-hover\:scale-x-100 {
     --transform-scale-x: 1;
   }
 
-  .xl\:focus\:scale-x-105:focus {
+  .group:hover .xl\:group-hover\:scale-x-105 {
     --transform-scale-x: 1.05;
   }
 
-  .xl\:focus\:scale-x-110:focus {
+  .group:hover .xl\:group-hover\:scale-x-110 {
     --transform-scale-x: 1.1;
   }
 
-  .xl\:focus\:scale-x-125:focus {
+  .group:hover .xl\:group-hover\:scale-x-125 {
     --transform-scale-x: 1.25;
   }
 
-  .xl\:focus\:scale-x-150:focus {
+  .group:hover .xl\:group-hover\:scale-x-150 {
     --transform-scale-x: 1.5;
   }
 
-  .xl\:focus\:scale-y-0:focus {
+  .group:hover .xl\:group-hover\:scale-y-0 {
     --transform-scale-y: 0;
   }
 
-  .xl\:focus\:scale-y-50:focus {
+  .group:hover .xl\:group-hover\:scale-y-50 {
     --transform-scale-y: .5;
   }
 
-  .xl\:focus\:scale-y-75:focus {
+  .group:hover .xl\:group-hover\:scale-y-75 {
     --transform-scale-y: .75;
   }
 
-  .xl\:focus\:scale-y-90:focus {
+  .group:hover .xl\:group-hover\:scale-y-90 {
     --transform-scale-y: .9;
   }
 
-  .xl\:focus\:scale-y-95:focus {
+  .group:hover .xl\:group-hover\:scale-y-95 {
     --transform-scale-y: .95;
   }
 
-  .xl\:focus\:scale-y-100:focus {
+  .group:hover .xl\:group-hover\:scale-y-100 {
     --transform-scale-y: 1;
   }
 
-  .xl\:focus\:scale-y-105:focus {
+  .group:hover .xl\:group-hover\:scale-y-105 {
     --transform-scale-y: 1.05;
   }
 
-  .xl\:focus\:scale-y-110:focus {
+  .group:hover .xl\:group-hover\:scale-y-110 {
     --transform-scale-y: 1.1;
   }
 
-  .xl\:focus\:scale-y-125:focus {
+  .group:hover .xl\:group-hover\:scale-y-125 {
     --transform-scale-y: 1.25;
   }
 
-  .xl\:focus\:scale-y-150:focus {
+  .group:hover .xl\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -72315,363 +72315,363 @@ video {
     --transform-translate-y: 100%;
   }
 
-  .xl\:focus\:translate-x-0:focus {
+  .group:hover .xl\:group-hover\:translate-x-0 {
     --transform-translate-x: 0;
   }
 
-  .xl\:focus\:translate-x-1:focus {
+  .group:hover .xl\:group-hover\:translate-x-1 {
     --transform-translate-x: 0.25rem;
   }
 
-  .xl\:focus\:translate-x-2:focus {
+  .group:hover .xl\:group-hover\:translate-x-2 {
     --transform-translate-x: 0.5rem;
   }
 
-  .xl\:focus\:translate-x-3:focus {
+  .group:hover .xl\:group-hover\:translate-x-3 {
     --transform-translate-x: 0.75rem;
   }
 
-  .xl\:focus\:translate-x-4:focus {
+  .group:hover .xl\:group-hover\:translate-x-4 {
     --transform-translate-x: 1rem;
   }
 
-  .xl\:focus\:translate-x-5:focus {
+  .group:hover .xl\:group-hover\:translate-x-5 {
     --transform-translate-x: 1.25rem;
   }
 
-  .xl\:focus\:translate-x-6:focus {
+  .group:hover .xl\:group-hover\:translate-x-6 {
     --transform-translate-x: 1.5rem;
   }
 
-  .xl\:focus\:translate-x-8:focus {
+  .group:hover .xl\:group-hover\:translate-x-8 {
     --transform-translate-x: 2rem;
   }
 
-  .xl\:focus\:translate-x-10:focus {
+  .group:hover .xl\:group-hover\:translate-x-10 {
     --transform-translate-x: 2.5rem;
   }
 
-  .xl\:focus\:translate-x-12:focus {
+  .group:hover .xl\:group-hover\:translate-x-12 {
     --transform-translate-x: 3rem;
   }
 
-  .xl\:focus\:translate-x-16:focus {
+  .group:hover .xl\:group-hover\:translate-x-16 {
     --transform-translate-x: 4rem;
   }
 
-  .xl\:focus\:translate-x-20:focus {
+  .group:hover .xl\:group-hover\:translate-x-20 {
     --transform-translate-x: 5rem;
   }
 
-  .xl\:focus\:translate-x-24:focus {
+  .group:hover .xl\:group-hover\:translate-x-24 {
     --transform-translate-x: 6rem;
   }
 
-  .xl\:focus\:translate-x-32:focus {
+  .group:hover .xl\:group-hover\:translate-x-32 {
     --transform-translate-x: 8rem;
   }
 
-  .xl\:focus\:translate-x-40:focus {
+  .group:hover .xl\:group-hover\:translate-x-40 {
     --transform-translate-x: 10rem;
   }
 
-  .xl\:focus\:translate-x-48:focus {
+  .group:hover .xl\:group-hover\:translate-x-48 {
     --transform-translate-x: 12rem;
   }
 
-  .xl\:focus\:translate-x-56:focus {
+  .group:hover .xl\:group-hover\:translate-x-56 {
     --transform-translate-x: 14rem;
   }
 
-  .xl\:focus\:translate-x-64:focus {
+  .group:hover .xl\:group-hover\:translate-x-64 {
     --transform-translate-x: 16rem;
   }
 
-  .xl\:focus\:translate-x-72:focus {
+  .group:hover .xl\:group-hover\:translate-x-72 {
     --transform-translate-x: 18rem;
   }
 
-  .xl\:focus\:translate-x-80:focus {
+  .group:hover .xl\:group-hover\:translate-x-80 {
     --transform-translate-x: 20rem;
   }
 
-  .xl\:focus\:translate-x-px:focus {
+  .group:hover .xl\:group-hover\:translate-x-px {
     --transform-translate-x: 1px;
   }
 
-  .xl\:focus\:-translate-x-1:focus {
+  .group:hover .xl\:group-hover\:-translate-x-1 {
     --transform-translate-x: -0.25rem;
   }
 
-  .xl\:focus\:-translate-x-2:focus {
+  .group:hover .xl\:group-hover\:-translate-x-2 {
     --transform-translate-x: -0.5rem;
   }
 
-  .xl\:focus\:-translate-x-3:focus {
+  .group:hover .xl\:group-hover\:-translate-x-3 {
     --transform-translate-x: -0.75rem;
   }
 
-  .xl\:focus\:-translate-x-4:focus {
+  .group:hover .xl\:group-hover\:-translate-x-4 {
     --transform-translate-x: -1rem;
   }
 
-  .xl\:focus\:-translate-x-5:focus {
+  .group:hover .xl\:group-hover\:-translate-x-5 {
     --transform-translate-x: -1.25rem;
   }
 
-  .xl\:focus\:-translate-x-6:focus {
+  .group:hover .xl\:group-hover\:-translate-x-6 {
     --transform-translate-x: -1.5rem;
   }
 
-  .xl\:focus\:-translate-x-8:focus {
+  .group:hover .xl\:group-hover\:-translate-x-8 {
     --transform-translate-x: -2rem;
   }
 
-  .xl\:focus\:-translate-x-10:focus {
+  .group:hover .xl\:group-hover\:-translate-x-10 {
     --transform-translate-x: -2.5rem;
   }
 
-  .xl\:focus\:-translate-x-12:focus {
+  .group:hover .xl\:group-hover\:-translate-x-12 {
     --transform-translate-x: -3rem;
   }
 
-  .xl\:focus\:-translate-x-16:focus {
+  .group:hover .xl\:group-hover\:-translate-x-16 {
     --transform-translate-x: -4rem;
   }
 
-  .xl\:focus\:-translate-x-20:focus {
+  .group:hover .xl\:group-hover\:-translate-x-20 {
     --transform-translate-x: -5rem;
   }
 
-  .xl\:focus\:-translate-x-24:focus {
+  .group:hover .xl\:group-hover\:-translate-x-24 {
     --transform-translate-x: -6rem;
   }
 
-  .xl\:focus\:-translate-x-32:focus {
+  .group:hover .xl\:group-hover\:-translate-x-32 {
     --transform-translate-x: -8rem;
   }
 
-  .xl\:focus\:-translate-x-40:focus {
+  .group:hover .xl\:group-hover\:-translate-x-40 {
     --transform-translate-x: -10rem;
   }
 
-  .xl\:focus\:-translate-x-48:focus {
+  .group:hover .xl\:group-hover\:-translate-x-48 {
     --transform-translate-x: -12rem;
   }
 
-  .xl\:focus\:-translate-x-56:focus {
+  .group:hover .xl\:group-hover\:-translate-x-56 {
     --transform-translate-x: -14rem;
   }
 
-  .xl\:focus\:-translate-x-64:focus {
+  .group:hover .xl\:group-hover\:-translate-x-64 {
     --transform-translate-x: -16rem;
   }
 
-  .xl\:focus\:-translate-x-72:focus {
+  .group:hover .xl\:group-hover\:-translate-x-72 {
     --transform-translate-x: -18rem;
   }
 
-  .xl\:focus\:-translate-x-80:focus {
+  .group:hover .xl\:group-hover\:-translate-x-80 {
     --transform-translate-x: -20rem;
   }
 
-  .xl\:focus\:-translate-x-px:focus {
+  .group:hover .xl\:group-hover\:-translate-x-px {
     --transform-translate-x: -1px;
   }
 
-  .xl\:focus\:-translate-x-full:focus {
+  .group:hover .xl\:group-hover\:-translate-x-full {
     --transform-translate-x: -100%;
   }
 
-  .xl\:focus\:-translate-x-1\/2:focus {
+  .group:hover .xl\:group-hover\:-translate-x-1\/2 {
     --transform-translate-x: -50%;
   }
 
-  .xl\:focus\:translate-x-1\/2:focus {
+  .group:hover .xl\:group-hover\:translate-x-1\/2 {
     --transform-translate-x: 50%;
   }
 
-  .xl\:focus\:translate-x-full:focus {
+  .group:hover .xl\:group-hover\:translate-x-full {
     --transform-translate-x: 100%;
   }
 
-  .xl\:focus\:translate-y-0:focus {
+  .group:hover .xl\:group-hover\:translate-y-0 {
     --transform-translate-y: 0;
   }
 
-  .xl\:focus\:translate-y-1:focus {
+  .group:hover .xl\:group-hover\:translate-y-1 {
     --transform-translate-y: 0.25rem;
   }
 
-  .xl\:focus\:translate-y-2:focus {
+  .group:hover .xl\:group-hover\:translate-y-2 {
     --transform-translate-y: 0.5rem;
   }
 
-  .xl\:focus\:translate-y-3:focus {
+  .group:hover .xl\:group-hover\:translate-y-3 {
     --transform-translate-y: 0.75rem;
   }
 
-  .xl\:focus\:translate-y-4:focus {
+  .group:hover .xl\:group-hover\:translate-y-4 {
     --transform-translate-y: 1rem;
   }
 
-  .xl\:focus\:translate-y-5:focus {
+  .group:hover .xl\:group-hover\:translate-y-5 {
     --transform-translate-y: 1.25rem;
   }
 
-  .xl\:focus\:translate-y-6:focus {
+  .group:hover .xl\:group-hover\:translate-y-6 {
     --transform-translate-y: 1.5rem;
   }
 
-  .xl\:focus\:translate-y-8:focus {
+  .group:hover .xl\:group-hover\:translate-y-8 {
     --transform-translate-y: 2rem;
   }
 
-  .xl\:focus\:translate-y-10:focus {
+  .group:hover .xl\:group-hover\:translate-y-10 {
     --transform-translate-y: 2.5rem;
   }
 
-  .xl\:focus\:translate-y-12:focus {
+  .group:hover .xl\:group-hover\:translate-y-12 {
     --transform-translate-y: 3rem;
   }
 
-  .xl\:focus\:translate-y-16:focus {
+  .group:hover .xl\:group-hover\:translate-y-16 {
     --transform-translate-y: 4rem;
   }
 
-  .xl\:focus\:translate-y-20:focus {
+  .group:hover .xl\:group-hover\:translate-y-20 {
     --transform-translate-y: 5rem;
   }
 
-  .xl\:focus\:translate-y-24:focus {
+  .group:hover .xl\:group-hover\:translate-y-24 {
     --transform-translate-y: 6rem;
   }
 
-  .xl\:focus\:translate-y-32:focus {
+  .group:hover .xl\:group-hover\:translate-y-32 {
     --transform-translate-y: 8rem;
   }
 
-  .xl\:focus\:translate-y-40:focus {
+  .group:hover .xl\:group-hover\:translate-y-40 {
     --transform-translate-y: 10rem;
   }
 
-  .xl\:focus\:translate-y-48:focus {
+  .group:hover .xl\:group-hover\:translate-y-48 {
     --transform-translate-y: 12rem;
   }
 
-  .xl\:focus\:translate-y-56:focus {
+  .group:hover .xl\:group-hover\:translate-y-56 {
     --transform-translate-y: 14rem;
   }
 
-  .xl\:focus\:translate-y-64:focus {
+  .group:hover .xl\:group-hover\:translate-y-64 {
     --transform-translate-y: 16rem;
   }
 
-  .xl\:focus\:translate-y-72:focus {
+  .group:hover .xl\:group-hover\:translate-y-72 {
     --transform-translate-y: 18rem;
   }
 
-  .xl\:focus\:translate-y-80:focus {
+  .group:hover .xl\:group-hover\:translate-y-80 {
     --transform-translate-y: 20rem;
   }
 
-  .xl\:focus\:translate-y-px:focus {
+  .group:hover .xl\:group-hover\:translate-y-px {
     --transform-translate-y: 1px;
   }
 
-  .xl\:focus\:-translate-y-1:focus {
+  .group:hover .xl\:group-hover\:-translate-y-1 {
     --transform-translate-y: -0.25rem;
   }
 
-  .xl\:focus\:-translate-y-2:focus {
+  .group:hover .xl\:group-hover\:-translate-y-2 {
     --transform-translate-y: -0.5rem;
   }
 
-  .xl\:focus\:-translate-y-3:focus {
+  .group:hover .xl\:group-hover\:-translate-y-3 {
     --transform-translate-y: -0.75rem;
   }
 
-  .xl\:focus\:-translate-y-4:focus {
+  .group:hover .xl\:group-hover\:-translate-y-4 {
     --transform-translate-y: -1rem;
   }
 
-  .xl\:focus\:-translate-y-5:focus {
+  .group:hover .xl\:group-hover\:-translate-y-5 {
     --transform-translate-y: -1.25rem;
   }
 
-  .xl\:focus\:-translate-y-6:focus {
+  .group:hover .xl\:group-hover\:-translate-y-6 {
     --transform-translate-y: -1.5rem;
   }
 
-  .xl\:focus\:-translate-y-8:focus {
+  .group:hover .xl\:group-hover\:-translate-y-8 {
     --transform-translate-y: -2rem;
   }
 
-  .xl\:focus\:-translate-y-10:focus {
+  .group:hover .xl\:group-hover\:-translate-y-10 {
     --transform-translate-y: -2.5rem;
   }
 
-  .xl\:focus\:-translate-y-12:focus {
+  .group:hover .xl\:group-hover\:-translate-y-12 {
     --transform-translate-y: -3rem;
   }
 
-  .xl\:focus\:-translate-y-16:focus {
+  .group:hover .xl\:group-hover\:-translate-y-16 {
     --transform-translate-y: -4rem;
   }
 
-  .xl\:focus\:-translate-y-20:focus {
+  .group:hover .xl\:group-hover\:-translate-y-20 {
     --transform-translate-y: -5rem;
   }
 
-  .xl\:focus\:-translate-y-24:focus {
+  .group:hover .xl\:group-hover\:-translate-y-24 {
     --transform-translate-y: -6rem;
   }
 
-  .xl\:focus\:-translate-y-32:focus {
+  .group:hover .xl\:group-hover\:-translate-y-32 {
     --transform-translate-y: -8rem;
   }
 
-  .xl\:focus\:-translate-y-40:focus {
+  .group:hover .xl\:group-hover\:-translate-y-40 {
     --transform-translate-y: -10rem;
   }
 
-  .xl\:focus\:-translate-y-48:focus {
+  .group:hover .xl\:group-hover\:-translate-y-48 {
     --transform-translate-y: -12rem;
   }
 
-  .xl\:focus\:-translate-y-56:focus {
+  .group:hover .xl\:group-hover\:-translate-y-56 {
     --transform-translate-y: -14rem;
   }
 
-  .xl\:focus\:-translate-y-64:focus {
+  .group:hover .xl\:group-hover\:-translate-y-64 {
     --transform-translate-y: -16rem;
   }
 
-  .xl\:focus\:-translate-y-72:focus {
+  .group:hover .xl\:group-hover\:-translate-y-72 {
     --transform-translate-y: -18rem;
   }
 
-  .xl\:focus\:-translate-y-80:focus {
+  .group:hover .xl\:group-hover\:-translate-y-80 {
     --transform-translate-y: -20rem;
   }
 
-  .xl\:focus\:-translate-y-px:focus {
+  .group:hover .xl\:group-hover\:-translate-y-px {
     --transform-translate-y: -1px;
   }
 
-  .xl\:focus\:-translate-y-full:focus {
+  .group:hover .xl\:group-hover\:-translate-y-full {
     --transform-translate-y: -100%;
   }
 
-  .xl\:focus\:-translate-y-1\/2:focus {
+  .group:hover .xl\:group-hover\:-translate-y-1\/2 {
     --transform-translate-y: -50%;
   }
 
-  .xl\:focus\:translate-y-1\/2:focus {
+  .group:hover .xl\:group-hover\:translate-y-1\/2 {
     --transform-translate-y: 50%;
   }
 
-  .xl\:focus\:translate-y-full:focus {
+  .group:hover .xl\:group-hover\:translate-y-full {
     --transform-translate-y: 100%;
   }
 
