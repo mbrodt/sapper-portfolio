@@ -21,18 +21,20 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<div class="px-4 sm:px-12 pt-32 lg:py-48 max-w-7xl mx-auto">
   <div class="mb-16 max-w-2xl">
     <a href="/">
       <svg
-        class="text-gray-500 fill-current"
-        width="24"
-        height="24"
+        fill="none"
         viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg">
+        stroke="currentColor"
+        class="w-6 h-6 text-gray-500">
         <path
-          d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" />
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M7 16l-4-4m0 0l4-4m-4 4h18" />
       </svg>
+
     </a>
     <h1
       class="text-red-400 mt-2 text-3xl sm:text-4xl leading-tight xl:text-5xl
@@ -52,4 +54,3 @@
   <div class="rich-text w-full overflow-hidden max-w-2xl">
     {@html post.html}
   </div>
-</div>
