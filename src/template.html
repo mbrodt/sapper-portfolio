@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+    <meta
+      name="description"
+      content="I'm a front-end engineer from Copenhagen. I design, create and support
+	websites and applications for clients and for fun."
+    />
 
-<head>
-	<meta charset="utf-8" />
-	<meta content="width=device-width,initial-scale=1.0" name="viewport" />
-	<meta name="description" content="I'm a front-end developer from Copenhagen. I design, create and support
-	websites and applications for clients and for fun.">
-	<meta property="og:title" content="Mads Brodt">
-	<meta property="og:description" content="I'm a front-end developer from Copenhagen. I design, create and support
-	websites and applications for clients and for fun.">
-	<meta property="og:image" content="https://madsbrodt.com/metaimage.png">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Mads Brodt">
-	<meta name="twitter:description" content="I'm a front-end developer from Copenhagen. I design, create and support
-	websites and applications for clients and for fun.">
-	<meta name="twitter:image" content="https://madsbrodt.com/metaimage.png">
-	<meta content="#333333" name="theme-color" />
-	<link href="/index.css" rel="stylesheet" />
-	<link href="/custom.css" rel="stylesheet" />
-	<link href="/highlight.css" rel="stylesheet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@madsbrodt" />
+    <meta name="twitter:title" content="Mads Brodt - Front-end engineer" />
+    <meta
+      name="twitter:description"
+      content="I'm a front-end engineer from Copenhagen. I design, create and support
+		websites and applications for clients and for fun."
+    />
+    <meta name="twitter:image" content="https://madsbrodt.com/metaimage.png" />
+    <meta name="twitter:creator" content="@madsbrodt" />
 
-	%sapper.base%
+    <meta property="og:url" content="https://madsbrodt.com/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Mads Brodt - Front-end engineer" />
+    <meta
+      property="og:description"
+      content="I'm a front-end engineer from Copenhagen. I design, create and support
+websites and applications for clients and for fun."
+    />
+    <meta property="og:image" content="https://madsbrodt.com/metaimage.png" />
 
-	<link href="manifest.json" rel="manifest" />
-	<link href="favicon.png" rel="icon" type="image/png" />
+    <meta content="#fc8181" name="theme-color" />
+    <link href="/index.css" rel="stylesheet" />
+    <link href="/custom.css" rel="stylesheet" />
+    <link href="/highlight.css" rel="stylesheet" />
 
-	<!-- Sapper generates a <style> tag containing critical CSS
+    %sapper.base%
+
+    <link href="manifest.json" rel="manifest" />
+    <link href="favicon.png" rel="icon" type="image/png" />
+
+    <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
 	     lazily loaded when it precaches secondary pages -->
-	%sapper.styles%
+    %sapper.styles%
 
-	<!-- This contains the contents of the <svelte:head> component, if
+    <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
-	%sapper.head%
-</head>
+    %sapper.head%
+  </head>
 
-<body>
-	<!-- The application will be rendered inside this element,
+  <body>
+    <!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-	<div class="font-inter" id="sapper">%sapper.html%</div>
+    <div class="font-inter border-t-4 border-red-400" id="sapper">
+      %sapper.html%
+    </div>
 
-	<!-- Sapper creates a <script> tag containing `src/client.js`
+    <!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-	%sapper.scripts%
-</body>
-
+    %sapper.scripts%
+  </body>
 </html>
