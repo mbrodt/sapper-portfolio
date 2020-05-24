@@ -26,5 +26,5 @@ import Timeline from "../components/Timeline.svelte"
       font-semibold">
       About me
     </h1>
-		<Timeline />
-		</div>
+	<Timeline />
+</div>

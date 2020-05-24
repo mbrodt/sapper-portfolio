@@ -1,12 +1,13 @@
-<div class="flex items-center text-red-400 ">
+<div class="flex items-center text-red-400">
   <a
     target="_blank"
     rel="noopener noreferrer"
-    href="https://twitter.com/madsbrodt">
+    href="https://twitter.com/madsbrodt"
+  >
     <svg
-      class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
-      duration-100 ease-out hover:scale-125"
-      viewBox="0 0 24 24">
+      class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform duration-100 ease-out hover:scale-125"
+      viewBox="0 0 24 24"
+    >
       <path
         d="M8.975 20c7.17 0 11.09-6.155 11.09-11.492
         0-.175-.003-.35-.01-.523a8.094 8.094 0 001.944-2.091 7.563 7.563 0
@@ -16,17 +17,17 @@
         .316.034.625.1.92-3.239-.168-6.112-1.776-8.034-4.22a4.14 4.14 0 00-.529
         2.03c0 1.402.689 2.639 1.735 3.363a3.766 3.766 0 01-1.765-.506v.052c0
         1.956 1.343 3.59 3.127 3.96a3.772 3.772 0 01-1.761.07c.496 1.604 1.935
-        2.772 3.641 2.804A7.647 7.647 0 013 18.185 10.756 10.756 0 008.975 20" />
+        2.772 3.641 2.804A7.647 7.647 0 013 18.185 10.756 10.756 0 008.975 20"
+      />
     </svg>
-
   </a>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/mbrodt">
     <svg
-      class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
-      duration-100 ease-out hover:scale-125"
+      class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform duration-100 ease-out hover:scale-125"
       viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M12 3a9 9 0 100 18 9 9 0 000-18zm5.345 14.345a7.538 7.538 0 01-3.1
         1.875v-1.349c0-.709-.243-1.23-.729-1.564a7.92 7.92 0
@@ -39,17 +40,19 @@
         1.002.14.278.315.527.523.747.192.207.41.387.65.536.242.145.498.265.765.356.284.1.554.176.809.229.255.052.534.093.839.123-.48.328-.72.85-.72
         1.564v1.375a7.536 7.536 0 01-3.188-1.901A7.534 7.534 0 014.441 12a7.536
         7.536 0 012.214-5.345A7.535 7.535 0 0112 4.441a7.537 7.537 0 015.345
-        2.214A7.536 7.536 0 0119.559 12a7.535 7.535 0 01-2.214 5.345z" />
+        2.214A7.536 7.536 0 0119.559 12a7.535 7.535 0 01-2.214 5.345z"
+      />
     </svg>
   </a>
   <a
     target="_blank"
     rel="noopener noreferrer"
-    href="https://www.linkedin.com/in/mads-brodt-nielsen-a35874152/">
+    href="https://www.linkedin.com/in/mads-brodt-nielsen-a35874152/"
+  >
     <svg
-      class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
-      duration-100 ease-out hover:scale-125"
-      viewBox="0 0 24 24">
+      class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform duration-100 ease-out hover:scale-125"
+      viewBox="0 0 24 24"
+    >
       <path
         d="M19.372 3H4.628C3.73 3 3 3.729 3 4.628v14.744C3 20.27 3.729 21 4.628
         21h14.744C20.27 21 21 20.271 21 19.372V4.628C21 3.73 20.271 3 19.372
@@ -61,8 +64,8 @@
         1.37-1.659 1.984v4.575c0 .24-.195.435-.435.435H10.34a.436.436 0
         01-.436-.435v-8.532c0-.24.196-.436.436-.436h2.094c.24 0
         .435.195.435.436v.738c.495-.743 1.23-1.316 2.795-1.316 3.466 0 3.446
-        3.238 3.446 5.017v4.093z" />
+        3.238 3.446 5.017v4.093z"
+      />
     </svg>
   </a>
-
 </div>
