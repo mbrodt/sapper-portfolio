@@ -26,7 +26,7 @@
 							{formatPostTags(post.tags)}
 						</div>
 						<div class="text-gray-800 font-bold text-lg lg:text-xl xl:text-2xl mb-1 flex-1">{post.title}</div>
-						<div class="text-gray-500 uppercase font-bold text-xs">{post.date}</div>
+						<div class="text-gray-500 text-xs">{post.date}</div>
 					</div>
 					<div class="flex items-center pr-4">
 						<svg class="w-6 h-6 transform transition-transform duration-200 ease-out
