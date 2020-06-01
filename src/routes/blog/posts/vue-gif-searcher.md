@@ -1,8 +1,8 @@
 ---
-title: 'Building a Gif Searcher with Vue and the Giphy API'
-date: '2018-04-15'
-icon: 'vue.svg'
-type: 'blog-post'
+title: "Building a Gif Searcher with Vue and the Giphy API"
+date: "2018-04-15"
+tags: ["Programming", "Vue"]
+type: "blog-post"
 ---
 
 Welcome to this tutorial, I'm happy you made it here. This will be a tutorial on how to fetch and display gifs with Vue, retrieved from the giphy API. We will cover the following parts:
@@ -54,12 +54,12 @@ So far, we just got the boilerplate Vue project running. For the sake of simplic
 </template>
 
 <script>
-  export default {}
+  export default {};
 </script>
 
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -119,13 +119,13 @@ And your `<script>` tag look like this:
 
 ```html
 <script>
-export default {
-  data() {
-    return {
-      searchTerm: ""
-    };
-  }
-};
+  export default {
+    data() {
+      return {
+        searchTerm: "",
+      };
+    },
+  };
 </script>
 ```
 
@@ -133,18 +133,18 @@ Cool! We’re now storing whatever the user types in the input field in our appl
 
 ```html
 <script>
-export default {
-  data() {
-    return {
-      searchTerm: ""
-    };
-  },
-  methods: {
-    getGifs() {
-      console.log(this.searchTerm);
-    }
-  }
-};
+  export default {
+    data() {
+      return {
+        searchTerm: "",
+      };
+    },
+    methods: {
+      getGifs() {
+        console.log(this.searchTerm);
+      },
+    },
+  };
 </script>
 ```
 
@@ -163,28 +163,26 @@ To get data from giphy, we’ll need to know the endpoint from where to request 
 What we need to do is to construct a URL using the endpoint, our API key, our searchTerm and a limit for how many gifs the API will return to us. We construct the URL by using ES6 template strings to combine several variables. Put this code in your getGifs() method:
 
 ```javascript
-let apiKey = 'dc6zaTOxFJmzC'
-let searchEndPoint = 'https://api.giphy.com/v1/gifs/search?'
-let limit = 5
+let apiKey = "dc6zaTOxFJmzC";
+let searchEndPoint = "https://api.giphy.com/v1/gifs/search?";
+let limit = 5;
 
-let url = `${searchEndPoint}&api_key=${apiKey}&q=${
-  this.searchTerm
-}&limit=${limit}`
+let url = `${searchEndPoint}&api_key=${apiKey}&q=${this.searchTerm}&limit=${limit}`;
 ```
 
 Now that we have constructed the URL, we’ll use this to fetch the gif data. We do this using the fetch API. Add this code right below where you built the URL string:
 
 ```javascript
 fetch(url)
-  .then(response => {
-    return response.json()
+  .then((response) => {
+    return response.json();
   })
-  .then(json => {
-    console.log(json)
+  .then((json) => {
+    console.log(json);
   })
-  .catch(err => {
-    console.log(err)
-  })
+  .catch((err) => {
+    console.log(err);
+  });
 ```
 
 What’s happening here is that we are calling fetch with the URL we constructed, consisting of the endpoint on giphy as well as our API key. Fetch returns a promise, which we can call .then() on. The code within .then() is run when the promise returns succesfully with some data. We then return the response from the API as json, by calling the .json() method on the response. When this is done, we log the json to the console. If there is an error retrieving the data, we also print that to the console in the catch block. Let's go take a look in the console, and see what we got from the API!

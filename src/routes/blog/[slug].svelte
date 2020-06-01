@@ -22,7 +22,7 @@
 </svelte:head>
 
   <div class="mb-16 max-w-2xl">
-    <a href="/">
+    <a href="/#writing">
       <svg
         fill="none"
         viewBox="0 0 24 24"

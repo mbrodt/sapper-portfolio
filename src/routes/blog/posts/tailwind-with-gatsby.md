@@ -1,8 +1,8 @@
 ---
-title: 'Setting up TailwindCSS with Gatsby'
-date: '2018-11-28'
-icon: 'tailwind.svg'
-type: 'blog-post'
+title: "Setting up TailwindCSS with Gatsby"
+date: "2018-11-28"
+tags: ["Programming", "React"]
+type: "blog-post"
 ---
 
 [Tailwind](https://tailwindcss.com/) is an amazing CSS framework created by Adam Wathan & friends. Tailwind follows a "utility-first" approach, which enables a crazy fast workflow and enforces consistency across your website. After learning Tailwind, writing normal CSS feels tedious and boring in comparison.
@@ -20,10 +20,10 @@ npm install autoprefixer postcss-cli
 Next, you'll need to add a postcss.config.js in the root of your Gatsby folder. Inside it, write the following JavaScript code:
 
 ```javascript
-const tailwindcss = require('tailwindcss')
+const tailwindcss = require("tailwindcss");
 module.exports = {
-  plugins: [tailwindcss('./tailwind.js'), require('autoprefixer')],
-}
+  plugins: [tailwindcss("./tailwind.js"), require("autoprefixer")],
+};
 ```
 
 Next up, you need to add some scripts to your `package.json` file. If you're on Linux or Mac, you can use the following:
