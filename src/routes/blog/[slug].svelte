@@ -36,7 +36,7 @@
       </svg>
 
     </a>
-    <h1 class="text-3xl sm:text-4xl xl:text-5xl font-bold text-gray-800">
+    <h1 class="text-4xl xl:text-5xl font-bold text-gray-900">
       {post.title}
     </h1>
     <div class="flex mt-1">
