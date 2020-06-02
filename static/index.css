@@ -642,11 +642,11 @@ video {
 }
 
 .rich-text * + h2 {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .rich-text h2 + * {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .rich-text h3 {
@@ -669,7 +669,7 @@ video {
 }
 
 .rich-text h4 {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 700;
   color: #1a202c;
   line-height: 1.5;
@@ -688,14 +688,14 @@ video {
 }
 
 .rich-text p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
-  color: #2d3748;
+  color: #1a202c;
   line-height: 1.625;
 }
 
 .rich-text p + p {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .rich-text strong {
@@ -706,10 +706,6 @@ video {
 .rich-text a {
   font-weight: 500;
   color: #3182ce;
-}
-
-.rich-text a:hover {
-  text-decoration: underline;
 }
 
 .rich-text code {
@@ -759,9 +755,9 @@ video {
 }
 
 .rich-text li {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
-  color: #2d3748;
+  color: #1a202c;
   line-height: 1.625;
 }
 
@@ -3898,6 +3894,10 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-body {
+  font-family: Montserrat, sans-serif;
 }
 
 .font-hairline {
@@ -18511,6 +18511,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-body {
+    font-family: Montserrat, sans-serif;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -33107,6 +33111,10 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-body {
+    font-family: Montserrat, sans-serif;
   }
 
   .md\:font-hairline {
@@ -47707,6 +47715,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-body {
+    font-family: Montserrat, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -62303,6 +62315,10 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-body {
+    font-family: Montserrat, sans-serif;
   }
 
   .xl\:font-hairline {

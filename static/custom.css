@@ -15,7 +15,7 @@
   animation: blink 1.5s linear infinite;
 }
 
-.hvr-underline-from-center {
+.rich-text > p > a {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -24,14 +24,15 @@
   position: relative;
   overflow: hidden;
 }
-.hvr-underline-from-center:before {
-  content: '';
+
+.rich-text > p > a:before {
+  content: "";
   position: absolute;
   z-index: -1;
   left: 51%;
   right: 51%;
   bottom: 0;
-  background-color: rgb(255, 62, 0);
+  background-color: #3182ce;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -40,17 +41,19 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-center:hover:before,
-.hvr-underline-from-center:focus:before,
-.hvr-underline-from-center:active:before {
+
+.rich-text > p > a:hover:before,
+.rich-text > p > a:focus:before,
+.rich-text > p > a:active:before {
   left: 0;
   right: 0;
+  color: #fc8181;
 }
 
 .arrow-down {
-	width: 0;
-	height: 0;
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 6px solid #fc8181;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fc8181;
 }

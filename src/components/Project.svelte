@@ -2,8 +2,6 @@
 	export let project
 </script>
 
-<!-- {#if isVisible} -->
-<!-- transition:fly="{{ y: 200, duration: 500, delay: index * 500 }}" -->
  <li  class="w-full">
 	<a href="{project.link}" target="_blank" rel="noopener noreferrer">
 		<img class="project w-full" src={'projects/' + project.src} alt="Project
@@ -22,6 +20,5 @@
 		</span>
 		{/each}
 	</div>
-	<p class="mt-4">{project.description}</p>
+	<p class="mt-4 font-body">{project.description}</p>
 </li>
-<!-- {/if} -->

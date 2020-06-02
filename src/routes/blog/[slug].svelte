@@ -21,7 +21,7 @@
   <title>{post.title}</title>
 </svelte:head>
 
-  <div class="mb-16 max-w-2xl">
+  <div class="mb-16 max-w-2xl mx-auto">
     <a href="/#writing">
       <svg
         fill="none"
@@ -36,9 +36,7 @@
       </svg>
 
     </a>
-    <h1
-      class="text-red-400 mt-2 text-3xl sm:text-4xl leading-tight xl:text-5xl
-      font-semibold">
+    <h1 class="text-3xl sm:text-4xl xl:text-5xl font-bold text-gray-800">
       {post.title}
     </h1>
     <div class="flex mt-1">
@@ -51,6 +49,6 @@
     </div>
   </div>
 
-  <div class="rich-text w-full overflow-hidden max-w-2xl">
+  <div class="rich-text w-full overflow-hidden max-w-2xl mx-auto font-body">
     {@html post.html}
   </div>

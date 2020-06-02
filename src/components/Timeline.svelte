@@ -131,7 +131,7 @@ const timelineData = [
           
             <time class="text-gray-600 tracking-wider text-xs sm:text-sm uppercase font-semibold">{data.date}</time>
             <h3 class="sm:text-xl text-gray-800 font-semibold my-1">{data.title}</h3>
-            <p class="text-sm sm:text-base text-gray-800">{data.text}</p>
+            <p class="text-sm sm:text-base text-gray-800 font-body">{data.text}</p>
             <span class="circle" />
         </div>
     </div>
