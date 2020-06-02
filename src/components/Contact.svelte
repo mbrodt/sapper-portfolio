@@ -4,13 +4,9 @@
   import SocialIcons from "./SocialIcons.svelte";
 </script>
 
-<style>
-  /* your styles go here */
-</style>
-
 <Section>
   <SectionHeading>Get in touch</SectionHeading>
-  <div class="md:max-w-lg">
+  <div class="md:max-w-lg font-body">
     <p>
       Feel free to reach out if you have any questions, think we could work
       together, or just want to connect ✌️
