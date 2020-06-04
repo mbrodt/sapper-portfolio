@@ -1,8 +1,42 @@
 <script>
+	import { onMount } from 'svelte';
+
 	export let project
+	export let index
+	let projectNode
+
+	const callback = function(entries) {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				entry.target.classList.remove('opacity-0', 'translate-y-16')
+			}
+		});
+	};
+
+	onMount(() => {
+		const observer = new IntersectionObserver(callback);
+		observer.observe(projectNode)
+	})
+
+
 </script>
 
- <li  class="w-full">
+<style >
+	/* increase transition delay on each subsequent project to give it a staggering effect */
+	.project-card {
+		transition: all 1s ease;
+		transition-delay: calc(var(--transition-order) * 150ms)
+	}
+
+	/* on mobile, keep all the transition delays the same since they only trigger 1 by 1 anyways */
+	@media only screen and (max-width: 640px) {
+		.project-card {
+			transition-delay: 150ms;
+		}
+	}
+</style>
+
+ <li bind:this={projectNode} class="w-full project-card opacity-0 transform translate-y-16" style="--transition-order: {index + 2}">
 	<a href="{project.link}" target="_blank" rel="noopener noreferrer">
 		<img class="project w-full" src={'projects/' + project.src} alt="Project
 		showcase" />

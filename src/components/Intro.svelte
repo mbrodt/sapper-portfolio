@@ -15,9 +15,9 @@
   </div>
   <div>
 		<h1
-		data-aos="fade-up"
+			data-aos="fade-up"
       class="mt-2 text-4xl sm:text-5xl leading-tight xl:text-6xl font-semibold
-      text-gray-800 transition-all duration-500 ease-in-out transform translate-y-40 opacity-0">
+      text-gray-800">
       Hi, I'm Mads
     </h1>
     <p data-aos="fade-up" data-aos-delay="300" class="mt-3 text-lg max-w-xl lg:max-w-3xl xl:text-2xl font-body">

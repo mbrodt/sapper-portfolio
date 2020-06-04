@@ -9,7 +9,7 @@
 			origin: 'bottom',
 			distance: '20px',
 			duration: 500,
-			delay: 400,
+			delay: 500,
 			rotate: { x: 0, y: 0, z: 0 },
 			opacity: 0,
 			scale: 1,

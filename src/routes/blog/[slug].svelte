@@ -14,6 +14,7 @@
 </script>
 
 <script>
+	import { fly } from 'svelte/transition';
   export let post;
 </script>
 
@@ -21,6 +22,7 @@
   <title>{post.title}</title>
 </svelte:head>
 
+<div in:fly="{{ y: 200, duration: 500 }}">
   <div class="mb-16 max-w-2xl mx-auto">
     <a href="/#writing">
       <svg
@@ -52,3 +54,4 @@
   <div class="rich-text w-full overflow-hidden max-w-2xl mx-auto font-body">
     {@html post.html}
   </div>
+</div>
