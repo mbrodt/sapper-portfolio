@@ -1,22 +1,14 @@
 <script>
 import Timeline from "../components/Timeline.svelte"
 import { fly } from 'svelte/transition';
+import { quintOut } from 'svelte/easing';
 
-// function translate(node, { delay, duration }) {
-// 		const o = +getComputedStyle(node).opacity;
-
-// 	return {
-// 		delay,
-// 		duration,
-// 		css: t => `opacity: ${t * o}; transform: translateY(${t * 20}px)`
-// 	};
-// 	}
 </script>
 
 <svelte:head>
 	<title>About</title>
 </svelte:head>
-<div in:fly="{{ y: 200, duration: 500 }}">
+<div in:fly="{{ x: -200, duration: 1000, easing: quintOut }}">
 <a href="/">
       <svg
         fill="none"

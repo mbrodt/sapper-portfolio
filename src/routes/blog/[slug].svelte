@@ -15,6 +15,7 @@
 
 <script>
 	import { fly } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
   export let post;
 </script>
 
@@ -22,9 +23,9 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<div in:fly="{{ y: 200, duration: 500 }}">
+<div in:fly="{{ x: -200, duration: 1000, easing: quintOut }}">
   <div class="mb-16 max-w-2xl mx-auto">
-    <a href="/#writing">
+    <a href="/">
       <svg
         fill="none"
         viewBox="0 0 24 24"

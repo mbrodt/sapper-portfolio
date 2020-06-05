@@ -26,7 +26,6 @@
     "postcss-cli": "^7.1.0",
     "postcss-loader": "^3.0.0",
     "reading-time": "^1.2.0",
-    "scrollreveal": "^4.0.6",
     "sirv": "^0.4.0",
     "svelte-preprocess": "^3.3.0",
     "tailwindcss": "^1.2.0",
