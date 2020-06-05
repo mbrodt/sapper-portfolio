@@ -1,5 +1,5 @@
 ---
-title: "Staying sane with remote work in Corona times"
+title: "Tips for remote work in Corona times"
 date: "2020-05-10"
 tags: ["Personal, Productivity"]
 type: "blog-post"

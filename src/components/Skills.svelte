@@ -41,20 +41,11 @@
       name: "Tailwind",
       src: "tailwind.svg"
     },
-    //  {
-    // 	name: "GitHub",
-    // 	src: "github.svg"
-    // }
     {
       name: "Git",
       src: "git.svg"
     }
   ];
-
-  // function getRandomNumber() {
-  // 	const randomNum = Math.floor(Math.random() * skills.length);
-  // 	return randomNum
-  // }
 
   setInterval(() => {
     if (focused === skills.length - 1) focused = -1;

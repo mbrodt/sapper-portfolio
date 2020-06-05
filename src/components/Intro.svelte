@@ -1,32 +1,37 @@
 <script>
   import SocialIcons from "./SocialIcons.svelte";
-	import Dots from "./Dots.svelte";
-	import SvgDrawing from "./SvgDrawing.svelte";
-
+  import Dots from "./Dots.svelte";
+  import SvgDrawing from "./SvgDrawing.svelte";
 </script>
 
 <style>
 
 </style>
 
-<div class="pb-12 lg:max-w-full flex flex-col md:flex-row-reverse justify-between items-center">
+<div
+  class="pb-12 lg:max-w-full flex flex-col md:flex-row-reverse justify-between
+  items-center">
   <div class="mb-8 md:mb-0">
     <SvgDrawing />
   </div>
   <div>
-		<h1
-			data-aos="fade-up"
+    <h1
+      data-aos="fade-up"
       class="mt-2 text-4xl sm:text-5xl leading-tight xl:text-6xl font-semibold
       text-gray-800">
       Hi, I'm Mads
     </h1>
-    <p data-aos="fade-up" data-aos-delay="300" class="mt-3 text-lg max-w-xl lg:max-w-3xl xl:text-2xl font-body">
+    <p
+      data-aos="fade-up"
+      data-aos-delay="300"
+      class="mt-3 text-lg max-w-xl lg:max-w-3xl xl:text-2xl font-body">
       I'm a front-end engineer from Copenhagen. I design, create and support
       websites and applications for clients and for fun. I love using modern
       technology to create exceptional user experiences, and always strive to
       create high quality products.
-			<a
-				data-aos="fade-up" data-aos-delay="500"
+      <a
+        data-aos="fade-up"
+        data-aos-delay="500"
         class="text-red-400 hover:text-red-700 transition-colors duration-200
         ease-out group mt-3 flex items-center"
         href="/about">

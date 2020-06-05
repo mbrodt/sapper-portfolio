@@ -2,8 +2,7 @@
   import SectionHeading from "./ui/SectionHeading.svelte";
   import Section from "./ui/Section.svelte";
   import Post from "./Post.svelte";
-	export let posts;
-
+  export let posts;
 </script>
 
 <Section id="writing">
@@ -14,7 +13,7 @@
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-				<Post {post} {index} />
+      <Post {post} {index} />
     {/each}
   </ul>
 </Section>
