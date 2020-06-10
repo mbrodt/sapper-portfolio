@@ -13,16 +13,21 @@
     "export": "run-s build:tailwind sapper:export",
     "start": "node __sapper__/build",
     "cy:open": "cypress open",
-		"test": "run-p --race dev cy:run",
-		"format": "prettier ./src --config .prettierrc"
+    "test": "run-p --race dev cy:run",
+    "format": "prettier ./src --config .prettierrc",
+    "postinstall": "netlify-lambda install"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
     "aos": "^3.0.0-beta.6",
+    "axios": "^0.19.2",
+    "base-64": "^0.1.0",
     "compression": "^1.7.1",
     "cypress": "^3.8.3",
     "date-fns": "^2.9.0",
     "ignore-loader": "^0.1.2",
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0",
     "polka": "next",
     "postcss-cli": "^7.1.0",
     "postcss-loader": "^3.0.0",
