@@ -13,7 +13,6 @@
   let emailField;
   const handleSubmit = e => {
     state = states.LOADING;
-    console.log("SUBMIT FORM");
     // The path to our serverless function
     const submitUrl = "/api/subscribe";
     axios
@@ -24,20 +23,21 @@
         state = states.SUCCESS;
       })
       .catch(err => {
-        console.log("Something went wrong!", err.response);
         state = states.ERROR;
       });
   };
 </script>
 
 <style>
+  /* TODO real disabled style */
   button:disabled {
-    @apply bg-red-800;
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 </style>
 
 <div class="mt-8 xl:mt-16 max-w-2xl">
-  <SubHeading>Front-end & tech career navigation newsletter</SubHeading>
+  <SubHeading>Front-end & tech career newsletter</SubHeading>
 
   <p class="font-body mt-2">
     Subscribe to my newsletter to receive content related to front-end
