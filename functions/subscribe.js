@@ -9,7 +9,6 @@ exports.handler = async (event, context) => {
     return { statusCode: 500, body: msg };
   };
   try {
-    console.log("BODY", event.body);
     const { email } = JSON.parse(event.body);
     if (!email) {
       return errorGen("Missing Email");
@@ -35,7 +34,6 @@ exports.handler = async (event, context) => {
 
     if (!response.ok) {
       // NOT res.status >= 200 && res.status < 300
-      console.log("send this back", data.detail);
       return { statusCode: data.status, body: data.detail };
     }
     return {

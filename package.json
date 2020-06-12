@@ -22,6 +22,7 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^0.19.2",
     "base-64": "^0.1.0",
+    "canvas-confetti": "^1.2.0",
     "compression": "^1.7.1",
     "cypress": "^3.8.3",
     "date-fns": "^2.9.0",
