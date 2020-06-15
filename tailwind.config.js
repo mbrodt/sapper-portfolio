@@ -33,10 +33,10 @@ module.exports = {
         lineHeight: defaultTheme.lineHeight.tight,
       },
       "* + h2": {
-        marginTop: defaultTheme.spacing[12],
+        marginTop: defaultTheme.spacing[16],
       },
       "h2 + *": {
-        marginTop: defaultTheme.spacing[6],
+        marginTop: defaultTheme.spacing[4],
       },
       h3: {
         fontSize: defaultTheme.fontSize["xl"],

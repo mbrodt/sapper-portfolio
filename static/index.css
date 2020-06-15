@@ -642,11 +642,11 @@ video {
 }
 
 .rich-text * + h2 {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .rich-text h2 + * {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .rich-text h3 {

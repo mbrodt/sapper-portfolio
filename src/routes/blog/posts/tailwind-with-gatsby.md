@@ -3,6 +3,7 @@ title: "Setting up TailwindCSS with Gatsby"
 date: "2018-11-28"
 tags: ["Programming", "React"]
 type: "blog-post"
+description: "TailwindCSS follows a 'utility-first' approach, which enables a crazy fast workflow and enforces consistency across your website"
 ---
 
 [Tailwind](https://tailwindcss.com/) is an amazing CSS framework created by Adam Wathan & friends. Tailwind follows a "utility-first" approach, which enables a crazy fast workflow and enforces consistency across your website. After learning Tailwind, writing normal CSS feels tedious and boring in comparison.

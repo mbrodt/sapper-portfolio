@@ -21,10 +21,13 @@
 
 <svelte:head>
   <title>{post.title}</title>
+  <meta name="description" content={post.description} />
+  <meta name="twitter:title" content={post.title} />
+  <meta name="twitter:description" content={post.description} />
 </svelte:head>
 
 <div in:fly={{ x: -200, duration: 1000, easing: quintOut }}>
-  <div class="mb-16 max-w-2xl mx-auto">
+  <div class="mb-12 xl:mb-16 max-w-2xl mx-auto">
     <a href="/">
       <svg
         fill="none"
@@ -39,9 +42,10 @@
       </svg>
 
     </a>
-    <h1 class="text-4xl xl:text-5xl font-bold text-gray-900">{post.title}</h1>
+    <h1 class="text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
+      {post.title}
+    </h1>
     <div class="flex mt-1">
-
       <p class="text-gray-600">
         <span>{post.printDate}</span>
         <span>&bull</span>
