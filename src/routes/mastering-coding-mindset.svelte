@@ -165,8 +165,10 @@
       @madsbrodt
     </a>
     and I'm a front-end engineer from Copenhagen. I'm also a huge believer in
-    habits, self-improvement and teaching. Throughout my years of coding, I've
-    learned many valuable lessons - this ebook aims to teach all of them.
+    habits, self-improvement and teaching. I've only been coding for a few
+    years, but have learned many valuable lessons. This puts me in a unique
+    position to teach these lessons, since I was in your shoes not long ago.
+    This is the book I wish I had.
   </p>
   <p class="text-gray-700 sm:text-lg sm:max-w-2xl sm:mx-auto mt-2">
     If you have any questions, hit me up on
