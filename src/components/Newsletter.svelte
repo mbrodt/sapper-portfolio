@@ -18,7 +18,9 @@
     const submitUrl = "/api/subscribe";
     axios
       .post(submitUrl, {
-        email: emailField
+        email: emailField,
+        // The ID for the "Newsletter" tag
+        tagId: "318313"
       })
       .then(res => {
         state = states.SUCCESS;
