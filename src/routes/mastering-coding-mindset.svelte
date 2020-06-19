@@ -42,6 +42,21 @@
   }
 </style>
 
+<svelte:head>
+  <title>Mastering the Coding Mindset</title>
+  <meta
+    name="description"
+    content="Tips & Tricks for becoming a better developer & having a successful
+    career" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@madsbrodt" />
+  <meta name="twitter:title" content="Mastering the Coding Mindset" />
+  <meta
+    name="twitter:description"
+    content="Tips & Tricks for becoming a better developer & having a successful
+    career" />
+  <meta name="twitter:image" content="https://madsbrodt.com/cover_meta.png" />
+</svelte:head>
 <div
   class="flex flex-col lg:flex-row lg:items-center max-w-8xl mx-auto px-6 pt-6">
   <div class="w-full lg:w-2/3">
