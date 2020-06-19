@@ -28,5 +28,5 @@
 <Skills />
 <Writing {posts} />
 <Contact />
-This link needs to exist for the Sapper export to crawl it and generate the page
+<!-- This link needs to exist for the Sapper export to crawl it and generate the page -->
 <a href="/mastering-coding-mindset" class="hidden">hidden</a>
