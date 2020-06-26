@@ -57,6 +57,7 @@
     career" />
   <meta name="twitter:image" content="https://madsbrodt.com/cover_meta.png" />
 </svelte:head>
+
 <div
   class="flex flex-col lg:flex-row lg:items-center max-w-8xl mx-auto px-6 pt-6">
   <div class="w-full lg:w-2/3">
@@ -66,9 +67,9 @@
           class="text-center lg:text-left text-4xl tracking-tight leading-10
           font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl
           xl:max-w-2xl">
-          Mastering the
+          Everything you need to
           <br class="xl:hidden" />
-          <span class="text-indigo-600">Coding Mindset</span>
+          <span class="text-indigo-600">become a better developer</span>
         </h1>
         <div class="w-full my-8 px-12 lg:hidden">
           <img
@@ -87,13 +88,55 @@
           </p>
 
           <ul class="list-inside list-disc my-2 xl:my-4">
-            <li>Doubling down on technical fundamentals</li>
-            <li>Increasing productivity</li>
-            <li>Learning how to learn</li>
-            <li>Dealing with self-doubt</li>
-            <li>Understanding the bigger picture</li>
-            <li>Landing a developer job</li>
-            <li>Improving soft skills</li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Doubling down on technical fundamentals</span>
+            </li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Landing a developer job</span>
+            </li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Increasing productivity</span>
+            </li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Learning how to learn</span>
+            </li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Dealing with self-doubt</span>
+            </li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Understanding the bigger picture</span>
+            </li>
+            <li class="flex items-center my-1">
+              <img
+                class="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                src="/svg-bullet.svg"
+                alt="checkmark icon" />
+              <span>Improving soft skills</span>
+            </li>
           </ul>
           Jam-packed with
           <span class="text-indigo-500 font-bold">examples</span>
