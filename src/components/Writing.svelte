@@ -19,5 +19,17 @@
       <Post {post} {index} />
     {/each}
   </ul>
-  <Newsletter />
+  <div data-aos="fade-up" data-aos-delay="500">
+    <div class="mt-8 xl:mt-16 max-w-2xl">
+      <SubHeading>Front-end & tech career newsletter</SubHeading>
+
+      <p class="font-body text-lg mt-2">
+        Subscribe to my newsletter to receive content related to front-end
+        development, navigating a tech career, and general life improvement
+        tips.
+        <span class="font-bold">No spam. Unsubscribe any time.</span>
+      </p>
+      <Newsletter />
+    </div>
+  </div>
 </Section>

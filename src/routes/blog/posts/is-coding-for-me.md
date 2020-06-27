@@ -41,7 +41,3 @@ Getting your biggest and most important task done as early as possible in the da
 ## Conclusion
 
 I firmly believe that coding is not for everybody, but it is for you. You went the extra mile to find and read this article, and that alone shows a heck of a lot of commitment and enthusiasm toward programming. This is not to say you should quit your job tomorrow and live off pizza until you stumble upon an employer willing to hire you. You've got the interest and the motivation, not (necessarily) the skills (yet) - that comes through practice and hard work.
-
-Thanks for reading. Any feedback or questions is highly appreciated - as are claps :)
-
-https://twitter.com/madsbrodt

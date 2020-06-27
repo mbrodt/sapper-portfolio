@@ -83,5 +83,3 @@ You now have full access to the Tailwind utilities in your whole project!
 ## Before deploying
 
 Before deploying your site to production, you should remove the Tailwind classes that you don't use to keep your CSS bundle small. You can do this manually by going through the tailwind.js file (not recommended) or use a tool like PurgeCSS to remove the unused CSS automatically. I won't cover this, but google Tailwind + PurgeCSS and you'll find out how.
-
-Thanks for reading!

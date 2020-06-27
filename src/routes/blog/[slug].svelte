@@ -16,6 +16,8 @@
 <script>
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
+  import Newsletter from "../../components/Newsletter.svelte";
+  import SubHeading from "../../components/ui/SubHeading.svelte";
   export let post;
 </script>
 
@@ -56,5 +58,25 @@
 
   <div class="rich-text w-full overflow-hidden max-w-2xl mx-auto font-body">
     {@html post.html}
+    <p>
+      Thank you for reading! To keep up with all of my writing, follow me on
+      <a
+        href="https://twitter.com/madsbrodt"
+        target="_blank"
+        rel="noopener noreferrer">
+        Twitter
+      </a>
+      or sign up with your email below 👇
+    </p>
+  </div>
+  <div class="max-w-2xl mx-auto mt-8 sm:mt-12 lg:mt-16">
+    <SubHeading>Never miss an update</SubHeading>
+
+    <p class="font-body text-lg mt-2">
+      Subscribe to receive content related to front-end development, navigating
+      a tech career, and general life improvement tips.
+      <span class="font-bold">No spam. Unsubscribe any time.</span>
+    </p>
+    <Newsletter />
   </div>
 </div>

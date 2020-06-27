@@ -283,7 +283,3 @@ Phew, that was a long one. I’m so happy you made it all the way to the end, an
 - Allow the user to search for random gifs
 - Display the link to the gif so the user can share gifs with their friends
 - Improve convenience by listening for the “Enter” key press to search, checking to make sure searchTerm is not an empty string before trying to access the API, or displaying a “Loading…” animation while waiting for the API to return the gif data
-
-Thanks for reading! Please leave a comment if you have any feedback for me, I greatly appreciate it.
-
-https://twitter.com/madsbrodt
