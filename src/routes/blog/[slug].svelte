@@ -73,8 +73,8 @@
     <SubHeading>Never miss an update</SubHeading>
 
     <p class="font-body text-lg mt-2">
-      Subscribe to receive content related to front-end development, navigating
-      a tech career, and general life improvement tips.
+      Subscribe to receive content related to front-end development and
+      navigating a tech career.
       <span class="font-bold">No spam. Unsubscribe any time.</span>
     </p>
     <Newsletter />
