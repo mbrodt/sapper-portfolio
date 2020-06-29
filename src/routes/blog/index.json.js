@@ -7,6 +7,7 @@ const contents = JSON.stringify(
       slug: post.slug,
       date: post.printDate,
       tags: post.tags,
+      cta: post.cta,
     };
   })
 );

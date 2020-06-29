@@ -747,7 +747,7 @@ video {
 }
 
 .rich-text ul + * {
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 .rich-text li ul {

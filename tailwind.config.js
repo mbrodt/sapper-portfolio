@@ -116,7 +116,7 @@ module.exports = {
         marginTop: defaultTheme.spacing[4],
       },
       "ul + *": {
-        marginTop: defaultTheme.spacing[4],
+        marginTop: defaultTheme.spacing[16],
       },
       "li ul": {
         marginTop: defaultTheme.spacing[2],

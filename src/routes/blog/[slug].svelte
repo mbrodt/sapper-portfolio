@@ -27,7 +27,6 @@
   <meta name="twitter:title" content={post.title} />
   <meta name="twitter:description" content={post.description} />
 </svelte:head>
-
 <div in:fly={{ x: -200, duration: 1000, easing: quintOut }}>
   <div class="mb-12 xl:mb-16 max-w-2xl mx-auto">
     <a href="/">
@@ -58,16 +57,37 @@
 
   <div class="rich-text w-full overflow-hidden max-w-2xl mx-auto font-body">
     {@html post.html}
-    <p>
-      Thank you for reading! To keep up with all of my writing, follow me on
-      <a
-        href="https://twitter.com/madsbrodt"
-        target="_blank"
-        rel="noopener noreferrer">
-        Twitter
-      </a>
-      or sign up with your email below 👇
-    </p>
+    <div class="h-px bg-red-400 opacity-75 my-12 lg:my-16" />
+
+    {#if post.cta === 'book'}
+      <p>
+        Thanks for reading! If you enjoyed this article, you're gonna
+        <span class="font-bold">love</span>
+        the book I'm working on. It will have loads of tips & tricks for landing
+        your first development job, improving your technical skills, and
+        becoming a better developer. Check it out at
+        <a
+          href="https://madsbrodt.com/mastering-coding-mindset"
+          target="_blank"
+          rel="noopener noreferrer">
+          Mastering the Coding Mindset
+        </a>
+        and get a
+        <span class="font-bold">free</span>
+        sample chapter, or sign up below 👇
+      </p>
+    {:else}
+      <p>
+        Thank you for reading! To keep up with all of my writing, follow me on
+        <a
+          href="https://twitter.com/madsbrodt"
+          target="_blank"
+          rel="noopener noreferrer">
+          Twitter
+        </a>
+        or sign up with your email below 👇
+      </p>
+    {/if}
   </div>
   <div class="max-w-2xl mx-auto mt-8 sm:mt-12 lg:mt-16">
     <SubHeading>Never miss an update</SubHeading>
