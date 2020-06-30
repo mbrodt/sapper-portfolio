@@ -29,7 +29,7 @@ You can also use this to showcase some of your favourite moments from previous j
 
 Keeping all of this in mind, there are also some simple, quick-win tips you can apply to make your resume more compelling:
 
-- Keep it at **1-2 page maximum**. The receiver will simply not have time to read long walls of text. There might be potentially better candidates applying for this job, but by keeping your resume concise, you’ll get an advantage over them by actually having your resume read.
+- Keep it at **1-2 page maximum**. The receiver will simply not have time to read long walls of text. There might be potentially better candidates applying for this job, but by keeping your resume concise, you’ll get an advantage over them by actually having your resume read. Stick to a few (2-4) bullet points for each previous job or project.
 - **Put your experience and skills at the top.** This is the most important part of the resume, so make sure the receiver doesn’t accidentally miss it, or discard your resume before getting to these sections.
 - **Show some personality.** You don’t need to go crazy with colors and images, but adding small visual design elements will help your resume to stand out.
 - **Use a template.** There are tons of good CV template builders on the internet. Using a template will make your resume look more professional at a glance.

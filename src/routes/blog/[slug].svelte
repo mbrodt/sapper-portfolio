@@ -46,12 +46,17 @@
     <h1 class="text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
       {post.title}
     </h1>
-    <div class="flex mt-1">
-      <p class="text-gray-600">
-        <span>{post.printDate}</span>
-        <span>&bull</span>
-        <span>{post.printReadingTime}</span>
-      </p>
+    <div class="flex mt-1 sm:mt-2 justify-between items-center">
+      <div class="flex items-center text-gray-600">
+        <img class="w-6 h-6 rounded-full mr-2" src="/profile.jpg" alt="" />
+        <p class="mt-1 text-sm">
+          <span class="mt-px leading-none">Mads Brodt</span>
+          <span class="leading-none">&bull {post.printDate}</span>
+        </p>
+      </div>
+      <span class="text-gray-600 leading-none text-sm">
+        {post.printReadingTime}
+      </span>
     </div>
   </div>
 
