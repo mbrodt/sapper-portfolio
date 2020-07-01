@@ -14,7 +14,6 @@
   const callback = function(entries) {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        console.log("hello", entry);
         entry.target.classList.remove("opacity-0", "translate-y-16");
       }
     });
@@ -30,10 +29,15 @@
   class="card transform opacity-0 translate-y-16"
   bind:this={postNode}
   style="--transition-order: {index + 2}">
+  <!-- we're using the non-standard `rel=prefetch` attribute to
+				tell Sapper to load the data for the page as soon as
+				the user hovers over the link or taps it, instead of
+				waiting for the 'click' event -->
   <a
-    class="flex block bg-white shadow-lg transition-all duration-200
-    hover:shadow-xl transform hover:-translate-y-1 focus:translate-y-0
-    focus:shadow rounded-lg cursor-pointer group"
+    class="flex bg-white shadow-lg transition-all duration-200 hover:shadow-xl
+    transform hover:-translate-y-1 focus:translate-y-0 focus:shadow rounded-lg
+    cursor-pointer group"
+    rel="prefetch"
     href="blog/{post.slug}">
     <div class="flex flex-col flex-1 px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6">
       <div class="text-red-400 uppercase font-bold text-xs mb-1">
