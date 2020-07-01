@@ -15,6 +15,14 @@
 
   let projects = [
     {
+      title: "Andersen-Andersen Webshop",
+      src: "andersen.svg",
+      tags: ["Shopify", "Liquid", "JavaScript", "Tailwind"],
+      link: "https://dev-andersen-andersen.myshopify.com",
+      description:
+        "A webshop with focus on storytelling and the high quality products created by Andersen-Andersen, a Danish work-wear clothing manufacturer."
+    },
+    {
       title: "Illuminate the world",
       src: "dfh.svg",
       tags: ["React", "Gatsby", "Tailwind", "React-Spring"],
@@ -29,14 +37,6 @@
       link: "https://portfolios.tech",
       description:
         "A website where people can share their favorite technical portfolios. Allows filtering by different categories like development, branding and UX."
-    },
-    {
-      title: "Andersen-Andersen Webshop",
-      src: "andersen.svg",
-      tags: ["Shopify", "Liquid", "JavaScript", "Tailwind"],
-      link: "https://dev-andersen-andersen.myshopify.com",
-      description:
-        "A webshop with focus on storytelling and the high quality products created by Andersen-Andersen, a Danish work-wear clothing manufacturer."
     },
     {
       title: "Danfoss IXA",

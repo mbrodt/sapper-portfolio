@@ -17,6 +17,7 @@
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import Newsletter from "../../components/Newsletter.svelte";
+  import Author from "../../components/Author.svelte";
   import SubHeading from "../../components/ui/SubHeading.svelte";
   export let post;
 </script>
@@ -64,7 +65,8 @@
     {@html post.html}
     <div class="h-px bg-red-400 opacity-75 my-12 lg:my-16" />
 
-    {#if post.cta === 'book'}
+    <Author />
+    <!-- {#if post.cta === 'book'}
       <p>
         Thanks for reading! If you enjoyed this article, you're gonna
         <span class="font-bold">love</span>
@@ -81,24 +83,24 @@
         <span class="font-bold">free</span>
         sample chapter, or sign up below 👇
       </p>
-    {:else}
-      <p>
-        Thank you for reading! To keep up with all of my writing, follow me on
-        <a
-          href="https://twitter.com/madsbrodt"
-          target="_blank"
-          rel="noopener noreferrer">
-          Twitter
-        </a>
-        or sign up with your email below 👇
-      </p>
-    {/if}
+    {:else} -->
+    <!-- <p>
+      Thank you for reading! To keep up with all of my writing, follow me on
+      <a
+        href="https://twitter.com/madsbrodt"
+        target="_blank"
+        rel="noopener noreferrer">
+        Twitter
+      </a>
+      or sign up with your email below 👇
+    </p> -->
+    <!-- {/if} -->
   </div>
   <div class="max-w-2xl mx-auto mt-8 sm:mt-12 lg:mt-16">
     <SubHeading>Never miss an update</SubHeading>
 
     <p class="font-body text-lg mt-2">
-      Subscribe to receive content related to front-end development and
+      Subscribe to receive my best content related to front-end development and
       navigating a tech career.
       <span class="font-bold">No spam. Unsubscribe any time.</span>
     </p>
