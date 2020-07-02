@@ -1,5 +1,5 @@
 ---
-title: "How to write a compelling resume"
+title: "Writing a compelling resume"
 date: "2020-06-29"
 tags: ["Career"]
 type: "blog-post"
