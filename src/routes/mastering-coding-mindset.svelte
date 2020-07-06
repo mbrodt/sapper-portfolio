@@ -48,14 +48,14 @@
     name="description"
     content="Tips & Tricks for becoming a better developer & having a successful
     career" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@madsbrodt" />
   <meta name="twitter:title" content="Mastering the Coding Mindset" />
   <meta
     name="twitter:description"
     content="Tips & Tricks for becoming a better developer & having a successful
     career" />
-  <meta name="twitter:image" content="https://madsbrodt.com/cover_meta.png" />
+  <meta name="twitter:image" content="https://madsbrodt.com/book_meta.png" />
 </svelte:head>
 
 <div
@@ -82,9 +82,8 @@
           class="text-base text-gray-700 mt-3 sm:mt-5 sm:text-lg sm:max-w-2xl
           sm:mx-auto md:mt-5 md:text-xl lg:mx-0 ">
           <p class="xl:my-4">
-            The book I wish I had when starting my coding journey. It covers
-            everything you need to become a better developer and have a
-            successful coding career, like:
+            Learn how to become a better developer and efficiently navigate your
+            coding career. The book covers topics like:
           </p>
 
           <ul class="list-inside list-disc my-2 xl:my-4">
@@ -149,7 +148,9 @@
           <p class="mt-4">
             Sign up below to get a
             <span class="text-indigo-500 font-bold">free</span>
-            sample chapter and subscribe to updates!
+            sample chapter and a
+            <span class="text-indigo-500 font-bold">big</span>
+            launch discount!
           </p>
           <form
             on:submit|preventDefault={handleSubmit}
