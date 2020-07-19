@@ -40,3 +40,5 @@ Keeping all of this in mind, there are also some simple, quick-win tips you can 
 Your resume might be your only chance at landing a particular job. The receiver of your resume will have to make a very quick judgement call of whether or not there’s a chance of you providing value to the company. If there is, you’ll move to the next round. If not, your application will get discarded.
 
 This may seem very cutthroat - and that’s because it is. But it’s how the world works. When reviewing your resume, try to put yourself in the shoes of the company or recruiter receiving it - would you pass yourself on to the next round? Even if you had as little as [7.4 seconds](https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/) to decide? If not, your resume could still use some work.
+
+If you're looking for more advice on how to land your dream developer job, check out my book at [Mastering the Coding Mindset](https://madsbrodt.com/mastering-coding-mindset/). It's everything I know about improving your developer skills and landing a job.

@@ -82,7 +82,7 @@ module.exports = {
         color: defaultTheme.colors.gray[900],
       },
       a: {
-        fontWeight: defaultTheme.fontWeight.medium,
+        fontWeight: defaultTheme.fontWeight.bold,
         color: defaultTheme.colors.blue[600],
       },
       code: {
