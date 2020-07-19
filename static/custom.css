@@ -44,7 +44,6 @@
 .rich-text > p > a:active:before {
   left: 0;
   right: 0;
-  color: #fc8181;
 }
 
 .arrow-down {
