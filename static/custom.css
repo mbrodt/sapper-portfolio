@@ -12,7 +12,7 @@
   }
 }
 
-.rich-text > p > a {
+.prose > p > a {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-.rich-text > p > a:before {
+.prose > p > a:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -39,9 +39,9 @@
   transition-timing-function: ease-out;
 }
 
-.rich-text > p > a:hover:before,
-.rich-text > p > a:focus:before,
-.rich-text > p > a:active:before {
+.prose > p > a:hover:before,
+.prose > p > a:focus:before,
+.prose > p > a:active:before {
   left: 0;
   right: 0;
 }

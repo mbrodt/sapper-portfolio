@@ -61,7 +61,8 @@
     </div>
   </div>
 
-  <div class="rich-text w-full overflow-hidden max-w-2xl mx-auto font-body">
+  <div
+    class="prose prose-lg w-full overflow-hidden max-w-2xl mx-auto font-body">
     {@html post.html}
     <div class="h-px bg-red-400 opacity-75 my-12 lg:my-16" />
 
