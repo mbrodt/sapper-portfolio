@@ -6,7 +6,7 @@
     IDLE: "idle",
     LOADING: "loading",
     SUCCESS: "success",
-    ERROR: "error"
+    ERROR: "error",
   };
   let state = "idle";
   let emailField;
@@ -19,17 +19,17 @@
       .post(submitUrl, {
         email: emailField,
         // The ID for the "Coding Mastery" tag
-        tagId: "317853"
+        tagId: "317853",
       })
-      .then(res => {
+      .then((res) => {
         state = states.SUCCESS;
         confetti({
           particleCount: 200,
           spread: 70,
-          origin: { y: 0.6 }
+          origin: { y: 0.6 },
         });
       })
-      .catch(err => {
+      .catch((err) => {
         state = states.ERROR;
       });
   };
@@ -168,7 +168,7 @@
               type="submit"
               class="w-full uppercase font-bold flex items-center justify-center
               shadow-lg text-sm px-4 py-4 border border-transparent leading-6
-              font-medium rounded-md sm:rounded-l-none text-white bg-indigo-600
+              rounded-md sm:rounded-l-none text-white bg-indigo-600
               hover:bg-indigo-500 focus:outline-none focus:border-indigo-700
               focus:shadow-outline-indigo transition duration-150 ease-in-out
               md:text-sm sm:w-auto sm:text-xs xl:text-base">
