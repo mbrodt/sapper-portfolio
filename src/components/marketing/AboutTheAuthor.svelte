@@ -1,9 +1,5 @@
 <div class="max-w-3xl mx-auto px-4">
-  <h3
-    class="text-center text-gray-900 text-3xl font-display font-semibold
-    leading-tight mb-4">
-    About the Author
-  </h3>
+  <h2 class="h2">About the Author</h2>
   <div class="flex flex-col lg:flex-row lg:items-center">
     <img
       class="w-24 h-24 lg:w-32 lg:h-32 mx-auto rounded-full lg:mr-8"

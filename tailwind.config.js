@@ -4,6 +4,12 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   theme: {
     extend: {
+      colors: {
+        indigo: {
+          ...defaultTheme.colors.indigo,
+          900: "#3f4975",
+        },
+      },
       screens: {
         xxl: "1600px",
       },

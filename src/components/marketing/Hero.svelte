@@ -10,6 +10,12 @@
   let state = "idle";
   let emailField;
 
+  function scrollTo({ target }) {
+    document.querySelector(target.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  }
+
   const handleSubmit = () => {
     state = states.LOADING;
     // The path to our serverless function
@@ -95,7 +101,10 @@
       <div class="text-lg md:text-base mt-6 text-center md:text-left">
         <p class="text-gray-700">
           <span>Already convinced?</span>
-          <a class="link-underline font-bold text-blue-600" href="#pricing">
+          <a
+            class="link-underline font-bold text-blue-600"
+            href="#pricing"
+            on:click|preventDefault={scrollTo}>
             Buy now
           </a>
         </p>
