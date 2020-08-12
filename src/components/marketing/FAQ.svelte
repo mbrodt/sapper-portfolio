@@ -1,19 +1,19 @@
-<div class="max-w-6xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
   <h2 class="max-w-lg mx-auto h2">Frequently asked questions</h2>
   <div
-    class="mt-6 pt-10 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:col-gap-16
-    row-gap-8">
+    class="mt-6 lg:pt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:col-gap-16
+    row-gap-12 lg:row-gap-8">
     <div class="prose prose-lg xl:prose-xl">
       <p class="font-bold text-lg xl:text-xl">Who is this book for?</p>
       <p>
         This book is written to any person who works with code, as part of their
         job or on their own time. All of the content is field-agnostic, meaning
-        it will benefit you regardless of your exact area of interest. If you're
-        a front-end developer, back-end developer, app maker, data scientist,
-        DevOps engineer, or you just want to get better at coding: this book is
-        for you. Most of the examples are related to front-end development, as
-        that is my personal expertise - but there's definitely something for
-        everyone.
+        it will benefit you regardless of your focus area. If you're a front-end
+        developer, back-end developer, app maker, data scientist, DevOps
+        engineer, or you just want to get better at developing: this book is for
+        you. Most of the examples are related to front-end development, as that
+        is my personal expertise, but I've worked hard to make sure everyone can
+        use the book.
       </p>
     </div>
     <div class="prose prose-lg xl:prose-xl">
@@ -53,7 +53,8 @@
         Sure thing. If you bought the book and want to get the videos afterward,
         shoot me an email at
         <a
-          class="link-underline font-bold text-blue-600"
+          class="text-indigo-500 hover:text-indigo-700 focus:text-indigo-700
+          underline transition-colors duration-100 ease-in font-bold"
           href="mailto:me@madsbrodt.com"
           target="_blank"
           rel="noopener noreferrer">
@@ -70,7 +71,8 @@
         day, full-refund, no-questions-asked policy. If the book or videos are
         not what you expected, write me an email at
         <a
-          class="link-underline font-bold text-blue-600"
+          class="text-indigo-500 hover:text-indigo-700 focus:text-indigo-700
+          underline transition-colors duration-100 ease-in font-bold"
           href="mailto:me@madsbrodt.com"
           target="_blank"
           rel="noopener noreferrer">
@@ -85,7 +87,8 @@
       <p>
         You can always reach me with email at
         <a
-          class="link-underline font-bold text-blue-600"
+          class="font-bold text-indigo-500 hover:text-indigo-700
+          focus:text-indigo-700 underline transition-colors duration-100 ease-in"
           href="mailto:me@madsbrodt.com"
           target="_blank"
           rel="noopener noreferrer">
@@ -93,7 +96,8 @@
         </a>
         or send me a DM on
         <a
-          class="link-underline font-bold text-blue-600"
+          class="font-bold text-indigo-500 hover:text-indigo-700
+          focus:text-indigo-700 underline transition-colors duration-100 ease-in"
           href="https://twitter.com/madsbrodt"
           target="_blank"
           rel="noopener noreferrer">

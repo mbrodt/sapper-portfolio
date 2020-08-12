@@ -47,7 +47,7 @@
     <h1 class="text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
       {post.title}
     </h1>
-    <div class="flex mt-1 sm:mt-2 justify-between items-center">
+    <div class="flex mt-1 sm:mt-2 justify-between items-center content">
       <div class="flex items-center text-gray-600">
         <img class="w-6 h-6 rounded-full mr-2" src="/profile.jpg" alt="" />
         <p class="mt-1 text-sm">

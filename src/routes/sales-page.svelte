@@ -36,7 +36,6 @@
     linkUrl: "https://twitter.com/tucker_dev",
     imageUrl:
       "https://pbs.twimg.com/profile_images/1288973259870998529/Ra3tpR_g_400x400.jpg",
-    option: "small",
   };
 </script>
 
@@ -48,15 +47,17 @@
   <AnnouncementBar />
   <Hero />
   <Content />
-
   <Testimonial {...traversyQuote} />
+  <Waves />
   <WhatsInside />
-  <Testimonial {...jamesQuote} />
+  <div class="mt-8 lg:mt-16">
+    <Testimonial {...simonQuote} />
+  </div>
   <AboutTheAuthor />
   <Feedback />
   <Pricing />
   <FAQ />
-  <Testimonial {...simonQuote} />
+  <Testimonial {...jamesQuote} />
   <Waves />
   <Footer />
 

@@ -1,10 +1,10 @@
 <div id="pricing" class="bg-indigo-900">
-  <div class="max-w-5xl mx-auto px-8 text-xl py-16">
+  <div
+    class="max-w-5xl mx-auto px-4 lg:px-8 text-xl py-16 lg:py-24 my-8 lg:my-24
+    xl:my-32">
     <div class="text-center">
       <h2 class="text-4xl md:text-5xl text-white font-bold mt-0 mb-0">
-        Are you ready to
-        <span class="italic">Master the Coding Mindset 🔥?</span>
-
+        Are you ready to Master the Coding Mindset 🔥?
       </h2>
       <p class="text-2xl md:text-3xl text-blue-200 font-semibold">
         Choose the package that works for you.
@@ -24,7 +24,7 @@
           </h3>
         </div>
 
-        <div class="px-8 pb-8 text-base md:text-lg">
+        <div class="px-4 sm:px-8 pb-8 text-base md:text-lg">
           <div class="text-center py-6 lg:py-4">
             <span
               class="line-through opacity-75 inline-flex items-center text-xl
@@ -111,6 +111,29 @@
                   </svg>
                 </span>
                 <span>
+                  Over
+                  <strong>70+ minutes</strong>
+                  of video content
+                </span>
+              </li>
+              <li class="flex items-start mb-4">
+                <span class="mr-4 mt-1">
+                  <svg
+                    class="h-5 w-5 block"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20">
+                    <g fill="none" fill-rule="evenodd">
+                      <circle cx="10" cy="10" r="10" fill="#9CE2B6" />
+                      <polyline
+                        stroke="#126D34"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        points="6 10 8.667 12.667 14 7.333" />
+                    </g>
+                  </svg>
+                </span>
+                <span>
                   Two videos on
                   <strong>how to land a job,</strong>
                   based on my own story from three different development jobs
@@ -135,7 +158,7 @@
                   </svg>
                 </span>
                 <span>
-                  One video on
+                  Two videos on
                   <strong>problem solving,</strong>
                   and how to improve this key skill for developers
                 </span>
@@ -160,15 +183,18 @@
                 <span>
                   A personal
                   <strong>resume review</strong>
+
                 </span>
               </li>
+
             </ul>
 
             <div class="text-center mt-12">
               <a
                 class="block w-full text-xl sm:text-2xl bg-indigo-500 rounded-lg
                 focus:outline-none hover:bg-indigo-700 focus:bg-indigo-700
-                text-white font-semibold px-6 py-4 sm:py-5"
+                text-white font-semibold px-6 py-4 sm:py-5 transition-colors
+                duration-100 ease-in-out"
                 href="https://gum.co/mastering-coding-mindset-complete/launch?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">
@@ -191,7 +217,7 @@
           </h3>
         </div>
 
-        <div class="px-8 pb-8 text-base md:text-lg">
+        <div class="px-4 sm:px-8 pb-8 text-base md:text-lg">
           <div class="text-center py-4">
             <span
               class="line-through opacity-75 inline-flex items-center text-lg
@@ -266,8 +292,9 @@
             <div class="text-center mt-12">
               <a
                 class="w-full text-lg sm:text-xl block rounded-lg
-                focus:outline-none bg-gray-300 text-indigo-500 font-semibold
-                px-6 py-3 sm:py-4"
+                focus:outline-none bg-gray-300 text-indigo-500 hover:bg-gray-400
+                focus:bg-gray-400 transition-colors duration-100 ease-in-out
+                font-semibold px-6 py-3 sm:py-4"
                 href="https://gum.co/mastering-coding-mindset/launch?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">

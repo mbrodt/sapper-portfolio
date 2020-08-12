@@ -3,7 +3,8 @@
 </script>
 
 {#if option === 'small'}
-  <div class="relative text-center my-16 px-4 max-w-3xl mx-auto">
+  <div
+    class="relative text-center my-8 lg:mt-12 xl:mb-12 px-4 max-w-3xl mx-auto">
     <figure class="font-display">
       <blockquote
         class="relative prose prose-lg lg:prose-xl mx-auto italic mb-4">
@@ -23,7 +24,7 @@
   </div>
 {:else}
   <div class="overflow-x-hidden">
-    <div class="relative max-w-5xl mx-auto px-8 py-12 sm:py-32">
+    <div class="relative max-w-5xl mx-auto px-8 py-16 sm:py-32">
 
       <div
         class="relative mx-auto rounded-full h-16 sm:h-24 w-16 sm:w-24 border-2">

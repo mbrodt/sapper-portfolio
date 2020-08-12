@@ -6,4 +6,15 @@
 	leading-tight mb-4;
 }
 
+@screen lg {
+  .h2 {
+    @apply text-4xl;
+  }
+}
+@screen xxl {
+  .h2 {
+    @apply text-5xl;
+  }
+}
+
 @tailwind utilities;

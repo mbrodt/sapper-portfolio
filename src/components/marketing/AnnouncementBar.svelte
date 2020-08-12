@@ -8,11 +8,11 @@
 
 <div
   class="bg-indigo-600 py-4 text-lg font-bold text-center w-full text-white flex
-  items-center justify-center">
+  items-center justify-center px-8">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    class="w-6 h-6 -mt-1 mr-1"
+    class="w-6 h-6 -mt-1 mr-1 hidden sm:inline"
     viewBox="0 0 128 128">
     <g>
       <path
@@ -34,8 +34,8 @@
         style="fill:#FCC21B;" />
     </g>
   </svg>
-  <p class="leading-none">
-    Launch sale! -25% off til Aug 5th.
+  <p class="sm:leading-none">
+    Launch sale! -25% off til Aug 16th.
     <a href="#pricing" on:click|preventDefault={scrollTo} class="underline">
       Buy now →
     </a>

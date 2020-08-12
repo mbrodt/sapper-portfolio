@@ -1,5 +1,6 @@
 <script>
   import axios from "axios";
+  import confetti from "canvas-confetti";
 
   let states = {
     IDLE: "idle",
@@ -23,11 +24,16 @@
     axios
       .post(submitUrl, {
         email: emailField,
-        // The ID for the "Coding Mastery" tag
-        tagId: "317853",
+        // The ID for the "Coding Mastery 2" tag
+        tagId: "367881",
       })
       .then((res) => {
         state = states.SUCCESS;
+        confetti({
+          particleCount: 200,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
       })
       .catch((err) => {
         state = states.ERROR;
@@ -60,10 +66,13 @@
       <div class="md:hidden max-w-sm mx-auto px-8 pt-2 pb-4">
         <img class="shadow-2xl" src="/cover.png" alt="" />
       </div>
-      <p class="mt-4 text-lg md:text-base lg:text-lg text-gray-700">
+      <p
+        class="mt-4 text-lg md:text-base lg:text-lg text-gray-600 font-semibold
+        max-w-2xl">
         Sign up below to get a
-        <span class="font-bold">free</span>
-        chapter preview on INSERT LATER
+        <span class="font-bold text-indigo-600">free</span>
+        chapter preview on dealing with imposter syndrome - the nagging feeling
+        of never being good enough
       </p>
       <form
         on:submit|preventDefault={handleSubmit}
@@ -90,10 +99,9 @@
 
       </form>
       {#if state === 'success'}
-        <p class="mt-4 sm:mt-8">
-          Thank you! You're now signed up to receive updates about the book, and
-          your free sample is on its way to
-          <span class="text-indigo-500 font-bold">{emailField}</span>
+        <p class="mt-4 sm:mt-8 text-gray-700">
+          Thank you! Your free sample is on its way to
+          <span class="text-indigo-600 font-bold">{emailField}</span>
           - please check your spam folder, and let me know if you haven't
           received it ✌️
         </p>
@@ -102,7 +110,9 @@
         <p class="text-gray-700">
           <span>Already convinced?</span>
           <a
-            class="link-underline font-bold text-blue-600"
+            class="font-bold text-indigo-600 hover:text-indigo-700
+            focus:text-indigo-700 underline transition-colors duration-100
+            ease-in"
             href="#pricing"
             on:click|preventDefault={scrollTo}>
             Buy now

@@ -6,14 +6,14 @@
   }
 </script>
 
-<footer class="bg-gray-900 text-white py-8 lg:py-12">
-  <div class="max-w-lg mx-auto text-center">
+<footer class="bg-gray-850 text-white py-8 lg:py-12">
+  <div class="max-w-lg mx-auto text-center px-4">
     <p class="mb-4">
       Created by
       <a target="_blank" href="https://twitter.com/madsbrodt">@madsbrodt</a>
     </p>
     <p>
-      You know you want it if you're reading the footer 👀
+      You know you want it if you're reading the footer 👇
       <a
         class="block underline mt-2"
         href="#pricing"

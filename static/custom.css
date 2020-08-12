@@ -12,7 +12,7 @@
   }
 }
 
-.prose > p > a {
+.content > p > a {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-.prose > p > a:before {
+.content > p > a:before {
   content: "";
   position: absolute;
   z-index: -1;

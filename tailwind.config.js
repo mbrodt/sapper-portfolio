@@ -9,6 +9,11 @@ module.exports = {
           ...defaultTheme.colors.indigo,
           900: "#3f4975",
         },
+        gray: {
+          ...defaultTheme.colors.gray,
+          250: "#d2d6dc",
+          850: "#292D3E",
+        },
       },
       screens: {
         xxl: "1600px",
@@ -29,9 +34,9 @@ module.exports = {
       default: {
         css: {
           a: {
-            color: "#3182ce",
+            color: "#667eea",
             fontWeight: "bold",
-            textDecoration: "none",
+            textDecoration: "underline",
           },
         },
       },

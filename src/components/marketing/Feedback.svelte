@@ -42,9 +42,9 @@
   };
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto lg:mt-32 xl:mt-48">
   <h2 class="h2">What people are saying</h2>
-  <div class="grid grid-cols-2">
+  <div class="grid grid-cols-1 sm:grid-cols-2">
     <Testimonial {...danQuote} />
     <Testimonial {...annieQuote} />
     <Testimonial {...devinQuote} />
