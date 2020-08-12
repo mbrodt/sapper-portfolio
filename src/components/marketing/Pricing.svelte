@@ -30,13 +30,13 @@
               class="line-through opacity-75 inline-flex items-center text-xl
               md:text-2xl font-semibold text-grey-dark mr-3 sm:mr-4">
               <span class="text-xl">$</span>
-              <span>45</span>
+              <span>49</span>
             </span>
             <span
               class="inline-flex items-center text-5xl md:text-6xl font-bold
               text-gray-900 mr-3 sm:mr-4">
               <span class="text-2xl md:text-3xl">$</span>
-              <span>34</span>
+              <span>35</span>
             </span>
             <span
               class="inline-flex items-center text-xl md:text-2xl font-bold
@@ -169,7 +169,7 @@
                 class="block w-full text-xl sm:text-2xl bg-indigo-500 rounded-lg
                 focus:outline-none hover:bg-indigo-700 focus:bg-indigo-700
                 text-white font-semibold px-6 py-4 sm:py-5"
-                href="https://gum.co/MyQsm/launchday"
+                href="https://gum.co/mastering-coding-mindset-complete/launch?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">
                 Buy Now
@@ -268,7 +268,7 @@
                 class="w-full text-lg sm:text-xl block rounded-lg
                 focus:outline-none bg-gray-300 text-indigo-500 font-semibold
                 px-6 py-3 sm:py-4"
-                href="https://gum.co/LsTNA/launchday"
+                href="https://gum.co/mastering-coding-mindset/launch?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">
                 Buy Now
