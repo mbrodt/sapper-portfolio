@@ -11,7 +11,10 @@
         “{quote}”
       </blockquote>
       <figcaption class="flex items-center justify-center">
-        <img class="rounded-full block h-8 w-8 mr-4" src={imageUrl} alt="" />
+        <img
+          class="rounded-full block h-8 w-8 sm:h-12 sm:w-12 mr-4"
+          src={imageUrl}
+          alt="" />
         <a
           target="_blank"
           href={linkUrl}
