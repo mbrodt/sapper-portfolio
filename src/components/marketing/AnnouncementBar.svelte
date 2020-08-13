@@ -8,8 +8,8 @@
 
 <div
   class="bg-indigo-600 py-4 text-lg font-bold text-center w-full text-white flex
-  items-center justify-center px-8">
-  <svg
+  items-center justify-center">
+  <!-- <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     class="w-6 h-6 -mt-1 mr-1 hidden sm:inline"
@@ -33,9 +33,9 @@
         c-0.77,4.2-3.77,7.2-4.82,11.22C66.11,102.18,66.17,104.41,68.13,106.07z"
         style="fill:#FCC21B;" />
     </g>
-  </svg>
+  </svg> -->
   <p class="sm:leading-none">
-    Launch sale! 25% off til Aug 16th.
+    🔥 Launch sale! 25% off til Aug 16th.
     <a href="#pricing" on:click|preventDefault={scrollTo} class="underline block sm:inline">
       Buy now →
     </a>
