@@ -35,8 +35,8 @@
     </g>
   </svg>
   <p class="sm:leading-none">
-    Launch sale! -25% off til Aug 16th.
-    <a href="#pricing" on:click|preventDefault={scrollTo} class="underline">
+    Launch sale! 25% off til Aug 16th.
+    <a href="#pricing" on:click|preventDefault={scrollTo} class="underline block sm:inline">
       Buy now →
     </a>
   </p>
