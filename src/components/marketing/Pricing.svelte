@@ -182,7 +182,7 @@
                 </span>
                 <span>
                   A personal
-                  <strong>resume review</strong>
+                  <strong>resume review.</strong> Send me your resume/CV and I'll offer suggestions for improvement
 
                 </span>
               </li>
