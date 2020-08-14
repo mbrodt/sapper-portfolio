@@ -60,3 +60,5 @@ This also leads nicely into the next tip:
 
 ### Conclusion
 You need to do whatever is in your power to stand out from the crowd when applying for jobs. You don't want to get lost in the sea of candidates that some positions have, so apply these tips as soon as you can. You'll have a huge advantage over the myriad of people who just submit a resume without anything else. That is not what hiring managers are looking for. They want proof of your skills and enough detail to decide if you're worth offering an interview.
+
+If you want to learn more about landing your first development job, check out my book on [Mastering the Coding Mindset](https://madsbrodt.com/mastering-coding-mindset). It covers everything you need to level up your technical skills and land your dream job, and there's another free sample chapter waiting for you on the page: How to improve your problem solving skills. Check it out!
