@@ -71,8 +71,7 @@
         max-w-2xl">
         Sign up below to get a
         <span class="font-bold text-indigo-600">free</span>
-        chapter preview on dealing with imposter syndrome - the nagging feeling
-        of never being good enough
+        chapter preview on problem solving - the most important skill for developers
       </p>
       <form
         on:submit|preventDefault={handleSubmit}
