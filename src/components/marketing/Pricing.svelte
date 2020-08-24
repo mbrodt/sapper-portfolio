@@ -30,13 +30,13 @@
               class="line-through opacity-75 inline-flex items-center text-xl
               md:text-2xl font-semibold text-grey-dark mr-3 sm:mr-4">
               <span class="text-xl">$</span>
-              <span>80</span>
+              <span>49</span>
             </span>
             <span
               class="inline-flex items-center text-5xl md:text-6xl font-bold
               text-gray-900 mr-3 sm:mr-4">
               <span class="text-2xl md:text-3xl">$</span>
-              <span>49</span>
+              <span>35</span>
             </span>
             <span
               class="inline-flex items-center text-xl md:text-2xl font-bold
@@ -195,7 +195,7 @@
                 focus:outline-none hover:bg-indigo-700 focus:bg-indigo-700
                 text-white font-semibold px-6 py-4 sm:py-5 transition-colors
                 duration-100 ease-in-out"
-                href="https://gum.co/mastering-coding-mindset-complete/?wanted=true"
+                href="https://gum.co/mastering-coding-mindset-complete/launch?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">
                 Buy Now
@@ -223,13 +223,13 @@
               class="line-through opacity-75 inline-flex items-center text-lg
               md:text-xl font-semibold text-grey-dark mr-2 sm:mr-3">
               <span class="text-xl">$</span>
-              <span>35</span>
+              <span>25</span>
             </span>
             <span
               class="inline-flex items-center text-4xl md:text-5xl font-bold
               text-gray-900 mr-2 sm:mr-3">
               <span class="text-xl md:text-2xl">$</span>
-              <span>25</span>
+              <span>19</span>
             </span>
             <span
               class="inline-flex items-center text-lg md:text-xl font-bold
@@ -295,7 +295,7 @@
                 focus:outline-none bg-gray-300 text-indigo-500 hover:bg-gray-400
                 focus:bg-gray-400 transition-colors duration-100 ease-in-out
                 font-semibold px-6 py-3 sm:py-4"
-                href="https://gum.co/mastering-coding-mindset/?wanted=true"
+                href="https://gum.co/mastering-coding-mindset/launch/?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">
                 Buy Now
