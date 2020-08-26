@@ -17,6 +17,7 @@
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import Newsletter from "../../components/Newsletter.svelte";
+  import RelatedPosts from "../../components/RelatedPosts.svelte";
   import Author from "../../components/Author.svelte";
   import SubHeading from "../../components/ui/SubHeading.svelte";
   export let post;
@@ -107,4 +108,6 @@
     </p>
     <Newsletter />
   </div>
+
 </div>
+  <RelatedPosts currentPost={post} />
