@@ -1,8 +1,8 @@
 <script context="module">
   export function preload() {
     return this.fetch(`blog.json`)
-      .then(r => r.json())
-      .then(posts => {
+      .then((r) => r.json())
+      .then((posts) => {
         return { posts };
       });
   }
@@ -28,5 +28,7 @@
 <Skills />
 <Writing {posts} />
 <Contact />
-<!-- This link needs to exist for the Sapper export to crawl it and generate the page -->
+<!-- These links need to exist for the Sapper export to crawl it and generate the page -->
 <a href="/mastering-coding-mindset" class="hidden">hidden</a>
+<a href="/thanks-newsletter" class="hidden">hidden</a>
+<a href="/confirm-newsletter" class="hidden">hidden</a>

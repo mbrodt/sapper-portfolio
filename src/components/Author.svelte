@@ -22,6 +22,6 @@
       rel="noopener noreferrer">
       Twitter
     </a>
-    or sign up with your email below 👇
+    or sign up with your email above 👆
   </p>
 </div>
