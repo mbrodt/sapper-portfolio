@@ -182,7 +182,7 @@
                 </span>
                 <span>
                   A personal
-                  <strong>resume review</strong>
+                  <strong>resume review.</strong> Send me your resume/CV and I'll offer suggestions for improvement
 
                 </span>
               </li>
@@ -295,7 +295,7 @@
                 focus:outline-none bg-gray-300 text-indigo-500 hover:bg-gray-400
                 focus:bg-gray-400 transition-colors duration-100 ease-in-out
                 font-semibold px-6 py-3 sm:py-4"
-                href="https://gum.co/mastering-coding-mindset/launch?wanted=true"
+                href="https://gum.co/mastering-coding-mindset/launch/?wanted=true"
                 data-gumroad-single-product="true"
                 target="_blank">
                 Buy Now

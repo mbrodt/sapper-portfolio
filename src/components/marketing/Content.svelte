@@ -25,14 +25,13 @@
 
     <p>
       A lot of the difficulties we encounter when learning to code is because
-      our mindset isn't quite right. Coding is very unique, and so it takes a
-      while for our brains to adjust to the field.
+      our mindset isn't right. Coding is unique, and so it takes time for our brains to adjust to the field.
     </p>
 
     <p>
       But once we do, we're able to improve our skills, be more productive, deal
       with self-doubt, land a job, and actually solve problems for real people
-      and businesses.
+      and businesses. All while earning good money, too!
     </p>
 
     <p>
