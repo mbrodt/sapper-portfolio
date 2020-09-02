@@ -16,7 +16,8 @@
 <script>
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-  import Newsletter from "../../components/Newsletter.svelte";
+  // // import Newsletter from "../../components/Newsletter.svelte";
+  import NewsletterForm from "../../components/NewsletterForm.svelte";
   import Author from "../../components/Author.svelte";
   import SubHeading from "../../components/ui/SubHeading.svelte";
   export let post;
@@ -62,49 +63,26 @@
   </div>
 
   <div
-    class="prose prose-lg w-full overflow-hidden max-w-2xl mx-auto font-body">
-    {@html post.html}
+    class="prose prose-lg w-full overflow-hidden max-w-3xl mx-auto font-body">
+    <div class="max-w-2xl mx-auto">
+      {@html post.html}
+    </div>
+    <div class="mt-4 lg:mt-12">
+      <NewsletterForm />
+    </div>
     <div class="h-px bg-red-400 opacity-75 my-12 lg:my-16" />
 
     <Author />
-    <!-- {#if post.cta === 'book'}
-      <p>
-        Thanks for reading! If you enjoyed this article, you're gonna
-        <span class="font-bold">love</span>
-        the book I'm working on. It will have loads of tips & tricks for landing
-        your first development job, improving your technical skills, and
-        becoming a better developer. Check it out at
-        <a
-          href="https://madsbrodt.com/mastering-coding-mindset"
-          target="_blank"
-          rel="noopener noreferrer">
-          Mastering the Coding Mindset
-        </a>
-        and get a
-        <span class="font-bold">free</span>
-        sample chapter, or sign up below 👇
-      </p>
-    {:else} -->
-    <!-- <p>
-      Thank you for reading! To keep up with all of my writing, follow me on
-      <a
-        href="https://twitter.com/madsbrodt"
-        target="_blank"
-        rel="noopener noreferrer">
-        Twitter
-      </a>
-      or sign up with your email below 👇
-    </p> -->
-    <!-- {/if} -->
   </div>
-  <div class="max-w-2xl mx-auto mt-8 sm:mt-12 lg:mt-16">
+  <!-- <div class="max-w-2xl xl:max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
     <SubHeading>Never miss an update</SubHeading>
 
     <p class="font-body text-lg mt-2">
       Subscribe to receive my best content related to front-end development and
       navigating a tech career.
       <span class="font-bold">No spam. Unsubscribe any time.</span>
-    </p>
-    <Newsletter />
-  </div>
+    </p> -->
+  <!-- <Newsletter /> -->
+
+  <!-- </div> -->
 </div>

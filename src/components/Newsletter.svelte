@@ -7,12 +7,12 @@
     IDLE: "idle",
     LOADING: "loading",
     SUCCESS: "success",
-    ERROR: "error"
+    ERROR: "error",
   };
   let state = "idle";
 
   let emailField;
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     state = states.LOADING;
     // The path to our serverless function
     const submitUrl = "/api/subscribe";
@@ -20,17 +20,17 @@
       .post(submitUrl, {
         email: emailField,
         // The ID for the "Newsletter" tag
-        tagId: "318313"
+        tagId: "318313",
       })
-      .then(res => {
+      .then((res) => {
         state = states.SUCCESS;
         confetti({
           particleCount: 200,
           spread: 70,
-          origin: { y: 0.6 }
+          origin: { y: 0.6 },
         });
       })
-      .catch(err => {
+      .catch((err) => {
         state = states.ERROR;
       });
   };

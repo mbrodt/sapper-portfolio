@@ -3,6 +3,7 @@
   import Section from "./ui/Section.svelte";
   import SubHeading from "./ui/SubHeading.svelte";
   import NewsletterSection from "./NewsletterSection.svelte";
+  import NewsletterForm from "./NewsletterForm.svelte";
   import Post from "./Post.svelte";
   export let posts;
 </script>
@@ -36,5 +37,6 @@
         d="M17 8l4 4m0 0l-4 4m4-4H3" />
     </svg>
   </a>
+
   <NewsletterSection title="Front-end & tech career newsletter" />
 </Section>
