@@ -3,11 +3,13 @@
   import { onMount } from "svelte";
 
   onMount(() => {
-    confetti({
-      particleCount: 300,
-      spread: 140,
-      origin: { y: 0.6 },
-    });
+    setTimeout(() => {
+      confetti({
+        particleCount: 300,
+        spread: 140,
+        origin: { y: 0.6 },
+      });
+    }, 500);
   });
 </script>
 
@@ -17,8 +19,12 @@
 <p class="max-w-4xl mt-4 text-lg lg:text-xl">
   The sample chapter is on it's way to you. Check your email, look for the
   download link -
-  <strong>and make sure to check the spam folder</strong>
-  if you can't see it ✌
+  <strong>
+    and make sure to check the Spam folder or "Promotions" tab if you can't see
+    it.
+  </strong>
+  If the email is in the Promotions tab, you can drag it to the Primary tab in
+  Gmail if you'd like to receive more awesome free content from me ✌
   <br />
   <br />
   Thanks again!
