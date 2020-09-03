@@ -17,7 +17,7 @@
       "Well-structured, relevant information to return to again and again. Mads presents advice in an easy-to-understand digestible format that's indispensable for the developer starting out, but also serves as excellent reminders for the more seasoned.",
     linkUrl: "https://twitter.com/anniebombanie_",
     imageUrl:
-      "https://pbs.twimg.com/profile_images/1269849405777219584/nv3nhQEr_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1298373022169141249/M_ulMgzm_400x400.jpg",
     option: "small",
   };
 
