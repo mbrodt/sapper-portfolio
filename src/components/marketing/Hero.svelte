@@ -1,6 +1,7 @@
 <script>
   import axios from "axios";
   import confetti from "canvas-confetti";
+  import EmailSignup from "./EmailSignup.svelte";
 
   let states = {
     IDLE: "idle",
@@ -71,9 +72,11 @@
         max-w-2xl">
         Sign up below to get a
         <span class="font-bold text-indigo-600">free</span>
-        chapter preview on problem solving - the most important skill for developers
+        chapter preview on problem solving - the most important skill for
+        developers
       </p>
-      <form
+      <EmailSignup />
+      <!-- <form
         on:submit|preventDefault={handleSubmit}
         class="mt-5 sm:mt-8 sm:flex max-w-xl xl:max-w-2xl">
         <input
@@ -96,7 +99,7 @@
           Get your chapter
         </button>
 
-      </form>
+      </form> -->
       {#if state === 'success'}
         <p class="mt-4 sm:mt-8 text-gray-700">
           Thank you! Your free sample is on its way to

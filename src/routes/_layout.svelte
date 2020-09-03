@@ -10,18 +10,20 @@
 
   <!-- border-t-4 border-red-400 -->
   <div class="font-inter bg-gray-100">
-    <div
-      class="bg-red-400 text-base py-4 sm:text-lg md:text-xl font-semibold
-      text-white">
-      <div class="max-w-7xl w-full mx-auto px-4 sm:px-12 text-center">
-        <span class="mb-2">I just released a book!</span>
-        <a
-          href="/mastering-coding-mindset"
-          class="font-bold text-white underline">
-          Learn about it here →
-        </a>
+    {#if segment !== 'confirm-book'}
+      <div
+        class="bg-red-400 text-base py-4 sm:text-lg md:text-xl font-semibold
+        text-white">
+        <div class="max-w-7xl w-full mx-auto px-4 sm:px-12 text-center">
+          <span class="mb-2">I just released a book!</span>
+          <a
+            href="/mastering-coding-mindset"
+            class="font-bold text-white underline">
+            Learn about it here →
+          </a>
+        </div>
       </div>
-    </div>
+    {/if}
     <main
       class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-8 pt-12 md:pt-24 lg:py-48
       text-gray-800 min-h-screen">
