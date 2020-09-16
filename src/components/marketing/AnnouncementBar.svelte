@@ -8,7 +8,7 @@
 
 <div
   class="bg-indigo-600 py-4 text-lg font-bold text-center w-full text-white flex
-  items-center justify-center">
+    items-center justify-center fixed top-0 z-10">
   <!-- <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,9 +35,7 @@
     </g>
   </svg> -->
   <p class="sm:leading-none">
-    🔥 The book is now available!
-    <a href="#pricing" on:click|preventDefault={scrollTo} class="underline block sm:inline">
-      Buy now →
-    </a>
+    🔥 The book is now available! <a href="#pricing" on:click|preventDefault={scrollTo} class="underline
+        block sm:inline"> Buy now → </a>
   </p>
 </div>

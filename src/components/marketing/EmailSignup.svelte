@@ -35,7 +35,6 @@
   };
 
   const data = JSON.stringify(tempData);
-  console.log("data:", data);
 </script>
 
 <style>
@@ -44,7 +43,6 @@
 
 <div>
   <script src="https://f.convertkit.com/ckjs/ck.5.js">
-
   </script>
   <form
     action="https://app.convertkit.com/forms/1641582/subscriptions"
@@ -56,11 +54,10 @@
     data-version="5"
     data-options={data}
     min-width="400 500 600 700 800">
-
     <input
       class="shadow-lg block w-full rounded-lg focus:border-indigo border
-      border-transparent sm:rounded-r-none mb-4 sm:mb-0 text-black sm:flex-1
-      px-6 py-4 focus:outline-none"
+        border-transparent sm:rounded-r-none mb-4 sm:mb-0 text-black sm:flex-1
+        px-6 py-4 focus:outline-none"
       name="email_address"
       aria-label="Your email address"
       placeholder="Your email address"
@@ -72,13 +69,12 @@
     <button
       data-element="submit"
       class="formkit-submit w-full uppercase font-bold flex items-center
-      justify-center shadow-lg text-sm px-4 py-4 border border-transparent
-      leading-6 rounded-md sm:rounded-l-none text-white bg-indigo-600
-      hover:bg-indigo-500 focus:outline-none focus:border-indigo-700
-      focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-sm
-      sm:w-auto sm:text-xs xl:text-base ">
+        justify-center shadow-lg text-sm px-4 py-4 border border-transparent
+        leading-6 rounded-md sm:rounded-l-none text-white bg-indigo-600
+        hover:bg-indigo-500 focus:outline-none focus:border-indigo-700
+        focus:shadow-outline-indigo transition duration-150 ease-in-out
+        md:text-sm sm:w-auto sm:text-xs xl:text-base">
       Get your chapter
     </button>
-
   </form>
 </div>
