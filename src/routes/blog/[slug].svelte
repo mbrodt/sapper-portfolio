@@ -76,4 +76,7 @@
     <Author />
   </div>
 </div>
-<RelatedPosts currentPost={post} />
+<div class="mt-4 md:mt-8 lg:mt-12 xl:mt-16">
+  <RelatedPosts currentPost={post} />
+
+</div>

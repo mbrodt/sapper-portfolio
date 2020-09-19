@@ -16,13 +16,12 @@
         text-white">
         <div class="max-w-7xl w-full mx-auto px-4 sm:px-12 text-center">
           <span class="mb-2">
-            I just released a book on improving your development skills and
-            landing a job!
+            I wrote a book on improving your dev skills and landing a job!
           </span>
           <a
             href="/mastering-coding-mindset"
             class="font-bold text-white underline">
-            Learn about it here →
+            Learn more →
           </a>
         </div>
       </div>

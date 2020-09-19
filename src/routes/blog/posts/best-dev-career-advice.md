@@ -1,7 +1,7 @@
 ---
 title: "The best thing you can do for your development career"
 date: "2020-09-19"
-tags: ["Programming", "Career"]
+tags: ["Career", "Programming"]
 type: "blog-post"
 description: "There's no one piece of advice that will make you a great developer over night. But this lesson will help you improve your skills and enjoy a more successful development career in the long run"
 ---
