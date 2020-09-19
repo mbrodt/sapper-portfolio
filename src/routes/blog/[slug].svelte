@@ -18,6 +18,7 @@
   import { quintOut } from "svelte/easing";
   // // import Newsletter from "../../components/Newsletter.svelte";
   import NewsletterForm from "../../components/NewsletterForm.svelte";
+  import RelatedPosts from "../../components/RelatedPosts.svelte";
   import Author from "../../components/Author.svelte";
   import SubHeading from "../../components/ui/SubHeading.svelte";
   export let post;
@@ -74,15 +75,5 @@
 
     <Author />
   </div>
-  <!-- <div class="max-w-2xl xl:max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
-    <SubHeading>Never miss an update</SubHeading>
-
-    <p class="font-body text-lg mt-2">
-      Subscribe to receive my best content related to front-end development and
-      navigating a tech career.
-      <span class="font-bold">No spam. Unsubscribe any time.</span>
-    </p> -->
-  <!-- <Newsletter /> -->
-
-  <!-- </div> -->
 </div>
+<RelatedPosts currentPost={post} />
