@@ -5,6 +5,10 @@
   @apply text-center text-gray-900 text-3xl font-semibold
 	leading-tight mb-4;
 }
+/*
+.nav-item {
+  @apply flex flex-col;
+} */
 
 @screen lg {
   .h2 {
