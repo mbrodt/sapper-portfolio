@@ -7,44 +7,44 @@
   let skills = [
     {
       name: "HTML5",
-      src: "html.svg"
+      src: "html.svg",
     },
     {
       name: "CSS3",
-      src: "css.svg"
+      src: "css.svg",
     },
     {
       name: "JavaScript",
-      src: "js.svg"
+      src: "js.svg",
     },
     {
       name: "Vue",
-      src: "vue.svg"
+      src: "vue.svg",
     },
     {
       name: "React",
-      src: "react.svg"
+      src: "react.svg",
     },
     {
       name: "Gatsby",
-      src: "gatsby.png"
+      src: "gatsby.png",
     },
     {
       name: "Shopify",
-      src: "shopify.svg"
+      src: "shopify.svg",
     },
     {
       name: "Svelte",
-      src: "svelte.svg"
+      src: "svelte.svg",
     },
     {
       name: "Tailwind",
-      src: "tailwind.svg"
+      src: "tailwind.svg",
     },
     {
       name: "Git",
-      src: "git.svg"
-    }
+      src: "git.svg",
+    },
   ];
 
   setInterval(() => {
@@ -74,16 +74,16 @@
       style="justify-items: center">
       {#each skills as skill, idx}
         <div class="w-20 h-20 my-4 relative group">
-
+          <!-- bg-red-200 text-red-700 text-xs font-bold inline-block leading-4
+					px-2 py-1 mx-1 mt-2 rounded -->
           <div
-            class="absolute left-0 right-0 text-center bg-red-400 rounded
-            transition-all duration-700 opacity-0 px-2 group-hover:opacity-100"
+            class="absolute left-0 right-0 text-center bg-red-200 text-red-700
+            text-xs font-bold rounded transition-all duration-700 opacity-0
+            group-hover:opacity-100"
             class:opacity-100={idx === focused}
             style="top: -50px; transition-timing-function: ease">
-            <p class="text-white text-sm">{skill.name}</p>
-            <div
-              class="arrow-down absolute left-0 right-0 mx-auto"
-              style="margin-top: -1px" />
+            <p class="text-sm">{skill.name}</p>
+            <div class="arrow-down absolute left-0 right-0 mx-auto" />
           </div>
 
           <img
