@@ -1,8 +1,8 @@
 <script context="module">
   export function preload({ params, query }) {
     return this.fetch(`blog.json`)
-      .then(r => r.json())
-      .then(posts => {
+      .then((r) => r.json())
+      .then((posts) => {
         return { posts };
       });
   }
@@ -24,7 +24,7 @@
   Blog
 </h1>
 
-<ul class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-8">
+<ul class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 mb-12">
   {#each posts as post, index}
     <!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as

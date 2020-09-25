@@ -11,14 +11,14 @@
 <Section id="writing">
   <SectionHeading>Writing</SectionHeading>
   <SubHeading>Blog</SubHeading>
-  <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-8">
+  <ul class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
     {#each posts as post, index}
       <Post {post} {index} />
     {/each}
   </ul>
   <a
-    class="mt-4 sm:mt-8 block text-red-400 hover:text-red-700 transition-colors
-    duration-200 ease-out group text-xl text-right"
+    class="mt-4 sm:mt-8 mb-12 block text-red-400 hover:text-red-700
+    transition-colors duration-200 ease-out group text-xl text-right"
     data-aos="fade-up"
     data-aos-delay="300"
     href="/blog">
