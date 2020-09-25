@@ -1,4 +1,5 @@
 <script>
+  import Navigation from "../components/Navigation.svelte";
   export let segment;
 </script>
 
@@ -25,10 +26,11 @@
           </a>
         </div>
       </div>
+      <Navigation {segment} />
     {/if}
     <main
-      class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-8 pt-12 md:pt-24 lg:py-48
-      text-gray-800 min-h-screen">
+      class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-16 pt-12 md:pt-24
+      lg:py-48 text-gray-800 min-h-screen">
       <slot />
     </main>
   </div>
