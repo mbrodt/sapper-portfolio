@@ -34,8 +34,8 @@
         data-aos-delay="500"
         class="text-red-400 hover:text-red-700 transition-colors duration-200
         ease-out group mt-3 flex items-center"
-        href="/blog">
-        Check out my writing
+        href="/newsletter">
+        Check out my newsletter
         <svg
           fill="none"
           viewBox="0 0 24 24"
