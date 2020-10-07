@@ -1,36 +1,34 @@
 <script>
-  import SocialIcons from "./SocialIcons.svelte";
-  import Dots from "./Dots.svelte";
   import SvgDrawing from "./SvgDrawing.svelte";
-  import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
-  gsap.registerPlugin(ScrollTrigger);
-  import { onMount } from "svelte";
-  let logoWrapper;
-  onMount(() => {
-    console.log("mounted");
-    const tl = gsap.timeline();
-    // gsap.to(".logo-wrapper", {
-    //   scrollTrigger: {
-    //     trigger: ".logo-wrapper",
-    //     start: "top center",
-    //     end: "top 200px",
-    //     scrub: true,
-    //     markers: true,
-    //   },
-    //   x: 400,
-    //   scale: 1.5,
-    //   duration: 3,
-    //   rotation: 360,
-    // });
-    tl.from(".intro-anim", {
-      opacity: 0,
-      y: 100,
-      duration: 1,
-      ease: "power2.out",
-      stagger: 0.5,
-    });
-  });
+  // import { gsap } from "gsap";
+  // import { ScrollTrigger } from "gsap/ScrollTrigger";
+  // gsap.registerPlugin(ScrollTrigger);
+  // import { onMount } from "svelte";
+  // let logoWrapper;
+  // onMount(() => {
+  //   console.log("mounted");
+  //   const tl = gsap.timeline();
+  //   // gsap.to(".logo-wrapper", {
+  //   //   scrollTrigger: {
+  //   //     trigger: ".logo-wrapper",
+  //   //     start: "top center",
+  //   //     end: "top 200px",
+  //   //     scrub: true,
+  //   //     markers: true,
+  //   //   },
+  //   //   x: 400,
+  //   //   scale: 1.5,
+  //   //   duration: 3,
+  //   //   rotation: 360,
+  //   // });
+  //   tl.from(".intro-anim", {
+  //     opacity: 0,
+  //     y: 100,
+  //     duration: 1,
+  //     ease: "power2.out",
+  //     stagger: 0.5,
+  //   });
+  // });
 </script>
 
 <style>
@@ -45,18 +43,23 @@
   </div>
   <div>
     <h1
-      class="intro-anim mt-2 text-4xl sm:text-5xl leading-tight xl:text-6xl
-        font-semibold text-gray-800">
+      data-aos="fade-up"
+      class="mt-2 text-4xl sm:text-5xl leading-tight xl:text-6xl font-semibold
+        text-gray-800">
       Hi, I'm Mads
     </h1>
     <p
-      class="intro-anim mt-3 text-lg max-w-xl lg:max-w-3xl xl:text-2xl font-body">
+      data-aos="fade-up"
+      data-aos-delay="300"
+      class="mt-3 text-lg max-w-xl lg:max-w-3xl xl:text-2xl font-body">
       I'm a front-end engineer from Copenhagen. I design, create and support
       websites and applications for clients and for fun. I love using modern
       technology to create exceptional user experiences, and always strive to
       create high quality products. <a
-        class="intro-anim text-red-400 hover:text-red-700 transition-colors
-          duration-200 ease-out group mt-3 flex items-center"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        class="text-red-400 hover:text-red-700 transition-colors duration-200
+          ease-out group mt-3 flex items-center"
         href="/newsletter">
         Check out my newsletter <svg
           fill="none"

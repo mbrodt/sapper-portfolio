@@ -10,7 +10,7 @@
     setTimeout(() => {
       const p = document.querySelector(".text-path");
       p.style.fill = "#fc8181";
-    }, 4500);
+    }, 5600);
   });
 </script>
 
@@ -30,7 +30,7 @@
   xmlns="http://www.w3.org/2000/svg">
   {#if showLogo}
     <path
-      in:draw={{ duration: 2500, delay: 1400, easing: quintOut }}
+      in:draw={{ duration: 2500, delay: 2200, easing: quintOut }}
       d="M103 6.35085L179.603 50.5774C181.459 51.6491 182.603 53.6299 182.603
       55.7735V144.227C182.603 146.37 181.459 148.351 179.603 149.423L103
       193.649C101.144 194.721 98.8564 194.721 97 193.649L20.3975 149.423C18.5411
@@ -41,7 +41,7 @@
       stroke-width="8" />
     <path
       class="text-path"
-      in:draw={{ duration: 2000, delay: 2500, easing: quintOut }}
+      in:draw={{ duration: 2000, delay: 3600, easing: quintOut }}
       d="M48.0875 137.464C47.1921 138.365 53.3972 137.965 56.1465
       137.464C58.8957 136.963 84.8005 87.9048 84.8005 87.0038C84.8005 86.1028
       88.3823 86.1028 88.3823 87.0038C88.3823 87.9048 78.5324 124.849 81.2188
