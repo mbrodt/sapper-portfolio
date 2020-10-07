@@ -16,8 +16,7 @@
     quote:
       "Mastering the Coding Mindset is an easy to understand, in-depth guide on how to learn, prepare, communicate, deal with self doubt and much more. I would recommend this book to anyone that wants to become or is already working as a software developer.",
     linkUrl: "https://twitter.com/traversymedia",
-    imageUrl:
-      "https://pbs.twimg.com/profile_images/856983737426423809/6jebtwP-_400x400.jpg",
+    imageUrl: "/twitter_profiles/traversy.jpg",
   };
 
   const simonQuote = {
@@ -25,8 +24,7 @@
     quote:
       "'Mastering the Coding Mindset' is a great resource for anyone serious about taking their career in Software Development to the next level! Especially for entry-level developers, it has a great introduction to technical fundamentals, without being overwhelming. And even for experienced developers, Mads Brodt is shedding light on a series of great habits that are worth picking up today, and keeping for the rest of a work-life! This book is highly recommended",
     linkUrl: "https://twitter.com/SimonHoiberg",
-    imageUrl:
-      "https://pbs.twimg.com/profile_images/1082926208516530176/TsBWPhaf_400x400.jpg",
+    imageUrl: "/twitter_profiles/simon.jpg",
   };
 
   const jamesQuote = {
@@ -34,8 +32,7 @@
     quote:
       "Mastering the Coding Mindset is a fantastic book because Mads is an empathetic person - you get the sense as you read that he remembers exactly what it was like to be a new developer. This book isn’t about learning shiny new toys - it’s about acquiring the habits and foundational skills needed to succeed as a developer. As such, I wholeheartedly recommend it.",
     linkUrl: "https://twitter.com/tucker_dev",
-    imageUrl:
-      "https://pbs.twimg.com/profile_images/1288973259870998529/Ra3tpR_g_400x400.jpg",
+    imageUrl: "/twitter_profiles/james.jpg",
   };
 </script>
 
@@ -75,5 +72,4 @@
   <Testimonial {...jamesQuote} />
   <Waves />
   <Footer />
-
 </div>
