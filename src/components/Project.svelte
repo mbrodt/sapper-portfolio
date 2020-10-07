@@ -5,8 +5,8 @@
   export let index;
   let projectNode;
 
-  const callback = function(entries) {
-    entries.forEach(entry => {
+  const callback = function (entries) {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.remove("opacity-0", "translate-y-16");
       }
@@ -14,8 +14,10 @@
   };
 
   onMount(() => {
-    const observer = new IntersectionObserver(callback);
-    observer.observe(projectNode);
+    setTimeout(() => {
+      const observer = new IntersectionObserver(callback);
+      observer.observe(projectNode);
+    }, 800);
   });
 </script>
 
@@ -35,7 +37,7 @@
     {#each project.tags as tag}
       <span
         class="bg-red-200 text-red-700 text-xs font-bold inline-block leading-4
-        px-2 py-1 mx-1 mt-2 rounded">
+          px-2 py-1 mx-1 mt-2 rounded">
         {tag}
       </span>
     {/each}

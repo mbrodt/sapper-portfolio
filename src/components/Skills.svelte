@@ -65,12 +65,12 @@
   }
 </style>
 
-<Section>
+<Section id="skills">
   <SectionHeading>Skills</SectionHeading>
   <div class="full-width bg-gray-900">
     <div
       class="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-8 lg:grid-cols-5
-      items-center py-12 lg:max-w-7xl lg:mx-auto"
+        items-center py-12 lg:max-w-7xl lg:mx-auto"
       style="justify-items: center">
       {#each skills as skill, idx}
         <div class="w-20 h-20 my-4 relative group">
@@ -78,8 +78,8 @@
 					px-2 py-1 mx-1 mt-2 rounded -->
           <div
             class="absolute left-0 right-0 text-center bg-red-200 text-red-700
-            text-xs font-bold rounded transition-all duration-700 opacity-0
-            group-hover:opacity-100"
+              text-xs font-bold rounded transition-all duration-700 opacity-0
+              group-hover:opacity-100"
             class:opacity-100={idx === focused}
             style="top: -50px; transition-timing-function: ease">
             <p class="text-sm">{skill.name}</p>
@@ -89,7 +89,7 @@
           <img
             style="transition-timing-function: ease"
             class="opacity-25 transform transition-all duration-500
-            hover:opacity-100 hover:scale-125"
+              hover:opacity-100 hover:scale-125"
             class:scale-125={idx === focused}
             class:opacity-100={idx === focused}
             src={'skills/' + skill.src}

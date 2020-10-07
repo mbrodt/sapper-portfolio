@@ -18,19 +18,19 @@
   .text-path {
     stroke: #fc8181;
     fill: transparent;
-    transition: 1s;
+    transition: 0.8s;
   }
 </style>
 
-
 <svg
+  id="logo-wrapper"
   class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64"
   viewBox="0 0 200 200"
   fill="none"
   xmlns="http://www.w3.org/2000/svg">
   {#if showLogo}
     <path
-      in:draw={{ duration: 2500, delay: 1200, easing: quintOut }}
+      in:draw={{ duration: 2500, delay: 1400, easing: quintOut }}
       d="M103 6.35085L179.603 50.5774C181.459 51.6491 182.603 53.6299 182.603
       55.7735V144.227C182.603 146.37 181.459 148.351 179.603 149.423L103
       193.649C101.144 194.721 98.8564 194.721 97 193.649L20.3975 149.423C18.5411
@@ -54,5 +54,4 @@
       63.1905 85.414 62.0848 84.8005 66.2791C84.187 70.4734 84.1143 73.9077
       83.0096 75.2898C81.905 76.672 48.983 136.563 48.0875 137.464Z" />
   {/if}
-
 </svg>
