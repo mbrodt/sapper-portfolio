@@ -30,7 +30,7 @@
     "gsap": "^3.5.1",
     "ignore-loader": "^0.1.2",
     "netlify-lambda": "^1.6.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "polka": "next",
     "postcss-cli": "^7.1.0",
     "postcss-loader": "^3.0.0",
