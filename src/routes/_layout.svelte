@@ -8,13 +8,12 @@
     <slot />
   </div>
 {:else}
-
   <!-- border-t-4 border-red-400 -->
   <div class="font-inter bg-gray-100">
     {#if segment !== 'confirm-book'}
       <div
         class="bg-red-400 text-base py-4 sm:text-lg md:text-xl font-semibold
-        text-white">
+          text-white sm:hidden">
         <div class="max-w-7xl w-full mx-auto px-4 sm:px-12 text-center">
           <span class="mb-2">
             I wrote a book on improving your dev skills and landing a job!
@@ -30,7 +29,7 @@
     {/if}
     <main
       class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-16 pt-12 md:pt-24
-      lg:py-48 text-gray-800 min-h-screen">
+        lg:py-48 xl:pt-64 text-gray-800 min-h-screen">
       <slot />
     </main>
   </div>

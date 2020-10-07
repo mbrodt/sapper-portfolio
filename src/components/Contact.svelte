@@ -4,7 +4,7 @@
   import SocialIcons from "./SocialIcons.svelte";
 </script>
 
-<Section>
+<Section id="contact">
   <SectionHeading>Get in touch</SectionHeading>
   <div class="md:max-w-lg font-body">
     <p>
@@ -13,16 +13,15 @@
     </p>
     <a
       class="mt-4 sm:mt-8 block text-red-400 hover:text-red-700
-      transition-colors duration-200 ease-out group text-xl"
+        transition-colors duration-200 ease-out group text-xl"
       href="mailto:madsbrodt3@gmail.com">
-      madsbrodt3@gmail.com
-      <svg
+      madsbrodt3@gmail.com <svg
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
         class="transform transition-transform duration-200 ease-out
-        group-hover:translate-x-4 group-hover:scale-125 -mt-1 inline w-5 h-5
-        sm:w-5 sm:h-5">
+          group-hover:translate-x-4 group-hover:scale-125 -mt-1 inline w-5 h-5
+          sm:w-5 sm:h-5">
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -31,12 +30,8 @@
       </svg>
     </a>
     <p class="mt-4 sm:mt-8 mb-2">
-      Freelance status:
-      <span
-        class="text-sm bg-green-300 text-green-900 py-1 px-3 font-bold
-        rounded-full">
-        Available for work
-      </span>
+      Freelance status: <span class="text-sm bg-green-300 text-green-900 py-1
+          px-3 font-bold rounded-full"> Available for work </span>
     </p>
 
     <SocialIcons />

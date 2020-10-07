@@ -4,12 +4,27 @@
 </script>
 
 <style>
-
 </style>
+
+<div class="fixed top-0 w-full py-4 z-10 hidden sm:block bg-gray-100 shadow">
+  <nav
+    class="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-12">
+    <a href="/" class="flex items-center">
+      <img src="/profile.jpg" alt="Mads Brodt" class="w-8 h-8 rounded-full" />
+      <span class="text-gray-700 font-bold mt-1 ml-4">Mads Brodt</span>
+    </a>
+    <ul class="flex space-x-6 text-gray-700">
+      <li class="font-bold"><a href="/newsletter">Newsletter</a></li>
+      <li class="font-bold"><a href="/blog">Blog</a></li>
+      <li class="font-bold"><a href="/mastering-coding-mindset">Book</a></li>
+      <li class="font-bold"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
 
 <div
   class="fixed bottom-0 z-10 bg-white py-2 w-full grid grid-cols-4 border-t
-  border-gray-400 sm:hidden">
+    border-gray-400 sm:hidden">
   <a href="/" class="flex flex-col items-center">
     <svg
       class="w-6 h-6 text-gray-600 transition-colors duration-300 ease-in"
