@@ -31,12 +31,12 @@
         "A campaign enabling users to light a candle to help refugees around the world. Focused on smooth animations and creating a compelling user experience.",
     },
     {
-      title: "Technical portfolios",
-      src: "techportfolios.svg",
-      tags: ["React", "Next", "Tailwind", "Hasura"],
-      link: "https://portfolios.tech",
+      title: "Motorious",
+      src: "motorious.svg",
+      tags: ["Shopify", "Liquid", "JavaScript", "Tailwind"],
+      link: "https://motorious.dk",
       description:
-        "A website where people can share their favorite technical portfolios. Allows filtering by different categories like development, branding and UX.",
+        "The new Motorious webshop combines the high quality products with the Rock'n'roll company style.",
     },
     {
       title: "Danfoss IXA",
