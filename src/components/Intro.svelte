@@ -4,29 +4,22 @@
   // import { ScrollTrigger } from "gsap/ScrollTrigger";
   // gsap.registerPlugin(ScrollTrigger);
   // import { onMount } from "svelte";
-  // let logoWrapper;
   // onMount(() => {
-  //   console.log("mounted");
-  //   const tl = gsap.timeline();
-  //   // gsap.to(".logo-wrapper", {
-  //   //   scrollTrigger: {
-  //   //     trigger: ".logo-wrapper",
-  //   //     start: "top center",
-  //   //     end: "top 200px",
-  //   //     scrub: true,
-  //   //     markers: true,
-  //   //   },
-  //   //   x: 400,
-  //   //   scale: 1.5,
-  //   //   duration: 3,
-  //   //   rotation: 360,
-  //   // });
-  //   tl.from(".intro-anim", {
-  //     opacity: 0,
-  //     y: 100,
-  //     duration: 1,
-  //     ease: "power2.out",
-  //     stagger: 0.5,
+  //   gsap.to(".logo-anim", {
+  //     scrollTrigger: {
+  //       trigger: ".logo-anim",
+  //       start: "20px 25%",
+  //       end: "+=300",
+  //       scrub: 1,
+  //       markers: true,
+  //     },
+  //     position: "fixed",
+  //     scale: 0.2,
+  //     duration: 2,
+  //     rotation: 360,
+  //     top: -96,
+  //     marginLeft: -128,
+  //     left: "50%",
   //   });
   // });
 </script>
@@ -35,12 +28,8 @@
 </style>
 
 <div
-  class="pb-12 lg:max-w-full flex flex-col md:flex-row-reverse justify-between
-    items-center">
-  <div class="mb-8 md:mb-0">
-    <SvgDrawing />
-    <!-- <div class="logo-wrapper w-32 h-32 bg-orange-600" /> -->
-  </div>
+  class="pb-12 lg:pt-16 lg:max-w-full flex flex-col-reverse md:flex-row
+    justify-between items-center relative">
   <div>
     <h1
       data-aos="fade-up"
@@ -76,5 +65,9 @@
         </svg>
       </a>
     </p>
+  </div>
+  <div class="logo-anim mb-8 md:mb-0 z-10">
+    <SvgDrawing />
+    <!-- <div class="logo-wrapper w-32 h-32 bg-orange-600" /> -->
   </div>
 </div>

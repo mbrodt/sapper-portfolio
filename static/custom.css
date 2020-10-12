@@ -1,7 +1,7 @@
 .card {
   /* increase transition delay on each subsequent project to give it a staggering effect */
   transition: all 1s ease;
-  transition-delay: calc(var(--transition-order) * 150ms);
+  transition-delay: calc(var(--transition-order) * 200ms);
 
   /* on mobile, keep all the transition delays the same since they only trigger 1 by 1 anyways */
 }

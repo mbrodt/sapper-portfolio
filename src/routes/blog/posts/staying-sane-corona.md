@@ -1,9 +1,10 @@
 ---
 title: "Tips for remote work in Corona times"
 date: "2020-05-10"
-tags: ["Personal, Productivity"]
+tags: ["Personal", "Productivity"]
 type: "blog-post"
-description: "I’m sure a lot of you have been “forced” to work remotely, with offices shutting down all across the world. You may find this great, or you may strongly dislike it."
+image: "remote.jpg"
+description: "Working from home during the pandemic can be very challenging, so it's important to do it right."
 ---
 
 I’m sure a lot of you have been “forced” to work remotely, with offices shutting down all across the world. You may find this great, or you may strongly dislike it. Whatever your perspective on remote work, it’s important to understand that normal remote work is NOT the same as what is happening right now. In this post I’ll explain why, and provide actionable advice to make remote working better in these difficult times.

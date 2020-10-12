@@ -50,5 +50,6 @@ module.exports = {
   plugins: [
     require("tailwindcss-font-inter")(),
     require("@tailwindcss/typography"),
+    require("@tailwindcss/ui"),
   ],
 };

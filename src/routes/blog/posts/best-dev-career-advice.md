@@ -3,7 +3,8 @@ title: "The best thing you can do for your development career"
 date: "2020-09-19"
 tags: ["Career", "Programming"]
 type: "blog-post"
-description: "There's no one piece of advice that will make you a great developer over night. But this lesson will help you improve your skills and enjoy a more successful development career in the long run"
+image: "career.jpg"
+description: "There's no one piece of advice that will make you a great developer over night. One thing comes pretty close, though."
 ---
 
 When I started my coding journey, I remember searching for that one piece of advice that would make everything click for me. Some guiding principle, some magic lesson, or some unknown fact. Something that would make my brain go "aha" and make it that much easier to learn coding from that point forwards.

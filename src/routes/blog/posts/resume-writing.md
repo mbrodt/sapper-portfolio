@@ -3,7 +3,8 @@ title: "Writing a compelling resume"
 date: "2020-06-29"
 tags: ["Career"]
 type: "blog-post"
-description: "How to write a compelling resume and get your foot in the door"
+image: "resume.jpg"
+description: "To land a job, you need to get your foot in the door and create a great first impression. It all starts with a compelling resume."
 cta: "book"
 ---
 

@@ -12,24 +12,23 @@
   <SectionHeading>Writing</SectionHeading>
   <SubHeading>Blog</SubHeading>
   <ul class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
-    {#each posts as post, index}
+    {#each posts.slice(0, 4) as post, index}
       <Post {post} {index} />
     {/each}
   </ul>
   <a
     class="mt-4 sm:mt-8 mb-12 block text-red-400 hover:text-red-700
-    transition-colors duration-200 ease-out group text-xl text-right"
+      transition-colors duration-200 ease-out group text-xl text-right"
     data-aos="fade-up"
     data-aos-delay="300"
     href="/blog">
-    Check out more of my writing
-    <svg
+    Check out more of my writing <svg
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
       class="transform transition-transform duration-200 ease-out
-      group-hover:translate-x-4 group-hover:scale-125 ml-2 inline w-5 h-5 sm:w-5
-      sm:h-5">
+        group-hover:translate-x-4 group-hover:scale-125 ml-2 inline w-5 h-5
+        sm:w-5 sm:h-5">
       <path
         stroke-linecap="round"
         stroke-linejoin="round"

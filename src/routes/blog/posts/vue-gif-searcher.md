@@ -3,7 +3,8 @@ title: "Building a Gif Searcher with Vue and the Giphy API"
 date: "2018-04-15"
 tags: ["Programming", "Vue"]
 type: "blog-post"
-description: "Learn the basics of Vue, interacting with an API, and building a real-world application"
+image: "api.jpg"
+description: "Learn the basics of Vue, interacting with an API, and building a real-world application."
 ---
 
 Welcome to this tutorial, I'm happy you made it here. This will be a tutorial on how to fetch and display gifs with Vue, retrieved from the giphy API. We will cover the following parts:

@@ -3,6 +3,7 @@ title: "Is coding for me?"
 date: "2018-04-23"
 tags: ["Programming"]
 type: "blog-post"
+image: "codingforme.jpg"
 description: "How do you know if coding is for you? If you don't enjoy math, are you even capable of being a programmer?"
 ---
 

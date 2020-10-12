@@ -50,7 +50,7 @@ const posts = fs
   .map((fileName) => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), "utf8");
     const { data, content } = matter(fileMd);
-    const { title, date, tags, description, cta } = data;
+    const { title, date, tags, description, cta, image } = data;
     const slug = fileName.split(".")[0];
 
     const html = marked(content);
@@ -68,6 +68,7 @@ const posts = fs
       printDate,
       printReadingTime,
       cta,
+      image,
     };
   });
 

@@ -1,8 +1,8 @@
 <div class="max-w-3xl mx-auto">
   <div class="text-center">
     <h1
-      class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center
-      text-gray-900">
+      class="text-2xl sm:text-3xl md:text-4xl font-bold text-center
+        text-gray-900 leading-9 tracking-tight sm:leading-10">
       Improve your coding career
     </h1>
     <p class="text-lg md:text-xl max-w-lg mx-auto">
@@ -12,12 +12,11 @@
   </div>
   <div
     class="max-w-3xl mx-auto mt-8 lg:mt-12 px-4 pt-6 pb-2 sm:px-8 md:pt-12
-    md:pb-10 border border-gray-400">
+      md:pb-10 border border-gray-400">
     <script
       async
       data-uid="f86832cf8a"
       src="https://madsbrodt.ck.page/f86832cf8a/index.js">
-
     </script>
   </div>
   <div class="mt-16 lg:mt-32 xl:mt-48 prose sm:prose-lg lg:prose-xl">

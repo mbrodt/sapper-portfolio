@@ -1,9 +1,10 @@
 ---
-title: 'I got a new job'
-date: '2020-07-29'
-tags: ['Personal', 'Career']
-type: 'blog-post'
-description: 'How I landed a front-end development job in a digital agency'
+title: "I got a new job"
+date: "2020-07-29"
+tags: ["Personal", "Career"]
+type: "blog-post"
+image: "newjob.jpg"
+description: "How I landed a front-end development job in a digital agency through a detailed hiring process."
 ---
 
 I got a new job as a front-end developer in a digital agency. I will be starting on September 1st., and I couldn't be more excited! I'm writing this post to share some information about the company, the hiring process, and why I decided to switch jobs.

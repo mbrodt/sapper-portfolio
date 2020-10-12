@@ -15,7 +15,7 @@
       class="mt-4 sm:mt-8 block text-red-400 hover:text-red-700
         transition-colors duration-200 ease-out group text-xl"
       href="mailto:madsbrodt3@gmail.com">
-      madsbrodt3@gmail.com <svg
+      me@madsbrodt.com <svg
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

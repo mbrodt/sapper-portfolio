@@ -8,6 +8,9 @@ const contents = JSON.stringify(
       date: post.printDate,
       tags: post.tags,
       cta: post.cta,
+      readingTime: post.printReadingTime,
+      description: post.description,
+      image: post.image,
     };
   })
 );

@@ -29,7 +29,7 @@
     {/if}
     <main
       class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-16 pt-12 md:pt-24
-        lg:py-48 xl:pt-64 text-gray-800 min-h-screen">
+        lg:py-32 xl:pt-48 text-gray-800 min-h-screen">
       <slot />
     </main>
   </div>
