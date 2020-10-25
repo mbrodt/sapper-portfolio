@@ -25,14 +25,24 @@
   });
 </script>
 
+<style>
+  .teaser-img {
+    transition: all 0.5s ease;
+  }
+
+  .teaser:hover .teaser-img {
+    transform: scale(1.015);
+  }
+</style>
+
 <li
   class="card transform opacity-0 translate-y-16 flex flex-col rounded-lg
-    shadow-lg overflow-hidden"
+    shadow-lg overflow-hidden teaser"
   bind:this={postNode}
   style="--transition-order: {index + 2}">
   <div class="flex-shrink-0">
     <img
-      class="h-48 w-full object-cover"
+      class="h-48 w-full object-cover teaser-img"
       src="post_images/{post.image}"
       alt="" />
   </div>
