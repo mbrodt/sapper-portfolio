@@ -7,7 +7,7 @@
 </style>
 
 <div
-  class="fixed top-0 w-full pb-4 pt-5 z-10 hidden sm:block bg-gray-100 shadow">
+  class="fixed top-0 w-full pb-4 pt-5 z-20 hidden sm:block bg-gray-100 shadow">
   <nav
     class="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-12">
     <a href="/" class="flex items-center">
