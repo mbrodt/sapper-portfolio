@@ -66,10 +66,10 @@
         style="fill:#FCC21B;" />
     </g>
   </svg> -->
-  <div class="sm:leading-none flex flex-col sm:space-y-2">
+  <div class="sm:leading-none flex flex-col lg:space-y-2">
     <p class="text-xl sm:text-3xl font-bold">Black Friday Sale! 🔥</p>
-    <p class="text-sm sm:text-base lg:text-lg">50% off BOTH packages</p>
-    <p class="text-sm sm:text-base lg:text-lg">
+    <p class="lg:text-lg">50% off BOTH packages</p>
+    <p class="lg:text-lg">
       <span>{days} days</span>
       <span>{hours} hours</span>
       <span>{minutes} minutes</span>
@@ -78,7 +78,7 @@
     <a
       href="#pricing"
       on:click|preventDefault={scrollTo}
-      class="text-sm sm:text-base lg:text-lg underline block sm:inline">
+      class="lg:text-lg underline block sm:inline">
       Buy now →
     </a>
   </div>
