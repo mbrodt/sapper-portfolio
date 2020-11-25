@@ -44,8 +44,9 @@
 
 <div class="max-w-8xl mx-auto">
   <div
-    class="relative flex flex-wrap flex-col md:flex-row md:items-center pt-32
-      sm:pt-24 md:pt-16 lg:pt-32 px-6 lg:px-12 xxl:px-0">
+    class="relative flex flex-wrap flex-col md:flex-row md:items-center pt-40
+      lg:pt-48 px-6 lg:px-12 xxl:px-0">
+    <!-- pt-32 sm:pt-24 md:pt-16 lg:pt-32 -->
     <div class="md:w-3/5">
       <div class="mb-12 md:mt-12">
         <h1
