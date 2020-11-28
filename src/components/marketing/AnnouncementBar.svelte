@@ -5,7 +5,7 @@
     });
   }
 
-  const deadline = new Date(2020, 11, 1, 0, 0, 0, 0);
+  const deadline = new Date(2020, 11, 2, 0, 0, 0, 0);
   console.log("deadline:", deadline);
   let days = 0,
     hours = 0,
