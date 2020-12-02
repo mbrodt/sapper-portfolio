@@ -5,41 +5,43 @@
     });
   }
 
-  const deadline = new Date(2020, 11, 2, 0, 0, 0, 0);
-  console.log("deadline:", deadline);
-  let days = 0,
-    hours = 0,
-    minutes = 0,
-    seconds = 0;
-  function getTimeRemaining() {
-    const total = Date.parse(deadline) - Date.parse(new Date());
-    const seconds = Math.floor((total / 1000) % 60);
-    const minutes = Math.floor((total / 1000 / 60) % 60);
-    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-    const days = Math.floor(total / (1000 * 60 * 60 * 24));
-    return {
-      total,
-      days,
-      hours,
-      minutes,
-      seconds,
-    };
-  }
+  // Countdown logic:
 
-  const timeinterval = setInterval(() => {
-    const t = getTimeRemaining();
-    days = t.days;
-    hours = t.hours;
-    minutes = t.minutes;
-    seconds = t.seconds;
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
-    }
-  }, 1000);
+  // const deadline = new Date(2020, 11, 2, 0, 0, 0, 0);
+  // console.log("deadline:", deadline);
+  // let days = 0,
+  //   hours = 0,
+  //   minutes = 0,
+  //   seconds = 0;
+  // function getTimeRemaining() {
+  //   const total = Date.parse(deadline) - Date.parse(new Date());
+  //   const seconds = Math.floor((total / 1000) % 60);
+  //   const minutes = Math.floor((total / 1000 / 60) % 60);
+  //   const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+  //   const days = Math.floor(total / (1000 * 60 * 60 * 24));
+  //   return {
+  //     total,
+  //     days,
+  //     hours,
+  //     minutes,
+  //     seconds,
+  //   };
+  // }
+
+  // const timeinterval = setInterval(() => {
+  //   const t = getTimeRemaining();
+  //   days = t.days;
+  //   hours = t.hours;
+  //   minutes = t.minutes;
+  //   seconds = t.seconds;
+  //   if (t.total <= 0) {
+  //     clearInterval(timeinterval);
+  //   }
+  // }, 1000);
 </script>
 
 <div
-  class="py-4 text-lg font-bold text-center w-full text-white flex items-center
+  class="py-4 text-lg text-center w-full text-white flex items-center
     justify-center fixed top-0 z-10 bg-gradient-to-r from-pink-500 to-orange-500">
   <!-- <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -67,19 +69,16 @@
     </g>
   </svg> -->
   <div class="sm:leading-none flex flex-col lg:space-y-2">
-    <p class="text-xl sm:text-3xl font-bold">Black Friday Sale! 🔥</p>
-    <p class="lg:text-lg">50% off BOTH packages</p>
-    <p class="lg:text-lg">
+    <p class="lg:text-lg lg:font-bold">
+      🔥 The book is now available! <a href="#pricing" on:click|preventDefault={scrollTo} class="lg:text-lg
+          underline block sm:inline"> Buy now → </a>
+    </p>
+    <!-- <p class="lg:text-lg">50% off BOTH packages</p> -->
+    <!-- <p class="lg:text-lg">
       <span>{days} days</span>
       <span>{hours} hours</span>
       <span>{minutes} minutes</span>
       <span>{seconds} seconds</span>
-    </p>
-    <a
-      href="#pricing"
-      on:click|preventDefault={scrollTo}
-      class="lg:text-lg underline block sm:inline">
-      Buy now →
-    </a>
+    </p> -->
   </div>
 </div>
