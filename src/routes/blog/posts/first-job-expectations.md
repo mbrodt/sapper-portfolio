@@ -4,7 +4,7 @@ date: "2020-11-11"
 tags: ["Career", "Programming"]
 type: "blog-post"
 image: "expectations.jpg"
-description: "Landing your first development job is hard, but when you do, you need to prepare for what comes next"
+description: "Landing your first development job is hard, but when you do, you need to prepare for what comes next."
 ---
 
 A few years ago, I landed my first development job. Before that, I read tons of articles and advice on **how** to do it - advice like having a portfolio website, showing off your projects, and establishing a personal connection before applying. All valuable advice that I'm convinced helped me get the job.
