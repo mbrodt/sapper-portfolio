@@ -33,7 +33,7 @@ Static site generation is a bit different. Instead of creating a page when a use
 
 One of the main advantages of SSG is performance. Since the server only has to generate the pages once, it saves a lot of time and computation power. It also means that the page can be returned back to the user right away, resulting in speedier page loads and a better experience for the user - both on the initial request, but also on each subsequent route navigation.
 
-Since SSG results in static files, it also has the advantage of being deployable to a CDN. A CDN is a network of servers spread out across the world, meaning your files can be served more quickly to users anywhere.
+Since SSG results in static files, it also has the advantage of being deployable to a CDN. A CDN is a network of servers spread out across the world, meaning your files can be served more quickly to users anywhere. Also, you won't need to manage your own server running 24/7 with this approach.
 
 And finally, like with SSR, SSG is great for SEO since Google's crawler will get the complete HTML document to index.
 
