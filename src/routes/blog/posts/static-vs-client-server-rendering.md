@@ -21,6 +21,8 @@ This approach has several advantages. For one, the server can directly access th
 
 SSR is also great for Search Engine Optimization (SEO). When Google tries to crawl and index a website, it will request it like a normal user. The SSR approach will then build and return the full HTML document for Google to crawl, helping Google address and list the page accurately for others to search for.
 
+Finally, SSR is useful in case the client is using a low-powered device or connection. Shipping HTML over the wire is always cheaper than shipping lots of JS, and it's easier to control the power of your server to generate the HTML, than relying on the users device to do the heavy lifting.
+
 The clear downside of SSR is that the user will have to wait for each page to be generated specifically for them. And if a lot of users are requesting a page that doesn't have changing data, the server will do a lot of unnecessary work by constantly re-creating the same page. Hence, some smart folks came up with an alternative approach:
 
 ## Static Site Generation (SSG)
@@ -29,7 +31,11 @@ Static site generation is a bit different. Instead of creating a page when a use
 
 ![Static site generation](post_images/ssg.png)
 
-One of the main advantages of SSG is performance. Since the server only has to generate the pages once, it saves a lot of time and computation power. It also means that the page can be returned back to the user right away, resulting in speedier page loads and a better experience for the user - both on the initial request, but also on each subsequent route navigation. And, like with SSR, it's great for SEO since Google's crawler will get the complete HTML document to index.
+One of the main advantages of SSG is performance. Since the server only has to generate the pages once, it saves a lot of time and computation power. It also means that the page can be returned back to the user right away, resulting in speedier page loads and a better experience for the user - both on the initial request, but also on each subsequent route navigation.
+
+Since SSG results in static files, it also has the advantage of being deployable to a CDN. A CDN is a network of servers spread out across the world, meaning your files can be served more quickly to users anywhere.
+
+And finally, like with SSR, SSG is great for SEO since Google's crawler will get the complete HTML document to index.
 
 The major downside to SSG is that we can't rely on pages always having the exact same data. If you think of a website like Facebook, where each user request to facebook.com will need to return a completely unique view based on that users interests, friends, follows etc - SSG is not a good match.
 
@@ -43,7 +49,7 @@ The last approach is client-side rendering, also known as the Single Page Applic
 
 CSR is very common in web applications where users can log in, since SEO isn't a big factor in those types of apps. CSR guarantees a quick initial response, and the possibility to show a loading spinner while the JavaScript is generating the page in the browser. This leads to a great user experience on each route navigation, since all the work happens directly in the browser. It also means less strain on the server, as more work is delegated to the client.
 
-The major disadvantages of CSR is SEO, since Google won't be able to crawl the website as effectively as with with SSR or SSG approaches. CSR can also lead to "layout jank", where the layout jumps around as more and more JS and images are loaded in the browser. You also won't be able to access your database directly, since all the code is run on the client. Databases are only accessible through server-side code, so you'll need some form of API layer to talk to the DB (or use public API's that others have made available for you)
+One disavantage of CSR is SEO, since Google won't be able to crawl the website as effectively as with with SSR or SSG approaches. Although, some theorize that Google will now execute the requested JavaScript before crawling, so this might not be as a big of an issue anymore (though I haven't seen 100% concrete proof of this yet). CSR can also lead to "layout jank", where the layout jumps around as more and more JS and images are loaded in the browser. You also won't be able to access your database directly, since all the code is run on the client. Databases are only accessible through server-side code, so you'll need some form of API layer to talk to the DB (or use public API's that others have made available for you)
 
 ## Which to use
 
