@@ -34,7 +34,7 @@ module.exports = {
       default: {
         css: {
           a: {
-            color: "#667eea",
+            color: "#f98080",
             fontWeight: "bold",
             textDecoration: "underline",
           },
