@@ -28,7 +28,7 @@
     "compression": "^1.7.1",
     "cypress": "^3.8.3",
     "date-fns": "^2.9.0",
-    "gsap": "^3.5.1",
+    "gsap": "^3.6.0",
     "ignore-loader": "^0.1.2",
     "netlify-lambda": "^1.6.3",
     "node-fetch": "^2.6.0",
