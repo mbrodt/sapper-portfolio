@@ -30,6 +30,10 @@
   Thanks again!
   <br />
   <br />
+  <a class="text-indigo-600 underline font-bold" href="/mastering-coding-mindset">
+    Back to the book
+	</a>
+	<span class="text-indigo-600 font-bold mx-2">|</span>
   <a class="text-indigo-600 underline font-bold" href="https://gmail.com">
     Open Gmail
   </a>

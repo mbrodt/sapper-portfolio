@@ -13,18 +13,21 @@
     <div class="text-center" in:fly={{ y: 70, duration: 600 }}>
       <h1
         class="text-2xl sm:text-3xl md:text-4xl font-bold text-center
-          text-gray-900 leading-9 tracking-tight sm:leading-10">
-        Improve your coding career
+          text-gray-900 leading-9 tracking-tight sm:leading-10"
+      >
+        Want to improve your coding career?
       </h1>
-      <p class="text-lg md:text-xl max-w-lg mx-auto">
-        No advertisements, no sponsors, no spam. Just high quality advice to aid
-        you on your coding journey.
+      <p class="text-lg md:text-xl max-w-lg md:max-w-xl mt-2 mx-auto">
+        Join over 2000 developers and get weekly resources, updates and
+        development advice straight to your inbox. No spam - just high quality
+        content to aid you on your coding journey.
       </p>
     </div>
     <div
       class="max-w-3xl mx-auto mt-8 lg:mt-12 px-4 pt-6 pb-2 sm:px-8 md:pt-12
         md:pb-10 border border-gray-400"
-      in:fly={{ y: 70, duration: 600, delay: 400 }}>
+      in:fly={{ y: 70, duration: 600, delay: 400 }}
+    >
       <script
         async
         data-uid="f86832cf8a"
@@ -33,30 +36,28 @@
     </div>
     <div
       class="mt-12 lg:mt-24 prose sm:prose-lg lg:prose-xl"
-      in:fly={{ y: 70, duration: 600, delay: 800 }}>
-      <h2 class="">
-        Career advice and front-end development content. Directly to your inbox.
-      </h2>
+      in:fly={{ y: 70, duration: 600, delay: 800 }}
+    >
+      <h2 class="">Sign up for the Top 3 in Tech newsletter</h2>
       <div>
         <p>
-          The newsletter is where I share my learnings, experiences and advice
-          from my own coding journey. Each issue is designed to provide as much
-          value as possible. No spam, and nothing annoying or unexpected. Just
-          valuable lessons to apply for yourself.
+          Every week I pick out my Top 3 and send it directly to your inbox. No
+          spam, and nothing annoying or unexpected. Just valuable lessons to
+          apply for yourself.
         </p>
         <p>As a subscriber, you'll receive:</p>
         <ul>
           <li>
-            Long-form articles to improve your coding career – Once or twice per
-            month
+            A weekly email with amazing resources, updates on various
+            tools/frameworks, and hand-crafted advice directly from me
           </li>
           <li>
-            Discounts and offers on my book or other courses down the road – A
-            few times per year
+            Occasional discounts and offers on my book or other courses down the
+            road
           </li>
           <li>
-            Updates about me, when I get a new job and the lessons from that –
-            Occasionally
+            Occasional updates about me, when I get a new job and the lessons
+            from that
           </li>
         </ul>
         <p>
