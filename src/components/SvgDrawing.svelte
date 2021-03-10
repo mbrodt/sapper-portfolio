@@ -2,8 +2,27 @@
   import { draw } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { onMount } from "svelte";
+  import {logoStore} from "../store"
+  import {mapConstrain} from "../utils"
 
-  let showLogo = false;
+  export let ref, updateStore = false
+
+  let showLogo = false, floatingStyling = '', scrollY;
+
+  $: if (!updateStore && ref) {
+    const threshold = window.innerHeight * 0.5
+    const x = mapConstrain(-scrollY, -threshold, 0, window.innerWidth * 0.5, $logoStore.x)
+    const xOffset = mapConstrain(scrollY, 0, threshold, 0, $logoStore.width * 0.5)
+    const y = mapConstrain(-scrollY, -threshold, 0,0, $logoStore.y)
+    const yOffset = mapConstrain(scrollY, 0, threshold, 0, (($logoStore.height * 0.5) - $logoStore.navHeight * 0.5))
+    const scale = -mapConstrain(scrollY, 0, threshold, -1, -(($logoStore.navHeight - 16) / $logoStore.height) )
+
+    floatingStyling = `
+      width: ${$logoStore.width}px;
+      height: ${$logoStore.height}px;
+      transform: translate(${x-xOffset}px, ${y-yOffset}px) scale(${scale});
+    `
+  }
 
   onMount(() => {
     showLogo = !showLogo;
@@ -11,6 +30,14 @@
       const p = document.querySelector(".text-path");
       p.style.fill = "#fc8181";
     }, 5600);
+
+    if (updateStore) {
+      const { top: y, left: x, width, height } = ref.getBoundingClientRect()
+      logoStore.update(() => ({
+        ...$logoStore,
+        x, y, width, height
+      }))
+    }
   });
 </script>
 
@@ -22,12 +49,21 @@
   }
 </style>
 
+<svelte:window bind:scrollY />
+
 <svg
   id="logo-wrapper"
-  class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64"
+  class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64 z-30"
+  class:floating={!updateStore}
+  class:top-0={!updateStore}
+  class:left-0={!updateStore}
+  class:fixed={!updateStore}
+  class:opacity-0={updateStore}
   viewBox="0 0 200 200"
   fill="none"
-  xmlns="http://www.w3.org/2000/svg">
+  xmlns="http://www.w3.org/2000/svg"
+  style={floatingStyling}
+  bind:this={ref}>
   {#if showLogo}
     <path
       in:draw={{ duration: 2500, delay: 2200, easing: quintOut }}

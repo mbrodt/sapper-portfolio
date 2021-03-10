@@ -1,12 +1,21 @@
 <script>
   // your script goes here
+  import SvgDrawing from "./SvgDrawing.svelte";
+  import {logoStore} from "../store"
+  import {onMount} from "svelte"
   export let segment;
+  let ref
+
+  onMount(() => {
+    $logoStore.navHeight = ref.offsetHeight
+  })
 </script>
 
 <style>
 </style>
 
 <div
+  bind:this={ref}
   class="fixed top-0 w-full pb-4 pt-5 z-20 hidden sm:block bg-gray-100 shadow">
   <nav
     class="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-12">
@@ -24,6 +33,8 @@
       <li class="font-bold"><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+  <SvgDrawing />
+
 </div>
 
 <div
@@ -113,4 +124,5 @@
       Book
     </span>
   </a>
+
 </div>
