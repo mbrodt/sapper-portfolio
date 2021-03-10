@@ -43,20 +43,25 @@
       -1,
       -(($logoStore.navHeight - 16) / $logoStore.height)
     );
-    console.log("NAVHEIGHT", $logoStore.navHeight);
+
+    const rotation = mapConstrain(scrollY, 0, threshold, 0, 360);
 
     floatingStyling = `
       width: ${$logoStore.width}px;
       height: ${$logoStore.height}px;
-      transform: translate(${x - xOffset}px, ${y - yOffset}px) scale(${scale});
+      transform: translate(${x - xOffset}px, ${
+      y - yOffset
+    }px) scale(${scale}) rotate(${-rotation}deg);
     `;
   }
 
   onMount(() => {
     showLogo = !showLogo;
     setTimeout(() => {
-      const p = document.querySelector(".text-path");
-      p.style.fill = "#fc8181";
+      const paths = document.querySelectorAll(".text-path");
+      paths.forEach((path) => {
+        path.style.fill = "#fc8181";
+      });
     }, 5600);
 
     if (updateStore) {

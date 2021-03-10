@@ -16,18 +16,12 @@
             post.slug !== currentPost.slug
           );
         });
-        console.log("related:", related);
         relatedPosts = related;
       });
   });
 </script>
 
-<style>
-  /* your styles go here */
-</style>
-
 <Section>
-
   <SectionHeading>You might also like...</SectionHeading>
   <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
     {#each relatedPosts as post, index}
@@ -35,3 +29,7 @@
     {/each}
   </ul>
 </Section>
+
+<style>
+  /* your styles go here */
+</style>
