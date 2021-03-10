@@ -30,6 +30,4 @@
   </ul>
 </Section>
 
-<style>
-  /* your styles go here */
-</style>
+<Section>/* your styles go here */</Section>
