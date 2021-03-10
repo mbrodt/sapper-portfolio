@@ -1,28 +1,5 @@
 <script>
   import SvgDrawing from "./SvgDrawing.svelte";
-  // import FloatingSvgDrawing from "./FloatingSvgDrawing.svelte";
-  // import { gsap } from "gsap";
-  // import { ScrollTrigger } from "gsap/ScrollTrigger";
-  // gsap.registerPlugin(ScrollTrigger);
-  // import { onMount } from "svelte";
-  // onMount(() => {
-  //   gsap.to(".logo-anim", {
-  //     scrollTrigger: {
-  //       trigger: ".logo-anim",
-  //       start: "20px 25%",
-  //       end: "+=300",
-  //       scrub: 1,
-  //       markers: true,
-  //     },
-  //     position: "fixed",
-  //     scale: 0.2,
-  //     duration: 2,
-  //     rotation: 360,
-  //     top: -96,
-  //     marginLeft: -128,
-  //     left: "50%",
-  //   });
-  // });
 </script>
 
 <div
@@ -70,9 +47,8 @@
       </a>
     </p>
   </div>
-  <div class="logo-anim mb-8 md:mb-0 z-10">
+  <div class="mb-8 md:mb-0 z-10">
     <SvgDrawing updateStore />
-    <!-- <div class="logo-wrapper w-32 h-32 bg-orange-600" /> -->
   </div>
 </div>
 

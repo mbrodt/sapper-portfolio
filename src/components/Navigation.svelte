@@ -12,6 +12,7 @@
 </script>
 
 <div
+  bind:this={ref}
   class="fixed top-0 w-full pb-2 pt-3 z-20 hidden sm:block bg-gray-100 shadow"
 >
   <nav

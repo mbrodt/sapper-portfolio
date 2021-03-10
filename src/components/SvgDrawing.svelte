@@ -2,26 +2,54 @@
   import { draw } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { onMount } from "svelte";
-  import {logoStore} from "../store"
-  import {mapConstrain} from "../utils"
+  import { logoStore } from "../store";
+  import { mapConstrain } from "../utils";
 
-  export let ref, updateStore = false
+  export let ref,
+    updateStore = false;
 
-  let showLogo = false, floatingStyling = '', scrollY;
+  let showLogo = false,
+    floatingStyling = "",
+    scrollY;
 
   $: if (!updateStore && ref) {
-    const threshold = window.innerHeight * 0.5
-    const x = mapConstrain(-scrollY, -threshold, 0, window.innerWidth * 0.5, $logoStore.x)
-    const xOffset = mapConstrain(scrollY, 0, threshold, 0, $logoStore.width * 0.5)
-    const y = mapConstrain(-scrollY, -threshold, 0,0, $logoStore.y)
-    const yOffset = mapConstrain(scrollY, 0, threshold, 0, (($logoStore.height * 0.5) - $logoStore.navHeight * 0.5))
-    const scale = -mapConstrain(scrollY, 0, threshold, -1, -(($logoStore.navHeight - 16) / $logoStore.height) )
+    const threshold = window.innerHeight * 0.5;
+    const x = mapConstrain(
+      -scrollY,
+      -threshold,
+      0,
+      window.innerWidth * 0.5,
+      $logoStore.x
+    );
+    const xOffset = mapConstrain(
+      scrollY,
+      0,
+      threshold,
+      0,
+      $logoStore.width * 0.5
+    );
+    const y = mapConstrain(-scrollY, -threshold, 0, 0, $logoStore.y);
+    const yOffset = mapConstrain(
+      scrollY,
+      0,
+      threshold,
+      0,
+      $logoStore.height * 0.5 - $logoStore.navHeight * 0.5
+    );
+    const scale = -mapConstrain(
+      scrollY,
+      0,
+      threshold,
+      -1,
+      -(($logoStore.navHeight - 16) / $logoStore.height)
+    );
+    console.log("NAVHEIGHT", $logoStore.navHeight);
 
     floatingStyling = `
       width: ${$logoStore.width}px;
       height: ${$logoStore.height}px;
-      transform: translate(${x-xOffset}px, ${y-yOffset}px) scale(${scale});
-    `
+      transform: translate(${x - xOffset}px, ${y - yOffset}px) scale(${scale});
+    `;
   }
 
   onMount(() => {
@@ -32,38 +60,32 @@
     }, 5600);
 
     if (updateStore) {
-      const { top: y, left: x, width, height } = ref.getBoundingClientRect()
+      const { top: y, left: x, width, height } = ref.getBoundingClientRect();
       logoStore.update(() => ({
         ...$logoStore,
-        x, y, width, height
-      }))
+        x,
+        y,
+        width,
+        height,
+      }));
     }
   });
 </script>
 
-<style>
-  .text-path {
-    stroke: #fc8181;
-    fill: transparent;
-    transition: 0.8s;
-  }
-</style>
-
 <svelte:window bind:scrollY />
 
 <svg
-  id="logo-wrapper"
-  class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64 z-30"
+  class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64 z-30 {updateStore ? 'lg:opacity-0' : ''}"
   class:floating={!updateStore}
   class:top-0={!updateStore}
   class:left-0={!updateStore}
   class:fixed={!updateStore}
-  class:opacity-0={updateStore}
   viewBox="0 0 200 200"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   style={floatingStyling}
-  bind:this={ref}>
+  bind:this={ref}
+>
   {#if showLogo}
     <path
       in:draw={{ duration: 2500, delay: 2200, easing: quintOut }}
@@ -74,7 +96,8 @@
       51.6491 20.3975 50.5774L97 6.35085C98.8564 5.27905 101.144 5.27906 103
       6.35085Z"
       stroke="#fc8181"
-      stroke-width="8" />
+      stroke-width="8"
+    />
     <path
       class="text-path"
       in:draw={{ duration: 2000, delay: 3600, easing: quintOut }}
@@ -88,6 +111,15 @@
       63.1753 135.442 62.4467 135.84 63.5759C136.239 64.705 100.497 98.6255
       98.2321 98.7178C95.9674 98.8101 104.694 67.5656 105.396 65.378C106.097
       63.1905 85.414 62.0848 84.8005 66.2791C84.187 70.4734 84.1143 73.9077
-      83.0096 75.2898C81.905 76.672 48.983 136.563 48.0875 137.464Z" />
+      83.0096 75.2898C81.905 76.672 48.983 136.563 48.0875 137.464Z"
+    />
   {/if}
 </svg>
+
+<style>
+  .text-path {
+    stroke: #fc8181;
+    fill: transparent;
+    transition: 0.8s;
+  }
+</style>
