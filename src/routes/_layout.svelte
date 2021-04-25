@@ -13,14 +13,16 @@
     {#if segment !== 'confirm-book'}
       <div
         class="bg-red-400 text-base py-4 sm:text-lg md:text-xl font-semibold
-          text-white sm:hidden">
+          text-white sm:hidden"
+      >
         <div class="max-w-7xl w-full mx-auto px-4 sm:px-12 text-center">
           <span class="mb-2">
             I wrote a book on improving your dev skills and landing a job!
           </span>
           <a
             href="/mastering-coding-mindset"
-            class="font-bold text-white underline">
+            class="font-bold text-white underline"
+          >
             Learn more →
           </a>
         </div>
@@ -28,9 +30,10 @@
       <Navigation {segment} />
     {/if}
     <main
-      class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-16 pt-12 md:pt-24
-        lg:py-32 xl:pt-48 text-gray-800 min-h-screen">
-      <slot />
+      class="max-w-7xl w-full mx-auto px-4 sm:px-12 pb-16 pt-12 sm:pt-24
+        lg:py-32 xl:pt-48 text-gray-800 min-h-screen"
+    >
+      <slot {segment} />
     </main>
   </div>
 {/if}

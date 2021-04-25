@@ -4,6 +4,7 @@
   import { logoStore } from "../store";
   import { onMount } from "svelte";
   export let segment;
+  console.log("segment", segment);
   let ref;
 
   onMount(() => {
@@ -53,7 +54,9 @@
       </li>
     </ul>
   </nav>
-  <SvgDrawing />
+  {#if !segment}
+    <SvgDrawing />
+  {/if}
 </div>
 
 <div

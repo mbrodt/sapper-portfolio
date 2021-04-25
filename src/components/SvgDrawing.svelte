@@ -6,13 +6,13 @@
   import { mapConstrain } from "../utils";
 
   export let ref,
-    updateStore = false;
+    placeholder = false;
 
   let showLogo = false,
     floatingStyling = "",
     scrollY;
 
-  $: if (!updateStore && ref) {
+  $: if (!placeholder && ref) {
     const threshold = window.innerHeight * 0.5;
     const x = mapConstrain(
       -scrollY,
@@ -63,8 +63,7 @@
         path.style.fill = "#fc8181";
       });
     }, 5600);
-
-    if (updateStore) {
+    if (placeholder) {
       const { top: y, left: x, width, height } = ref.getBoundingClientRect();
       logoStore.update(() => ({
         ...$logoStore,
@@ -78,13 +77,12 @@
 </script>
 
 <svelte:window bind:scrollY />
-
 <svg
-  class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64 z-30 {updateStore ? 'lg:opacity-0' : ''}"
-  class:floating={!updateStore}
-  class:top-0={!updateStore}
-  class:left-0={!updateStore}
-  class:fixed={!updateStore}
+  class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-64 xl:h-64 z-30 {placeholder ? 'lg:opacity-0' : ''}"
+  class:floating={!placeholder}
+  class:top-0={!placeholder}
+  class:left-0={!placeholder}
+  class:fixed={!placeholder}
   viewBox="0 0 200 200"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"

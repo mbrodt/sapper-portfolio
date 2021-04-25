@@ -48,7 +48,7 @@
     </p>
   </div>
   <div class="mb-8 md:mb-0 z-10">
-    <SvgDrawing updateStore />
+    <SvgDrawing placeholder />
   </div>
 </div>
 

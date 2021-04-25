@@ -18,7 +18,7 @@
         Want to improve your coding career?
       </h1>
       <p class="text-lg md:text-xl max-w-lg md:max-w-xl mt-2 mx-auto">
-        Join over 2000 developers and get weekly resources, updates and
+        Join over 2600+ developers and get weekly resources, updates and
         development advice straight to your inbox. No spam - just high quality
         content to aid you on your coding journey.
       </p>
