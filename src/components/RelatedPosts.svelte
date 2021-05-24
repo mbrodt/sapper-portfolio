@@ -29,5 +29,3 @@
     {/each}
   </ul>
 </Section>
-
-<Section>/* your styles go here */</Section>

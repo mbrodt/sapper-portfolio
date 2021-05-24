@@ -33,3 +33,4 @@
 <a href="/thanks-newsletter" class="hidden">hidden</a>
 <a href="/confirm-newsletter" class="hidden">hidden</a>
 <a href="/confirm-book" class="hidden">hidden</a>
+<a href="/still-here" class="hidden">hidden</a>
