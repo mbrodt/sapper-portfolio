@@ -42,7 +42,8 @@
 
 <div
   class="py-4 text-lg text-center w-full text-white flex items-center
-    justify-center fixed top-0 z-10 bg-gradient-to-r from-pink-500 to-orange-500">
+    justify-center fixed top-0 z-10 bg-gradient-to-r from-pink-500 to-orange-500"
+>
   <!-- <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -70,8 +71,8 @@
   </svg> -->
   <div class="sm:leading-none flex flex-col lg:space-y-2">
     <p class="lg:text-lg lg:font-bold">
-      🔥 The book is now available! <a href="#pricing" on:click|preventDefault={scrollTo} class="lg:text-lg
-          underline block sm:inline"> Buy now → </a>
+      🔥 The book is now free! <a href="#pricing" on:click|preventDefault={scrollTo} class="lg:text-lg
+          underline block sm:inline"> Grab it → </a>
     </p>
     <!-- <p class="lg:text-lg">50% off BOTH packages</p> -->
     <!-- <p class="lg:text-lg">

@@ -45,14 +45,16 @@
 <div class="max-w-8xl mx-auto">
   <div
     class="relative flex flex-wrap flex-col md:flex-row md:items-center pt-40
-      lg:pt-48 px-6 lg:px-12 xxl:px-0">
+      lg:pt-48 px-6 lg:px-12 xxl:px-0"
+  >
     <!-- pt-32 sm:pt-24 md:pt-16 lg:pt-32 -->
     <div class="md:w-3/5">
       <div class="mb-12 md:mt-12">
         <h1
           class="font-bold text-center md:text-left text-3xl lg:text-4xl
             xl:text-5xl xxl:text-6xl font-display leading-none mb-6 xl:mb-8
-            text-gray-900">
+            text-gray-900"
+        >
           <span class="sm:block">Everything you need to</span>
           <span class="sm:block text-indigo-600">
             become a better developer
@@ -60,7 +62,8 @@
         </h1>
         <p
           class="text-xl text-center md:text-left md:text-lg lg:text-xl
-            xl:text-2xl text-gray-700 leading-normal">
+            xl:text-2xl text-gray-700 leading-normal"
+        >
           Learn how to become a better developer, increase your productivity and
           land your dream development job
         </p>
@@ -70,10 +73,12 @@
       </div>
       <p
         class="mt-4 text-lg md:text-base lg:text-lg text-gray-600 font-semibold
-          max-w-2xl">
+          max-w-2xl"
+      >
         Sign up below to get a <span
-          class="font-bold text-indigo-600">free</span> chapter preview on problem
-        solving - the most important skill for developers
+          class="font-bold text-indigo-600"
+        >free</span> chapter preview on problem solving - the most important skill
+        for developers
       </p>
       <EmailSignup />
       <!-- <form
@@ -103,20 +108,21 @@
       {#if state === 'success'}
         <p class="mt-4 sm:mt-8 text-gray-700">
           Thank you! Your free sample is on its way to <span
-            class="text-indigo-600 font-bold">{emailField}</span> - please check
-          your spam folder, and let me know if you haven't received it ✌️
+            class="text-indigo-600 font-bold"
+          >{emailField}</span> - please check your spam folder, and let me know if
+          you haven't received it ✌️
         </p>
       {/if}
       <div class="text-lg md:text-base mt-6 text-center md:text-left">
         <p class="text-gray-700">
-          <span>Already convinced?</span>
           <a
             class="font-bold text-indigo-600 hover:text-indigo-700
               focus:text-indigo-700 underline transition-colors duration-100
               ease-in"
             href="#pricing"
-            on:click|preventDefault={scrollTo}>
-            Buy now
+            on:click|preventDefault={scrollTo}
+          >
+            Get the full book for free
           </a>
         </p>
       </div>
