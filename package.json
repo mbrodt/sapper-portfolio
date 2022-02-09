@@ -22,7 +22,7 @@
     "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.6.2",
     "aos": "^3.0.0-beta.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "base-64": "^0.1.0",
     "canvas-confetti": "^1.2.0",
     "compression": "^1.7.1",
