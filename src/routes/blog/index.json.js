@@ -11,6 +11,7 @@ const contents = JSON.stringify(
       readingTime: post.printReadingTime,
       description: post.description,
       image: post.image,
+      unsplashImage: post.unsplashImage,
     };
   })
 );

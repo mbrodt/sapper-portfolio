@@ -2,8 +2,7 @@
 @tailwind components;
 
 .h2 {
-  @apply text-center text-gray-900 text-3xl font-semibold
-	leading-tight mb-4;
+  @apply mb-4 text-3xl font-semibold leading-tight text-center text-gray-900;
 }
 /*
 .nav-item {

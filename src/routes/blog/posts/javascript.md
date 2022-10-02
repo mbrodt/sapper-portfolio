@@ -1,7 +1,7 @@
 ---
 title: "JavaScript"
 date: "2021-08-18"
-tags: ["Programming", "Reflection"]
+tags: ["Programming", "Front-end"]
 type: "blog-post"
 image: "javascript.jpg"
 description: "JavaScript is the most popular programming language in the world, but what makes it so special?"

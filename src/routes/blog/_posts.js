@@ -13,6 +13,8 @@ const readingTime = require("reading-time");
 
 const prism = require("prismjs");
 
+import unsplashUrls from "../../unsplash_urls";
+
 const cwd = process.cwd();
 const POSTS_DIR = path.join(cwd, "src/routes/blog/posts");
 
@@ -47,16 +49,17 @@ marked.setOptions({ renderer });
 const posts = fs
   .readdirSync(POSTS_DIR)
   .filter((fileName) => /\.md$/.test(fileName))
-  .map((fileName) => {
+  .map((fileName, index) => {
     const fileMd = fs.readFileSync(path.join(POSTS_DIR, fileName), "utf8");
     const { data, content } = matter(fileMd);
     const { title, date, tags, description, cta, image } = data;
+    const unsplashImage = unsplashUrls[index];
     const slug = fileName.split(".")[0];
 
     const html = marked(content);
     const readingStats = readingTime(content);
     const printReadingTime = readingStats.text;
-    const printDate = dateFns.format(new Date(date), "MMMM d, yyyy");
+    const printDate = dateFns.format(new Date(date), "MMMM, yyyy");
 
     return {
       title: title || slug,
@@ -69,6 +72,7 @@ const posts = fs
       printReadingTime,
       cta,
       image,
+      unsplashImage,
     };
   });
 
