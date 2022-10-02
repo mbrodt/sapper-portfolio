@@ -32,7 +32,7 @@
         class="font-bold hover:bg-gray-200 py-3 px-2 rounded-lg transition-all
           duration-150 ease"
       >
-        <a class="h-full" href="/newsletter">Newsletter</a>
+        <a class="h-full" href="https://mads.fyi/top3">Newsletter</a>
       </li>
       <li
         class="font-bold hover:bg-gray-200 py-3 px-2 rounded-lg transition-all
@@ -88,9 +88,8 @@
       Home
     </span>
   </a>
-  <a href="/newsletter" class="flex flex-col items-center">
+  <a href="https://mads.fyi/top3" class="flex flex-col items-center">
     <svg
-      class:text-red-400={segment === 'newsletter'}
       class="w-6 h- transition-colors duration-300 ease-in6 text-gray-600"
       fill="none"
       stroke="currentColor"
@@ -106,7 +105,6 @@
       />
     </svg>
     <span
-      class:text-red-400={segment === 'newsletter'}
       class="text-gray-700 text-sm transition-colors duration-300 ease-in"
     >
       Newsletter
