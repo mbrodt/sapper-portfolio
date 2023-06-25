@@ -30,25 +30,31 @@
     <ul class="flex space-x-2 text-gray-700">
       <li
         class="font-bold hover:bg-gray-200 py-3 px-2 rounded-lg transition-all
-          duration-150 ease"
+        duration-150 ease"
       >
         <a class="h-full" href="https://mads.fyi/top3">Newsletter</a>
       </li>
       <li
         class="font-bold hover:bg-gray-200 py-3 px-2 rounded-lg transition-all
-          duration-150 ease"
+        duration-150 ease"
       >
         <a href="/blog">Blog</a>
       </li>
       <li
         class="font-bold hover:bg-gray-200 py-3 px-2 rounded-lg transition-all
-          duration-300 150e-in"
+        duration-300 150e-in"
       >
-        <a href="/mastering-coding-mindset">Book</a>
+        <a
+          href="https://mads.fyi/book"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Book
+        </a>
       </li>
       <li
         class="font-bold hover:bg-gray-200 py-3 px-2 rounded-lg transition-all
-          duration-300 150e-in"
+        duration-300 150e-in"
       >
         <a href="#contact">Contact</a>
       </li>
@@ -61,7 +67,7 @@
 
 <div
   class="fixed bottom-0 z-10 bg-white py-2 w-full grid grid-cols-4 border-t
-    border-gray-400 sm:hidden"
+  border-gray-400 sm:hidden"
 >
   <a href="/" class="flex flex-col items-center">
     <svg
@@ -104,9 +110,7 @@
         00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
       />
     </svg>
-    <span
-      class="text-gray-700 text-sm transition-colors duration-300 ease-in"
-    >
+    <span class="text-gray-700 text-sm transition-colors duration-300 ease-in">
       Newsletter
     </span>
   </a>

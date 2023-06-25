@@ -37,12 +37,14 @@
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        class="w-6 h-6 text-gray-500">
+        class="w-6 h-6 text-gray-500"
+      >
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+          d="M7 16l-4-4m0 0l4-4m-4 4h18"
+        />
       </svg>
 
     </a>
@@ -64,13 +66,12 @@
   </div>
 
   <div
-    class="prose prose-lg w-full overflow-hidden max-w-3xl mx-auto font-body">
+    class="prose prose-lg w-full overflow-hidden max-w-3xl mx-auto font-body"
+  >
     <div class="max-w-2xl mx-auto">
       {@html post.html}
     </div>
-    <div class="mt-4 lg:mt-12">
-      <NewsletterForm />
-    </div>
+
     <div class="h-px bg-red-400 opacity-75 my-12 lg:my-16" />
 
     <Author />
