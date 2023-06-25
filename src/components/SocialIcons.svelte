@@ -44,7 +44,7 @@
   <a
     target="_blank"
     rel="noopener noreferrer"
-    href="https://www.linkedin.com/in/mads-brodt-nielsen-a35874152/">
+    href="https://www.linkedin.com/in/madsbrodt">
     <svg
       class="w-6 h-6 lg:w-8 lg:h-8 fill-current transform transition-transform
       duration-100 ease-out hover:scale-125"
